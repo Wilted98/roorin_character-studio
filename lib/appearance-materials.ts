@@ -12,6 +12,7 @@ export interface AppearanceOption {
   sourceMaterial: string; scalars: Record<string, number>;
 }
 export interface AppearancePreset {
+  head: string; hair: string; skin: string; hairColor: string; pointedEars: boolean;
   id: string; label: string; faction: null; thumbnail: string | null;
   sourceIcon: string; sourceHead: {HeadType: number}; sourceHair: Record<string, unknown>;
   sourceMaterialValues: Record<string, unknown>; appearance: AppearanceSettings; note: string;
