@@ -61,3 +61,5 @@ New working features:
 Rendering limitations remain: no native physics or idle animation; faction is stored as a preference but no verified race mapping has been applied; body proportions and layered eye/brow materials are approximated. Armor0103 uses available source textures, with provisional atlas mapping for missing material properties. Most other exported armor lacks textures and is not offered. Makeup and individual accessory/equipment slots are unfinished. Face preset thumbnails show proportions on head001 without original source makeup; applying presets uses available heads and supported source appearance fields.
 
 Additional checks: `node tools/test_editor.mjs` verifies range conversion, paired controls, migration, clamping, round-trip preservation and all appearance/model/thumbnail links. `tools/create_appearance_previews.py` (Pillow) produces readable previews from the packed texture channels. See `docs/APPEARANCE.md` for material reconstruction details.
+
+Conversion-only PNG caches are retained under `tools/conversion-textures` and excluded from deployment. Runtime textures are embedded in GLBs or referenced explicitly by appearance.json.

@@ -16,7 +16,9 @@ sys.path.insert(0,str(Path.home()/'AppData/Roaming/Blender Foundation/Blender/5.
 from io_scene_ueformat.importer.import_context import UEFormatImport
 from io_scene_ueformat.options import UEModelOptions
 
-for sub in ('models','textures','thumbnails'):(ASSETS/sub).mkdir(parents=True,exist_ok=True)
+TEXTURE_CACHE=PROJECT/'tools/conversion-textures'
+TEXTURE_CACHE.mkdir(parents=True,exist_ok=True)
+for sub in ('models','thumbnails'):(ASSETS/sub).mkdir(parents=True,exist_ok=True)
 prop_cache={}; material_records={}; diagnostics={}; image_cache={}
 def package(p):return p.split('.')[0]
 def read_props(ref):
@@ -58,7 +60,7 @@ def image_from_file(p,kind='color'):
 def derived_image(path,mode):
     """Repack native data channels into a web PBR-compatible map."""
     key=f'{path}|{mode}|v3';name=hashlib.sha1(key.encode()).hexdigest()[:12]+'-'+mode
-    target=ASSETS/'textures'/(name+'.png')
+    target=TEXTURE_CACHE/(name+'.png')
     if target.exists():return image_from_file(target,'data' if mode=='normal' else 'color')
     im=image_from_file(path,'data');w,h=im.size
     pixels=np.empty(w*h*4,dtype=np.float32);im.pixels.foreach_get(pixels);arr=pixels.reshape(h,w,4)
