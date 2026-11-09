@@ -1,0 +1,420 @@
+{
+  "/Game/Character/Player/GF/Basebody/Materials/GF_BaseBody_Naked.GF_BaseBody_Naked": {
+    "name": "GF_BaseBody_Naked",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Basebody/Materials/GF_BaseBody_Naked",
+      "/Game/Material/Chr/CM_Body_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Body"
+    ],
+    "texturesUsed": [
+      "GF_BaseBody_D.png",
+      "bd92efc498a7-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Basebody/Materials/MI_GF_Base_Pants.MI_GF_Base_Pants": {
+    "name": "MI_GF_Base_Pants",
+    "role": "clothing",
+    "parentChain": [
+      "/Game/Character/Player/GF/Basebody/Materials/MI_GF_Base_Pants",
+      "/Game/Material/Chr/CM_Armor",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GF_0103_T01_Pants_D.png",
+      "5d0e259ddbf4-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Basebody/Materials/MI_GF_Base_Body.MI_GF_Base_Body": {
+    "name": "MI_GF_Base_Body",
+    "role": "clothing",
+    "parentChain": [
+      "/Game/Character/Player/GF/Basebody/Materials/MI_GF_Base_Body",
+      "/Game/Material/Chr/CM_Armor",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GF_0103_T01_Body_D.png",
+      "3233e431bc19-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Basebody/Materials/GF_BaseBody_Boots.GF_BaseBody_Boots": {
+    "name": "GF_BaseBody_Boots",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Basebody/Materials/GF_BaseBody_Boots",
+      "/Game/Material/Chr/CM_Armor_Aniso",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GF_BaseBody_Boots_D.png",
+      "49936a659744-normal"
+    ]
+  },
+  "/Game/Character/Player/Customize/MI_Eye_AO_02.MI_Eye_AO_02": {
+    "name": "MI_Eye_AO_02",
+    "role": "lashes",
+    "parentChain": [
+      "/Game/Character/Player/Customize/MI_Eye_AO_02",
+      "/Game/Material/Chr/CM_EyeAO_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_EyeAO"
+    ],
+    "texturesUsed": [
+      "1f2e1e2712ab-lash.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_001/Materials/MI_GF_Head_001_Eye.MI_GF_Head_001_Eye": {
+    "name": "MI_GF_Head_001_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_001/Materials/MI_GF_Head_001_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_001/Materials/MI_GF_Head_001.MI_GF_Head_001": {
+    "name": "MI_GF_Head_001",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_001/Materials/MI_GF_Head_001",
+      "/Game/Character/Player/Common/Materials/MI_GF_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GF_Head_D.png",
+      "8d0171f558e7-normal"
+    ]
+  },
+  "/Game/Character/Player/Common/MI_EyeAO_Tear.MI_EyeAO_Tear": {
+    "name": "MI_EyeAO_Tear",
+    "role": "tear",
+    "parentChain": [
+      "/Game/Character/Player/Common/MI_EyeAO_Tear",
+      "/Game/Material/Chr/CM_EyeAO_Trans",
+      "/Game/Material/Chr/MM/Cstm/CMM_EyeAO_Trans"
+    ],
+    "texturesUsed": []
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_002/Materials/MI_GF_Head_002_Eye.MI_GF_Head_002_Eye": {
+    "name": "MI_GF_Head_002_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_002/Materials/MI_GF_Head_002_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_002/Materials/MI_GF_Head_002.MI_GF_Head_002": {
+    "name": "MI_GF_Head_002",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_002/Materials/MI_GF_Head_002",
+      "/Game/Character/Player/Common/Materials/MI_GF_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GF_Head_D.png",
+      "6002e7f043d3-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_003/Materials/MI_GF_Head_003_Eye.MI_GF_Head_003_Eye": {
+    "name": "MI_GF_Head_003_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_003/Materials/MI_GF_Head_003_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_003/Materials/MI_GF_Head_003.MI_GF_Head_003": {
+    "name": "MI_GF_Head_003",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_003/Materials/MI_GF_Head_003",
+      "/Game/Character/Player/Common/Materials/MI_GF_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GF_Head_D.png",
+      "d68f96890b87-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_004/Materials/MI_GF_Head_004_Eye.MI_GF_Head_004_Eye": {
+    "name": "MI_GF_Head_004_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_004/Materials/MI_GF_Head_004_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/Customize/MI_Eye_AO_03.MI_Eye_AO_03": {
+    "name": "MI_Eye_AO_03",
+    "role": "lashes",
+    "parentChain": [
+      "/Game/Character/Player/Customize/MI_Eye_AO_03",
+      "/Game/Material/Chr/CM_EyeAO_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_EyeAO"
+    ],
+    "texturesUsed": [
+      "13c8f352d3ed-lash"
+    ]
+  },
+  "/Game/Character/Player/GF/Head/GF_Head_004/Materials/MI_GF_Head_004.MI_GF_Head_004": {
+    "name": "MI_GF_Head_004",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GF/Head/GF_Head_004/Materials/MI_GF_Head_004",
+      "/Game/Character/Player/Common/Materials/MI_GF_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GF_Head_D.png",
+      "2aab77582bd0-normal"
+    ]
+  },
+  "/Game/Character/Player/GF/Hair/GF_Hair_001/Materials/MI_GF_Hair_001.MI_GF_Hair_001": {
+    "name": "MI_GF_Hair_001",
+    "role": "hair",
+    "parentChain": [
+      "/Game/Character/Player/GF/Hair/GF_Hair_001/Materials/MI_GF_Hair_001",
+      "/Game/Character/Player/Common/Materials/MI_HairCap_01",
+      "/Game/Material/Chr/CM_HairCardCap",
+      "/Game/Material/Chr/MM/Hair/CMM_Hair"
+    ],
+    "texturesUsed": [
+      "d1e83d5c78d9-hair.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Hair/GF_Hair_002/Materials/MI_GF_Hair_002.MI_GF_Hair_002": {
+    "name": "MI_GF_Hair_002",
+    "role": "hair",
+    "parentChain": [
+      "/Game/Character/Player/GF/Hair/GF_Hair_002/Materials/MI_GF_Hair_002",
+      "/Game/Character/Player/Common/Materials/MI_HairCap_01",
+      "/Game/Material/Chr/CM_HairCardCap",
+      "/Game/Material/Chr/MM/Hair/CMM_Hair"
+    ],
+    "texturesUsed": [
+      "d1e83d5c78d9-hair.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Hair/GF_Hair_003/Materials/MI_GF_Hair_003.MI_GF_Hair_003": {
+    "name": "MI_GF_Hair_003",
+    "role": "hair",
+    "parentChain": [
+      "/Game/Character/Player/GF/Hair/GF_Hair_003/Materials/MI_GF_Hair_003",
+      "/Game/Character/Player/Common/Materials/MI_Hair_01",
+      "/Game/Material/Chr/CM_HairCard",
+      "/Game/Material/Chr/MM/Hair/CMM_Hair"
+    ],
+    "texturesUsed": [
+      "b233c7e1e8ef-hair.png"
+    ]
+  },
+  "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004.MI_GF_Hair_004": {
+    "name": "MI_GF_Hair_004",
+    "role": "hair",
+    "parentChain": [
+      "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004",
+      "/Game/Character/Player/Common/Materials/MI_Hair_01",
+      "/Game/Material/Chr/CM_HairCard",
+      "/Game/Material/Chr/MM/Hair/CMM_Hair"
+    ],
+    "texturesUsed": [
+      "b233c7e1e8ef-hair.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Basebody/Materials/MI_GM_BaseBody.MI_GM_BaseBody": {
+    "name": "MI_GM_BaseBody",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Basebody/Materials/MI_GM_BaseBody",
+      "/Game/Material/Chr/CM_Body_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Body"
+    ],
+    "texturesUsed": [
+      "GM_BaseBody_D.png",
+      "3eba9800464e-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Basebody/Materials/MI_GM_Base_Body.MI_GM_Base_Body": {
+    "name": "MI_GM_Base_Body",
+    "role": "clothing",
+    "parentChain": [
+      "/Game/Character/Player/GM/Basebody/Materials/MI_GM_Base_Body",
+      "/Game/Material/Chr/CM_Armor",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GM_0103_T01_Body_D.png",
+      "5992c5b7e668-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Basebody/Materials/MI_GM_Base_Pants.MI_GM_Base_Pants": {
+    "name": "MI_GM_Base_Pants",
+    "role": "clothing",
+    "parentChain": [
+      "/Game/Character/Player/GM/Basebody/Materials/MI_GM_Base_Pants",
+      "/Game/Material/Chr/CM_Armor",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GM_0103_T01_Pants_D.png",
+      "ab9f4909cbb3-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Basebody/Materials/GM_BaseBody_Boots.GM_BaseBody_Boots": {
+    "name": "GM_BaseBody_Boots",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Basebody/Materials/GM_BaseBody_Boots",
+      "/Game/Material/Chr/CM_Armor",
+      "/Game/Material/Chr/MM/Armor/CMM_Armor"
+    ],
+    "texturesUsed": [
+      "GM_BaseBody_Boots_D.png",
+      "be6f43f5376b-normal"
+    ]
+  },
+  "/Game/Character/Player/Customize/MI_Eye_AO_07.MI_Eye_AO_07": {
+    "name": "MI_Eye_AO_07",
+    "role": "lashes",
+    "parentChain": [
+      "/Game/Character/Player/Customize/MI_Eye_AO_07",
+      "/Game/Material/Chr/CM_EyeAO_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_EyeAO"
+    ],
+    "texturesUsed": [
+      "b26860605146-lash.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_001/Materials/MI_GM_Head_001.MI_GM_Head_001": {
+    "name": "MI_GM_Head_001",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_001/Materials/MI_GM_Head_001",
+      "/Game/Character/Player/Common/Materials/MI_GM_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GM_Head_D.png",
+      "9d8dcdc3a3d8-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_001/Materials/MI_GM_Head_001_Eye.MI_GM_Head_001_Eye": {
+    "name": "MI_GM_Head_001_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_001/Materials/MI_GM_Head_001_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_002/Materials/MI_GM_Head_002.MI_GM_Head_002": {
+    "name": "MI_GM_Head_002",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_002/Materials/MI_GM_Head_002",
+      "/Game/Character/Player/Common/Materials/MI_GM_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GM_Head_D.png",
+      "b65a67ae1f92-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_002/Materials/MI_GM_Head_002_Eye.MI_GM_Head_002_Eye": {
+    "name": "MI_GM_Head_002_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_002/Materials/MI_GM_Head_002_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_003/Materials/MI_GM_Head_003_Eye.MI_GM_Head_003_Eye": {
+    "name": "MI_GM_Head_003_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_003/Materials/MI_GM_Head_003_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_003/Materials/MI_GM_Head_003.MI_GM_Head_003": {
+    "name": "MI_GM_Head_003",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_003/Materials/MI_GM_Head_003",
+      "/Game/Character/Player/Common/Materials/MI_GM_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GM_Head_D.png",
+      "5ad59dd6cc1b-normal"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_004/Materials/MI_GM_Head_004_Eye.MI_GM_Head_004_Eye": {
+    "name": "MI_GM_Head_004_Eye",
+    "role": "eyes",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_004/Materials/MI_GM_Head_004_Eye",
+      "/Game/Character/Player/Common/Materials/MI_Head_Eye",
+      "/Game/Material/Chr/CM_Eye",
+      "/Game/Material/Chr/MM/Cstm/CMM_Eye"
+    ],
+    "texturesUsed": [
+      "37ce22beccd6-eye.png"
+    ]
+  },
+  "/Game/Character/Player/GM/Head/GM_Head_004/Materials/MI_GM_Head_004.MI_GM_Head_004": {
+    "name": "MI_GM_Head_004",
+    "role": "skin",
+    "parentChain": [
+      "/Game/Character/Player/GM/Head/GM_Head_004/Materials/MI_GM_Head_004",
+      "/Game/Character/Player/Common/Materials/MI_GM_Head",
+      "/Game/Material/Chr/CM_Head_Cstm",
+      "/Game/Material/Chr/MM/Cstm/CMM_Head"
+    ],
+    "texturesUsed": [
+      "GM_Head_D.png",
+      "108a43700f47-normal"
+    ]
+  }
+}

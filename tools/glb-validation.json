@@ -1,0 +1,182 @@
+[
+  {
+    "file": "gf-body.glb",
+    "bytes": 9297704,
+    "sha256": "4e8cc64401ecbc3024b9e3b8e82a6dc5821d98e56038fbeb3b36ec6dad568747",
+    "skins": 1,
+    "joints": 115,
+    "meshes": 2,
+    "materials": 4,
+    "embeddedImages": 8
+  },
+  {
+    "file": "gf-hair-001.glb",
+    "bytes": 3650244,
+    "sha256": "a526147534fb2414865c3e33922dcf43ce84f947e7885647ab6a4d334c700383",
+    "skins": 1,
+    "joints": 52,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gf-hair-002.glb",
+    "bytes": 3296344,
+    "sha256": "d58c5aee51a0fe665087ad4c2434602443b5237339aba59cffd53e76a1b6697e",
+    "skins": 1,
+    "joints": 53,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gf-hair-003.glb",
+    "bytes": 2042252,
+    "sha256": "38598c14ffc96fad9c06292a88ed88672e887522965195c3d97615f9fc3755fa",
+    "skins": 1,
+    "joints": 50,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gf-hair-004.glb",
+    "bytes": 2935768,
+    "sha256": "963739f406f0fca5d8170749f4ccbee6e5b936edd4f7d66536607c6f5b4ee2be",
+    "skins": 1,
+    "joints": 40,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gf-head-001.glb",
+    "bytes": 5287460,
+    "sha256": "36fd2faf53da5e21af3a3088c52458295648f38d4fbe8e8353b1b8c7aea9b990",
+    "skins": 1,
+    "joints": 174,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gf-head-002.glb",
+    "bytes": 5281444,
+    "sha256": "c5d56f9144884d45e900ee357ac1104e1ea5a65f27540b11a1fe7d371530d59c",
+    "skins": 1,
+    "joints": 174,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gf-head-003.glb",
+    "bytes": 5281040,
+    "sha256": "4bbf845c58b4ee4f3c407a4ce7231898ba32aadcacce05a1d3ac6522025f9377",
+    "skins": 1,
+    "joints": 174,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gf-head-004.glb",
+    "bytes": 5207708,
+    "sha256": "2d09c4507e3cf28beefa2cfd275f545732638930febd965f0242a09055b35e21",
+    "skins": 1,
+    "joints": 174,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gm-body.glb",
+    "bytes": 10092736,
+    "sha256": "08e1df4224c4286602c1ea3293b59f64a31524aae2e3bbcc18d7a5453f361c09",
+    "skins": 1,
+    "joints": 95,
+    "meshes": 2,
+    "materials": 4,
+    "embeddedImages": 8
+  },
+  {
+    "file": "gm-hair-001.glb",
+    "bytes": 3640968,
+    "sha256": "01024e4dfaf39dfa5dc22a73ebec54339313730ad1ee26512ee8417a1fa6b90c",
+    "skins": 1,
+    "joints": 42,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gm-hair-002.glb",
+    "bytes": 3287412,
+    "sha256": "d690a80225645612f21b1608f8efdef26b046209a76d14f2c33aaf74ca37034d",
+    "skins": 1,
+    "joints": 55,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gm-hair-003.glb",
+    "bytes": 1825488,
+    "sha256": "78fd2b9ed2d7a9f9f14f9cd953eb877819bbd16b689b219593177286ff8daa88",
+    "skins": 1,
+    "joints": 42,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gm-hair-004.glb",
+    "bytes": 3010744,
+    "sha256": "d5d65e4ff537dd39173b889a7b3d18521b801c41f3cd115bbf5ca7e0318c4fcc",
+    "skins": 1,
+    "joints": 50,
+    "meshes": 1,
+    "materials": 1,
+    "embeddedImages": 1
+  },
+  {
+    "file": "gm-head-001.glb",
+    "bytes": 5477600,
+    "sha256": "7fd7dc3700d4a1556c578ec99c7e4eccd5e053b5115bec2bbd2d32563c6874da",
+    "skins": 1,
+    "joints": 172,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gm-head-002.glb",
+    "bytes": 5485392,
+    "sha256": "7f3b61e36a587f78338037c9e105b201cd5efe5a392b3b69e8f6d0042339d4c9",
+    "skins": 1,
+    "joints": 172,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gm-head-003.glb",
+    "bytes": 5477948,
+    "sha256": "d4d512193abca44763f61c35c95b1e0790bb14f88d61df13d6ed053aa05b5d82",
+    "skins": 1,
+    "joints": 172,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  },
+  {
+    "file": "gm-head-004.glb",
+    "bytes": 5465928,
+    "sha256": "b5e8d566928bd54593b3b7c50ad96a6169f7993cfb38fbf2f2d326df5327e234",
+    "skins": 1,
+    "joints": 172,
+    "meshes": 1,
+    "materials": 5,
+    "embeddedImages": 4
+  }
+]

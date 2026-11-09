@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "units": "metres",
+  "upAxis": "Y",
+  "frontAxis": "+Z",
+  "rootOrientation": "Identity; native models face Blender -Y and glTF +Z",
+  "genders": {
+    "GF": {
+      "name": "Female",
+      "body": {
+        "id": "base",
+        "name": "Base body",
+        "url": "/assets/models/gf-body.glb",
+        "bytes": 9297704,
+        "vertices": 12641,
+        "bones": 115,
+        "morphTargets": []
+      },
+      "heads": [
+        {
+          "id": "001",
+          "name": "Head 01",
+          "url": "/assets/models/gf-head-001.glb",
+          "bytes": 5287460,
+          "vertices": 9136,
+          "bones": 174,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_IdleSmile",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gf-head-001.png"
+        },
+        {
+          "id": "002",
+          "name": "Head 02",
+          "url": "/assets/models/gf-head-002.glb",
+          "bytes": 5281444,
+          "vertices": 9136,
+          "bones": 174,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_IdleSmile",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gf-head-002.png"
+        },
+        {
+          "id": "003",
+          "name": "Head 03",
+          "url": "/assets/models/gf-head-003.glb",
+          "bytes": 5281040,
+          "vertices": 9136,
+          "bones": 174,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_IdleSmile",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gf-head-003.png"
+        },
+        {
+          "id": "004",
+          "name": "Head 04",
+          "url": "/assets/models/gf-head-004.glb",
+          "bytes": 5207708,
+          "vertices": 9151,
+          "bones": 174,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_IdleSmile",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gf-head-004.png"
+        }
+      ],
+      "hair": [
+        {
+          "id": "001",
+          "name": "Hair 01",
+          "url": "/assets/models/gf-hair-001.glb",
+          "bytes": 3650244,
+          "vertices": 29913,
+          "bones": 52,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-001.png"
+        },
+        {
+          "id": "002",
+          "name": "Hair 02",
+          "url": "/assets/models/gf-hair-002.glb",
+          "bytes": 3296344,
+          "vertices": 25701,
+          "bones": 53,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-002.png"
+        },
+        {
+          "id": "003",
+          "name": "Hair 03",
+          "url": "/assets/models/gf-hair-003.glb",
+          "bytes": 2042252,
+          "vertices": 10928,
+          "bones": 50,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-003.png"
+        },
+        {
+          "id": "004",
+          "name": "Hair 04",
+          "url": "/assets/models/gf-hair-004.glb",
+          "bytes": 2935768,
+          "vertices": 22474,
+          "bones": 40,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-004.png"
+        }
+      ],
+      "bounds": {
+        "height": 1.8338407339761034,
+        "top": 1.8343544006347656,
+        "bottom": 0.0005136666586622596
+      }
+    },
+    "GM": {
+      "name": "Male",
+      "body": {
+        "id": "base",
+        "name": "Base body",
+        "url": "/assets/models/gm-body.glb",
+        "bytes": 10092736,
+        "vertices": 12285,
+        "bones": 95,
+        "morphTargets": []
+      },
+      "heads": [
+        {
+          "id": "001",
+          "name": "Head 01",
+          "url": "/assets/models/gm-head-001.glb",
+          "bytes": 5477600,
+          "vertices": 8729,
+          "bones": 172,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gm-head-001.png"
+        },
+        {
+          "id": "002",
+          "name": "Head 02",
+          "url": "/assets/models/gm-head-002.glb",
+          "bytes": 5485392,
+          "vertices": 8729,
+          "bones": 172,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gm-head-002.png"
+        },
+        {
+          "id": "003",
+          "name": "Head 03",
+          "url": "/assets/models/gm-head-003.glb",
+          "bytes": 5477948,
+          "vertices": 8729,
+          "bones": 172,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gm-head-003.png"
+        },
+        {
+          "id": "004",
+          "name": "Head 04",
+          "url": "/assets/models/gm-head-004.glb",
+          "bytes": 5465928,
+          "vertices": 8729,
+          "bones": 172,
+          "morphTargets": [
+            "DoubleEyelid_Down",
+            "DoubleEyelid_In",
+            "DoubleEyelid_Out",
+            "DoubleEyelid_Up",
+            "EarShapeChange",
+            "Eye_AO_DownLong",
+            "Eye_AO_DownShort",
+            "Eye_AO_UpLong",
+            "Mph_Anger",
+            "Mph_Chin_Fat",
+            "Mph_Happiness",
+            "Mph_Sadness",
+            "Mph_Smile"
+          ],
+          "thumbnail": "/assets/thumbnails/gm-head-004.png"
+        }
+      ],
+      "hair": [
+        {
+          "id": "001",
+          "name": "Hair 01",
+          "url": "/assets/models/gm-hair-001.glb",
+          "bytes": 3640968,
+          "vertices": 29908,
+          "bones": 42,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-001.png"
+        },
+        {
+          "id": "002",
+          "name": "Hair 02",
+          "url": "/assets/models/gm-hair-002.glb",
+          "bytes": 3287412,
+          "vertices": 25603,
+          "bones": 55,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-002.png"
+        },
+        {
+          "id": "003",
+          "name": "Hair 03",
+          "url": "/assets/models/gm-hair-003.glb",
+          "bytes": 1825488,
+          "vertices": 8649,
+          "bones": 42,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-003.png"
+        },
+        {
+          "id": "004",
+          "name": "Hair 04",
+          "url": "/assets/models/gm-hair-004.glb",
+          "bytes": 3010744,
+          "vertices": 23247,
+          "bones": 50,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-004.png"
+        }
+      ],
+      "bounds": {
+        "height": 1.9021173477813136,
+        "top": 1.9018745422363281,
+        "bottom": -0.00024280554498545825
+      }
+    }
+  },
+  "limitations": [
+    "Game materials approximated as browser PBR. Skin subsurface, layered makeup, iris shader and anisotropic hair are not exact Unreal shader replicas.",
+    "Four head and four hairstyle variants per body type are included in this first prototype."
+  ]
+}

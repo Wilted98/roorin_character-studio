@@ -1,0 +1,222 @@
+16:34:17 | INFO: Data are loaded, start creating Blender stuff
+16:34:17 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:17 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:17 | INFO: glTF import finished in 0.11s
+16:34:17 | INFO: Data are loaded, start creating Blender stuff
+16:34:17 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:17 | INFO: glTF import finished in 0.11s
+16:34:17 | INFO: Data are loaded, start creating Blender stuff
+16:34:17 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:17 | INFO: glTF import finished in 0.18s
+C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\render_character_previews.py:17: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world=bpy.data.worlds.new('Studio');sc.world.use_nodes=True;sc.world.node_tree.nodes['Background'].inputs[0].default_value=(.025,.036,.055,1);sc.world.node_tree.nodes['Background'].inputs[1].default_value=.3
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:05.578  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gf-full-preview.png'
+16:34:20 | INFO: Data are loaded, start creating Blender stuff
+16:34:20 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:20 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:20 | INFO: glTF import finished in 0.10s
+16:34:20 | INFO: Data are loaded, start creating Blender stuff
+16:34:20 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:21 | INFO: glTF import finished in 0.10s
+16:34:21 | INFO: Data are loaded, start creating Blender stuff
+16:34:21 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:21 | INFO: glTF import finished in 0.17s
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:07.031  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-head-001.png'
+16:34:22 | INFO: Data are loaded, start creating Blender stuff
+16:34:22 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:22 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:22 | INFO: glTF import finished in 0.10s
+16:34:22 | INFO: Data are loaded, start creating Blender stuff
+16:34:22 | INFO: Blender create Mesh node GF_Head_002_LOD0
+16:34:22 | INFO: glTF import finished in 0.10s
+16:34:22 | INFO: Data are loaded, start creating Blender stuff
+16:34:22 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:22 | INFO: glTF import finished in 0.18s
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:08.594  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-head-002.png'
+16:34:23 | INFO: Data are loaded, start creating Blender stuff
+16:34:23 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:23 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:23 | INFO: glTF import finished in 0.11s
+16:34:23 | INFO: Data are loaded, start creating Blender stuff
+16:34:23 | INFO: Blender create Mesh node GF_Head_003_LOD0
+16:34:24 | INFO: glTF import finished in 0.11s
+16:34:24 | INFO: Data are loaded, start creating Blender stuff
+16:34:24 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:24 | INFO: glTF import finished in 0.17s
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:10.062  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-head-003.png'
+16:34:25 | INFO: Data are loaded, start creating Blender stuff
+16:34:25 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:25 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:25 | INFO: glTF import finished in 0.11s
+16:34:25 | INFO: Data are loaded, start creating Blender stuff
+16:34:25 | INFO: Blender create Mesh node GF_Head_004_LOD0
+16:34:25 | INFO: glTF import finished in 0.11s
+16:34:25 | INFO: Data are loaded, start creating Blender stuff
+16:34:25 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:25 | INFO: glTF import finished in 0.17s
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:11.531  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-head-004.png'
+16:34:26 | INFO: Data are loaded, start creating Blender stuff
+16:34:26 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:26 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:26 | INFO: glTF import finished in 0.11s
+16:34:26 | INFO: Data are loaded, start creating Blender stuff
+16:34:26 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:26 | INFO: glTF import finished in 0.11s
+16:34:26 | INFO: Data are loaded, start creating Blender stuff
+16:34:26 | INFO: Blender create Mesh node GF_Hair_001_LOD0
+16:34:27 | INFO: glTF import finished in 0.17s
+BOUNDS GF 1.8343544006347656 0.0005136666586622596
+00:12.953  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-hair-001.png'
+16:34:28 | INFO: Data are loaded, start creating Blender stuff
+16:34:28 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:28 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:28 | INFO: glTF import finished in 0.11s
+16:34:28 | INFO: Data are loaded, start creating Blender stuff
+16:34:28 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:28 | INFO: glTF import finished in 0.11s
+16:34:28 | INFO: Data are loaded, start creating Blender stuff
+16:34:28 | INFO: Blender create Mesh node GF_Hair_002_LOD0
+16:34:28 | INFO: glTF import finished in 0.14s
+BOUNDS GF 1.842655062675476 0.0005136666586622596
+00:14.437  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-hair-002.png'
+16:34:29 | INFO: Data are loaded, start creating Blender stuff
+16:34:29 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:29 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:29 | INFO: glTF import finished in 0.10s
+16:34:29 | INFO: Data are loaded, start creating Blender stuff
+16:34:29 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:29 | INFO: glTF import finished in 0.10s
+16:34:29 | INFO: Data are loaded, start creating Blender stuff
+16:34:29 | INFO: Blender create Mesh node GF_Hair_003_LOD0
+16:34:29 | INFO: glTF import finished in 0.08s
+BOUNDS GF 1.8386362791061401 0.0005136666586622596
+00:15.734  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-hair-003.png'
+16:34:30 | INFO: Data are loaded, start creating Blender stuff
+16:34:30 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+16:34:30 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+16:34:31 | INFO: glTF import finished in 0.11s
+16:34:31 | INFO: Data are loaded, start creating Blender stuff
+16:34:31 | INFO: Blender create Mesh node GF_Head_001_LOD0
+16:34:31 | INFO: glTF import finished in 0.10s
+16:34:31 | INFO: Data are loaded, start creating Blender stuff
+16:34:31 | INFO: Blender create Mesh node GF_Hair_004_LOD0
+16:34:31 | INFO: glTF import finished in 0.13s
+BOUNDS GF 1.8311959505081177 0.0005136666586622596
+00:17.109  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-hair-004.png'
+16:34:32 | INFO: Data are loaded, start creating Blender stuff
+16:34:32 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:32 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:32 | INFO: glTF import finished in 0.10s
+16:34:32 | INFO: Data are loaded, start creating Blender stuff
+16:34:32 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:32 | INFO: glTF import finished in 0.10s
+16:34:32 | INFO: Data are loaded, start creating Blender stuff
+16:34:32 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:32 | INFO: glTF import finished in 0.17s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:20.375  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gm-full-preview.png'
+16:34:35 | INFO: Data are loaded, start creating Blender stuff
+16:34:35 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:35 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:35 | INFO: glTF import finished in 0.11s
+16:34:35 | INFO: Data are loaded, start creating Blender stuff
+16:34:35 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:35 | INFO: glTF import finished in 0.10s
+16:34:35 | INFO: Data are loaded, start creating Blender stuff
+16:34:35 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:36 | INFO: glTF import finished in 0.16s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:21.953  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-head-001.png'
+16:34:37 | INFO: Data are loaded, start creating Blender stuff
+16:34:37 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:37 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:37 | INFO: glTF import finished in 0.10s
+16:34:37 | INFO: Data are loaded, start creating Blender stuff
+16:34:37 | INFO: Blender create Mesh node GM_Head_002_LOD0
+16:34:37 | INFO: glTF import finished in 0.10s
+16:34:37 | INFO: Data are loaded, start creating Blender stuff
+16:34:37 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:37 | INFO: glTF import finished in 0.20s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:23.500  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-head-002.png'
+16:34:38 | INFO: Data are loaded, start creating Blender stuff
+16:34:38 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:38 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:38 | INFO: glTF import finished in 0.13s
+16:34:38 | INFO: Data are loaded, start creating Blender stuff
+16:34:38 | INFO: Blender create Mesh node GM_Head_003_LOD0
+16:34:38 | INFO: glTF import finished in 0.10s
+16:34:38 | INFO: Data are loaded, start creating Blender stuff
+16:34:38 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:39 | INFO: glTF import finished in 0.16s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:25.047  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-head-003.png'
+16:34:40 | INFO: Data are loaded, start creating Blender stuff
+16:34:40 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:40 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:40 | INFO: glTF import finished in 0.10s
+16:34:40 | INFO: Data are loaded, start creating Blender stuff
+16:34:40 | INFO: Blender create Mesh node GM_Head_004_LOD0
+16:34:40 | INFO: glTF import finished in 0.11s
+16:34:40 | INFO: Data are loaded, start creating Blender stuff
+16:34:40 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:40 | INFO: glTF import finished in 0.17s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:26.578  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-head-004.png'
+16:34:41 | INFO: Data are loaded, start creating Blender stuff
+16:34:41 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:41 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:41 | INFO: glTF import finished in 0.10s
+16:34:41 | INFO: Data are loaded, start creating Blender stuff
+16:34:41 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:42 | INFO: glTF import finished in 0.10s
+16:34:42 | INFO: Data are loaded, start creating Blender stuff
+16:34:42 | INFO: Blender create Mesh node GM_Hair_001_LOD0
+16:34:42 | INFO: glTF import finished in 0.16s
+BOUNDS GM 1.9018745422363281 -0.00024280554498545825
+00:28.219  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-hair-001.png'
+16:34:43 | INFO: Data are loaded, start creating Blender stuff
+16:34:43 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:43 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:43 | INFO: glTF import finished in 0.10s
+16:34:43 | INFO: Data are loaded, start creating Blender stuff
+16:34:43 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:43 | INFO: glTF import finished in 0.10s
+16:34:43 | INFO: Data are loaded, start creating Blender stuff
+16:34:43 | INFO: Blender create Mesh node GM_Hair_002_LOD0
+16:34:43 | INFO: glTF import finished in 0.14s
+BOUNDS GM 1.9127649068832397 -0.00024280554498545825
+00:29.766  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-hair-002.png'
+16:34:44 | INFO: Data are loaded, start creating Blender stuff
+16:34:44 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:44 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:45 | INFO: glTF import finished in 0.10s
+16:34:45 | INFO: Data are loaded, start creating Blender stuff
+16:34:45 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:45 | INFO: glTF import finished in 0.10s
+16:34:45 | INFO: Data are loaded, start creating Blender stuff
+16:34:45 | INFO: Blender create Mesh node GM_Hair_003_LOD0
+16:34:45 | INFO: glTF import finished in 0.07s
+BOUNDS GM 1.902122139930725 -0.00024280554498545825
+00:31.141  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-hair-003.png'
+16:34:46 | INFO: Data are loaded, start creating Blender stuff
+16:34:46 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+16:34:46 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+16:34:46 | INFO: glTF import finished in 0.10s
+16:34:46 | INFO: Data are loaded, start creating Blender stuff
+16:34:46 | INFO: Blender create Mesh node GM_Head_001_LOD0
+16:34:46 | INFO: glTF import finished in 0.10s
+16:34:46 | INFO: Data are loaded, start creating Blender stuff
+16:34:46 | INFO: Blender create Mesh node GM_Hair_004_LOD0
+16:34:46 | INFO: glTF import finished in 0.14s
+BOUNDS GM 1.8945505619049072 -0.00024280554498545825
+00:32.625  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-hair-004.png'
+RENDER_COMPLETE
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit
