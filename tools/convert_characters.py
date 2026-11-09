@@ -54,12 +54,14 @@ def image_from_file(p,kind='color'):
     if key in image_cache and image_cache[key].name in bpy.data.images:return image_cache[key]
     im=bpy.data.images.load(str(p),check_existing=True)
     im.colorspace_settings.name='sRGB' if kind=='color' else 'Non-Color'
-    if max(im.size)>1024:
-        scale=1024/max(im.size);im.scale(round(im.size[0]*scale),round(im.size[1]*scale))
+    # Fine hair coverage disappears when the packed source is reduced to 1K.
+    limit=2048 if 'hair' in str(p).lower() else 1024
+    if max(im.size)>limit:
+        scale=limit/max(im.size);im.scale(round(im.size[0]*scale),round(im.size[1]*scale))
     image_cache[key]=im;return im
 def derived_image(path,mode):
     """Repack native data channels into a web PBR-compatible map."""
-    key=f'{path}|{mode}|v3';name=hashlib.sha1(key.encode()).hexdigest()[:12]+'-'+mode
+    key=f'{path}|{mode}|'+('v4' if mode=='hair' else 'v3');name=hashlib.sha1(key.encode()).hexdigest()[:12]+'-'+mode
     target=TEXTURE_CACHE/(name+'.png')
     if target.exists():return image_from_file(target,'data' if mode=='normal' else 'color')
     im=image_from_file(path,'data');w,h=im.size
@@ -67,9 +69,11 @@ def derived_image(path,mode):
     result=np.ones_like(arr)
     if mode=='hair':
         # Native DIRO: depth / strand-id / root / opacity. Use original opacity.
-        shade=.34+.66*np.clip(arr[:,:,0],0,1)
-        result[:,:,:3]=shade[:,:,None]*np.array([.095,.065,.044])
-        result[:,:,3]=arr[:,:,3]
+        # Keep color neutral: the browser applies the selected native hair color
+        # once. Baking brown here and tinting again made every color muddy.
+        shade=.55+.45*np.clip(arr[:,:,1],0,1)
+        result[:,:,:3]=shade[:,:,None]
+        result[:,:,3]=np.sqrt(np.clip(arr[:,:,3],0,1))
     elif mode=='lash':
         result[:,:,:3]=[.02,.012,.009]
         result[:,:,3]=arr[:,:,1]
@@ -96,24 +100,54 @@ def tex_node(mat,im):
     n=mat.node_tree.nodes.new('ShaderNodeTexImage');n.image=im
     uv=mat.node_tree.nodes.new('ShaderNodeUVMap');uv.uv_map='UV0';mat.node_tree.links.new(uv.outputs['UV'],n.inputs['Vector'])
     return n
+
+def hair_atlas_image(textures):
+    """Native card UV1 uses U0..1; scalp-cap UV1 uses U1..2.
+
+    Card_Index_Texture already composes the material's five selected sections.
+    DOI green is opacity, blue is strand ID. Legacy DIRO has a different layout.
+    """
+    card=texture_path(textures.get('Card_Index_Texture'));cap=texture_path(textures.get('ROI_HairCap'))
+    if not card or not cap:return None
+    signature='v5b|'+str(card)+'|'+str(cap)
+    dest=ASSETS/'material-textures'/('hair-v5-'+hashlib.sha256(signature.encode()).hexdigest()[:20]+'.png')
+    dest.parent.mkdir(exist_ok=True)
+    if dest.exists():
+        im=bpy.data.images.load(str(dest),check_existing=True);im.colorspace_settings.name='sRGB';return im
+    result=np.ones((1024,4096,4),dtype=np.float32)
+    for start,path in [(0,card),(2048,cap)]:
+        im=bpy.data.images.load(str(path),check_existing=False);im.colorspace_settings.name='Non-Color';im.scale(2048,1024)
+        pixels=np.empty(2048*1024*4,dtype=np.float32);im.pixels.foreach_get(pixels);arr=pixels.reshape(1024,2048,4)
+        shade=.65+.35*np.clip(arr[:,:,2],0,1)
+        # Blender image buffers are linear; PNG atlas bytes use the sRGB shade.
+        linear=np.where(shade<=.04045,shade/12.92,((shade+.055)/1.055)**2.4)
+        result[:,start:start+2048,:3]=linear[:,:,None]
+        result[:,start:start+2048,3]=np.sqrt(np.clip(arr[:,:,1],0,1))
+        bpy.data.images.remove(im)
+    out=bpy.data.images.new(dest.stem,width=4096,height=1024,alpha=True);out.colorspace_settings.name='sRGB'
+    out.pixels.foreach_set(result.ravel());out.filepath_raw=str(dest);out.file_format='PNG';out.save();return out
 def make_material(name,ref):
     data=params(ref);textures=data['textures'];scalars=data['scalars'];vectors=data['vectors']
     m=bpy.data.materials.new(name);m.use_nodes=True;m.use_backface_culling=False
     p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Roughness'].default_value=.48
     p.inputs['Specular IOR Level'].default_value=.32
     role='clothing';lower=name.lower()
-    if 'hair' in lower and 'facial' not in lower:role='hair'
+    if name=='M_Hide' or lower.startswith('m_hide.'):role='hidden'
+    elif 'hair' in lower and 'facial' not in lower:role='hair'
     elif 'tear' in lower:role='tear'
     elif 'eyea' in lower or 'eye_a' in lower:role='lashes'
     elif '_eye' in lower:role='eyes'
     elif 'naked' in lower or 'basebody' in lower or ('head' in lower and 'hide' not in lower):role='skin'
     m['role']=role;m['sourceMaterial']=ref;m['nativeName']=name
     if role=='hair':
+        atlas=hair_atlas_image(textures)
         source=texture_path(textures.get('DIRO') or textures.get('DIO_HairCard'))
-        n=tex_node(m,derived_image(source,'hair') if source else None)
-        p.inputs['Base Color'].default_value=(.08,.05,.028,1);p.inputs['Roughness'].default_value=.65;p.inputs['Specular IOR Level'].default_value=.15
+        n=tex_node(m,atlas or (derived_image(source,'hair') if source else None))
+        p.inputs['Base Color'].default_value=(1,1,1,1);p.inputs['Roughness'].default_value=.5;p.inputs['Specular IOR Level'].default_value=.25
         if n:m.node_tree.links.new(n.outputs['Color'],p.inputs['Base Color']);m.node_tree.links.new(n.outputs['Alpha'],p.inputs['Alpha'])
-        m.surface_render_method='DITHERED';m['alphaCutoff']=.08
+        m.surface_render_method='DITHERED';m['alphaCutoff']=.35;m['hairMaterialVersion']=5 if atlas else 4
+    elif role=='hidden':
+        p.inputs['Alpha'].default_value=0;m.surface_render_method='DITHERED'
     elif role=='lashes':
         source=texture_path(textures.get('EyelashAO'));n=tex_node(m,derived_image(source,'lash') if source else None)
         p.inputs['Base Color'].default_value=(.015,.01,.008,1);p.inputs['Roughness'].default_value=.6
@@ -155,6 +189,16 @@ def import_model(sex,part,idx=None):
         for mi,item in enumerate(dto.lods[0].materials):
             mesh.data.materials.append(make_material(item.material_name,item.material_path))
             for face in mesh.data.polygons[item.first_index//3:item.first_index//3+item.num_faces]:face.material_index=mi
+        if any(m.get('hairMaterialVersion')==5 for m in mesh.data.materials):
+            uv0=mesh.data.uv_layers.get('UV0');uv1=mesh.data.uv_layers.get('UV1') or uv0
+            source_uvs=[tuple(v.uv) for v in uv1.data]
+            if uv1==uv0:
+                preserved=mesh.data.uv_layers.new(name='UV1')
+                for li,uv in enumerate(source_uvs):preserved.data[li].uv=uv
+            for face in mesh.data.polygons:
+                if mesh.data.materials[face.material_index].get('hairMaterialVersion')==5:
+                    for li in face.loop_indices:
+                        u,v=source_uvs[li];uv0.data[li].uv=(u*.5,v)
         mesh['part']=part;mesh['gender']=sex;mesh['variant']=idx or 'base'
     return added,meshes,arm
 def export_one(sex,part,idx=None):

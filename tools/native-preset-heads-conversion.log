@@ -1,0 +1,578 @@
+NATIVE_PRESET_ASSET GF head 001 {'before': 5287460, 'after': 1622812, 'images': 4}
+NATIVE_PRESET_ASSET GF head 002 {'before': 5281444, 'after': 1623364, 'images': 4}
+NATIVE_PRESET_ASSET GF head 003 {'before': 5281040, 'after': 1613304, 'images': 4}
+NATIVE_PRESET_ASSET GF head 004 {'before': 5207708, 'after': 1614484, 'images': 4}
+<string>:105: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+[36m[UEFORMAT] [0mImporting GF_Head_005
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_005\GF_Head_005.uemodel took 0.5694024562835693 seconds
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:53:29 | INFO: Starting glTF 2.0 export
+18:53:29 | INFO: Extracting primitive: GF_Head_005_LOD0
+18:53:30 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:30 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:30 | INFO: Primitives created: 5
+18:53:30 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:30 | INFO: Finished glTF 2.0 export in 0.7537791728973389 s
+
+EXPORTED gf-head-005.glb 5226332
+NATIVE_PRESET_ASSET GF head 005 {'before': 5226332, 'after': 1592272, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_006
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_006\GF_Head_006.uemodel took 0.5494711399078369 seconds
+18:53:31 | INFO: Starting glTF 2.0 export
+18:53:31 | INFO: Extracting primitive: GF_Head_006_LOD0
+18:53:32 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:32 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:32 | INFO: Primitives created: 5
+18:53:32 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:32 | INFO: Finished glTF 2.0 export in 0.6302235126495361 s
+
+EXPORTED gf-head-006.glb 5238684
+NATIVE_PRESET_ASSET GF head 006 {'before': 5238684, 'after': 1620560, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_011
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_011\GF_Head_011.uemodel took 0.629136323928833 seconds
+18:53:33 | INFO: Starting glTF 2.0 export
+18:53:33 | INFO: Extracting primitive: GF_Head_011_LOD0
+18:53:34 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:34 | INFO: Primitives created: 5
+18:53:34 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:34 | INFO: Finished glTF 2.0 export in 0.6239149570465088 s
+
+EXPORTED gf-head-011.glb 5362640
+NATIVE_PRESET_ASSET GF head 011 {'before': 5362640, 'after': 1613272, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_012
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_012\GF_Head_012.uemodel took 0.545659065246582 seconds
+18:53:35 | INFO: Starting glTF 2.0 export
+18:53:35 | INFO: Extracting primitive: GF_Head_012_LOD0
+18:53:35 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:35 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:36 | INFO: Primitives created: 5
+18:53:36 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:36 | INFO: Finished glTF 2.0 export in 0.677654504776001 s
+
+EXPORTED gf-head-012.glb 5355096
+NATIVE_PRESET_ASSET GF head 012 {'before': 5355096, 'after': 1614852, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_014
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_014\GF_Head_014.uemodel took 0.5554299354553223 seconds
+18:53:37 | INFO: Starting glTF 2.0 export
+18:53:37 | INFO: Extracting primitive: GF_Head_014_LOD0
+18:53:37 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:37 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:38 | INFO: Primitives created: 5
+18:53:38 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:38 | INFO: Finished glTF 2.0 export in 0.5851984024047852 s
+
+EXPORTED gf-head-014.glb 5213344
+NATIVE_PRESET_ASSET GF head 014 {'before': 5213344, 'after': 1588664, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_015
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_015\GF_Head_015.uemodel took 0.6049697399139404 seconds
+18:53:39 | INFO: Starting glTF 2.0 export
+18:53:39 | INFO: Extracting primitive: GF_Head_015_LOD0
+18:53:39 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:39 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:39 | INFO: Primitives created: 5
+18:53:39 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:39 | INFO: Finished glTF 2.0 export in 0.5890276432037354 s
+
+EXPORTED gf-head-015.glb 4817692
+NATIVE_PRESET_ASSET GF head 015 {'before': 4817692, 'after': 1619412, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_head_016
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_016\GF_Head_016.uemodel took 0.6374757289886475 seconds
+18:53:41 | INFO: Starting glTF 2.0 export
+18:53:41 | INFO: Extracting primitive: GF_head_016_LOD0
+18:53:41 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:41 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:41 | INFO: Primitives created: 5
+18:53:41 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:42 | INFO: Finished glTF 2.0 export in 0.8806924819946289 s
+
+EXPORTED gf-head-016.glb 5230908
+NATIVE_PRESET_ASSET GF head 016 {'before': 5230908, 'after': 1583160, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_020
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_020\GF_Head_020.uemodel took 0.7160167694091797 seconds
+18:53:43 | INFO: Starting glTF 2.0 export
+18:53:43 | INFO: Extracting primitive: GF_Head_020_LOD0
+18:53:44 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:44 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:44 | INFO: Primitives created: 5
+18:53:44 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:44 | INFO: Finished glTF 2.0 export in 0.6022632122039795 s
+
+EXPORTED gf-head-020.glb 5244284
+NATIVE_PRESET_ASSET GF head 020 {'before': 5244284, 'after': 1619220, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_021
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_021\GF_Head_021.uemodel took 0.6044113636016846 seconds
+18:53:45 | INFO: Starting glTF 2.0 export
+18:53:45 | INFO: Extracting primitive: GF_Head_021_LOD0
+18:53:46 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:46 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:46 | INFO: Primitives created: 5
+18:53:46 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:46 | INFO: Finished glTF 2.0 export in 0.6618862152099609 s
+
+EXPORTED gf-head-021.glb 5240440
+NATIVE_PRESET_ASSET GF head 021 {'before': 5240440, 'after': 1615000, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_023
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_023\GF_Head_023.uemodel took 0.5604302883148193 seconds
+18:53:47 | INFO: Starting glTF 2.0 export
+18:53:47 | INFO: Extracting primitive: GF_Head_023_LOD0
+18:53:48 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:48 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:48 | INFO: Primitives created: 5
+18:53:48 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:48 | INFO: Finished glTF 2.0 export in 0.6819770336151123 s
+
+EXPORTED gf-head-023.glb 5193276
+NATIVE_PRESET_ASSET GF head 023 {'before': 5193276, 'after': 1589632, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_026
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_026\GF_Head_026.uemodel took 0.548504114151001 seconds
+18:53:49 | INFO: Starting glTF 2.0 export
+18:53:49 | INFO: Extracting primitive: GF_Head_026_LOD0
+18:53:49 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:49 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:50 | INFO: Primitives created: 5
+18:53:50 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:50 | INFO: Finished glTF 2.0 export in 0.6549561023712158 s
+
+EXPORTED gf-head-026.glb 5186332
+NATIVE_PRESET_ASSET GF head 026 {'before': 5186332, 'after': 1582460, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_027
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_027\GF_Head_027.uemodel took 0.6147060394287109 seconds
+18:53:51 | INFO: Starting glTF 2.0 export
+18:53:51 | INFO: Extracting primitive: GF_Head_027_LOD0
+18:53:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:52 | INFO: Primitives created: 5
+18:53:52 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:52 | INFO: Finished glTF 2.0 export in 0.6184759140014648 s
+
+EXPORTED gf-head-027.glb 5240928
+NATIVE_PRESET_ASSET GF head 027 {'before': 5240928, 'after': 1617460, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_028
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_028\GF_Head_028.uemodel took 0.5739598274230957 seconds
+18:53:53 | INFO: Starting glTF 2.0 export
+18:53:53 | INFO: Extracting primitive: GF_Head_028_LOD0
+18:53:53 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:53 | INFO: Primitives created: 5
+18:53:53 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:54 | INFO: Finished glTF 2.0 export in 0.6543340682983398 s
+
+EXPORTED gf-head-028.glb 5245780
+NATIVE_PRESET_ASSET GF head 028 {'before': 5245780, 'after': 1615768, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_029
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_029\GF_Head_029.uemodel took 0.6005396842956543 seconds
+18:53:55 | INFO: Starting glTF 2.0 export
+18:53:55 | INFO: Extracting primitive: GF_Head_029_LOD0
+18:53:55 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:55 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:55 | INFO: Primitives created: 5
+18:53:55 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:56 | INFO: Finished glTF 2.0 export in 0.6481425762176514 s
+
+EXPORTED gf-head-029.glb 5232568
+NATIVE_PRESET_ASSET GF head 029 {'before': 5232568, 'after': 1613756, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_030
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_030\GF_Head_030.uemodel took 0.5590591430664062 seconds
+18:53:57 | INFO: Starting glTF 2.0 export
+18:53:57 | INFO: Extracting primitive: GF_Head_030_LOD0
+18:53:57 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:57 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:57 | INFO: Primitives created: 5
+18:53:57 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:53:57 | INFO: Finished glTF 2.0 export in 0.6718261241912842 s
+
+EXPORTED gf-head-030.glb 5225252
+NATIVE_PRESET_ASSET GF head 030 {'before': 5225252, 'after': 1605568, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_031
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_031\GF_Head_031.uemodel took 0.5847873687744141 seconds
+18:53:59 | INFO: Starting glTF 2.0 export
+18:53:59 | INFO: Extracting primitive: GF_Head_031_LOD0
+18:53:59 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:53:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:53:59 | INFO: Primitives created: 5
+18:53:59 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:00 | INFO: Finished glTF 2.0 export in 0.8072984218597412 s
+
+EXPORTED gf-head-031.glb 4783032
+NATIVE_PRESET_ASSET GF head 031 {'before': 4783032, 'after': 1619452, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_032
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_032\GF_Head_032.uemodel took 0.5948092937469482 seconds
+18:54:01 | INFO: Starting glTF 2.0 export
+18:54:01 | INFO: Extracting primitive: GF_Head_032_LOD0
+18:54:02 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:02 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:02 | INFO: Primitives created: 5
+18:54:02 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:02 | INFO: Finished glTF 2.0 export in 0.8598463535308838 s
+
+EXPORTED gf-head-032.glb 5246144
+NATIVE_PRESET_ASSET GF head 032 {'before': 5246144, 'after': 1622632, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_033
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_033\GF_Head_033.uemodel took 0.7465128898620605 seconds
+18:54:03 | INFO: Starting glTF 2.0 export
+18:54:03 | INFO: Extracting primitive: GF_Head_033_LOD0
+18:54:04 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:04 | INFO: Primitives created: 5
+18:54:04 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:04 | INFO: Finished glTF 2.0 export in 0.8140265941619873 s
+
+EXPORTED gf-head-033.glb 4907592
+NATIVE_PRESET_ASSET GF head 033 {'before': 4907592, 'after': 1621224, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_034
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_034\GF_Head_034.uemodel took 0.5806746482849121 seconds
+18:54:05 | INFO: Starting glTF 2.0 export
+18:54:06 | INFO: Extracting primitive: GF_Head_034_LOD0
+18:54:06 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:06 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:06 | INFO: Primitives created: 5
+18:54:06 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:06 | INFO: Finished glTF 2.0 export in 0.7148280143737793 s
+
+EXPORTED gf-head-034.glb 5234040
+NATIVE_PRESET_ASSET GF head 034 {'before': 5234040, 'after': 1622644, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_039
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_039\GF_Head_039.uemodel took 0.7790870666503906 seconds
+18:54:08 | INFO: Starting glTF 2.0 export
+18:54:08 | INFO: Extracting primitive: GF_Head_039_LOD0
+18:54:08 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:08 | INFO: Primitives created: 5
+18:54:08 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:09 | INFO: Finished glTF 2.0 export in 0.7615418434143066 s
+
+EXPORTED gf-head-039.glb 5196716
+NATIVE_PRESET_ASSET GF head 039 {'before': 5196716, 'after': 1449956, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_040
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_040\GF_Head_040.uemodel took 0.7187042236328125 seconds
+18:54:10 | INFO: Starting glTF 2.0 export
+18:54:10 | INFO: Extracting primitive: GF_Head_040_LOD0
+18:54:11 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:11 | INFO: Primitives created: 5
+18:54:11 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:11 | INFO: Finished glTF 2.0 export in 0.6798346042633057 s
+
+EXPORTED gf-head-040.glb 5239276
+NATIVE_PRESET_ASSET GF head 040 {'before': 5239276, 'after': 1612704, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_041
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_041\GF_Head_041.uemodel took 0.6015846729278564 seconds
+18:54:12 | INFO: Starting glTF 2.0 export
+18:54:12 | INFO: Extracting primitive: GF_Head_041_LOD0
+18:54:13 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:13 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:13 | INFO: Primitives created: 5
+18:54:13 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:13 | INFO: Finished glTF 2.0 export in 0.8539326190948486 s
+
+EXPORTED gf-head-041.glb 5231700
+NATIVE_PRESET_ASSET GF head 041 {'before': 5231700, 'after': 1616660, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_042
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_042\GF_Head_042.uemodel took 0.6459567546844482 seconds
+18:54:15 | INFO: Starting glTF 2.0 export
+18:54:15 | INFO: Extracting primitive: GF_Head_042_LOD0
+18:54:15 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:15 | INFO: Primitives created: 5
+18:54:15 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:16 | INFO: Finished glTF 2.0 export in 0.7647650241851807 s
+
+EXPORTED gf-head-042.glb 5208592
+NATIVE_PRESET_ASSET GF head 042 {'before': 5208592, 'after': 1581840, 'images': 4}
+[36m[UEFORMAT] [0mImporting GF_Head_043
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_043\GF_Head_043.uemodel took 0.5589869022369385 seconds
+18:54:17 | INFO: Starting glTF 2.0 export
+18:54:17 | INFO: Extracting primitive: GF_Head_043_LOD0
+18:54:18 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:18 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:18 | INFO: Primitives created: 5
+18:54:18 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:18 | INFO: Finished glTF 2.0 export in 0.6947877407073975 s
+
+EXPORTED gf-head-043.glb 5104908
+NATIVE_PRESET_ASSET GF head 043 {'before': 5104908, 'after': 1477888, 'images': 4}
+NATIVE_PRESET_ASSET GM head 001 {'before': 5477600, 'after': 1453624, 'images': 4}
+NATIVE_PRESET_ASSET GM head 002 {'before': 5485392, 'after': 1460616, 'images': 4}
+NATIVE_PRESET_ASSET GM head 004 {'before': 5465928, 'after': 1448580, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_005
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_005\GM_Head_005.uemodel took 0.5368380546569824 seconds
+18:54:20 | INFO: Starting glTF 2.0 export
+18:54:20 | INFO: Extracting primitive: GM_Head_005_LOD0
+18:54:20 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:20 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:21 | INFO: Primitives created: 5
+18:54:21 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:21 | INFO: Finished glTF 2.0 export in 0.7324216365814209 s
+
+EXPORTED gm-head-005.glb 5498556
+NATIVE_PRESET_ASSET GM head 005 {'before': 5498556, 'after': 1454792, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_006
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_006\GM_Head_006.uemodel took 0.545945405960083 seconds
+18:54:22 | INFO: Starting glTF 2.0 export
+18:54:22 | INFO: Extracting primitive: GM_Head_006_LOD0
+18:54:22 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:22 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:23 | INFO: Primitives created: 5
+18:54:23 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:23 | INFO: Finished glTF 2.0 export in 0.6504073143005371 s
+
+EXPORTED gm-head-006.glb 5502808
+NATIVE_PRESET_ASSET GM head 006 {'before': 5502808, 'after': 1458232, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_007
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_007\GM_Head_007.uemodel took 0.5343923568725586 seconds
+18:54:24 | INFO: Starting glTF 2.0 export
+18:54:24 | INFO: Extracting primitive: GM_Head_007_LOD0
+18:54:24 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:24 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:25 | INFO: Primitives created: 5
+18:54:25 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:25 | INFO: Finished glTF 2.0 export in 0.5872249603271484 s
+
+EXPORTED gm-head-007.glb 5616368
+NATIVE_PRESET_ASSET GM head 007 {'before': 5616368, 'after': 1490516, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_008
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_008\GM_Head_008.uemodel took 0.6357760429382324 seconds
+18:54:26 | INFO: Starting glTF 2.0 export
+18:54:26 | INFO: Extracting primitive: GM_Head_008_LOD0
+18:54:26 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:27 | INFO: Primitives created: 5
+18:54:27 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:27 | INFO: Finished glTF 2.0 export in 0.5393416881561279 s
+
+EXPORTED gm-head-008.glb 5472668
+NATIVE_PRESET_ASSET GM head 008 {'before': 5472668, 'after': 1317552, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_009
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_009\GM_Head_009.uemodel took 0.532585620880127 seconds
+18:54:28 | INFO: Starting glTF 2.0 export
+18:54:28 | INFO: Extracting primitive: GM_Head_009_LOD0
+18:54:28 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:28 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:29 | INFO: Primitives created: 5
+18:54:29 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:29 | INFO: Finished glTF 2.0 export in 0.7445831298828125 s
+
+EXPORTED gm-head-009.glb 5507944
+NATIVE_PRESET_ASSET GM head 009 {'before': 5507944, 'after': 1450900, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_011
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_011\GM_Head_011.uemodel took 0.5139665603637695 seconds
+18:54:30 | INFO: Starting glTF 2.0 export
+18:54:30 | INFO: Extracting primitive: GM_Head_011_LOD0
+18:54:31 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:31 | INFO: Primitives created: 5
+18:54:31 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:31 | INFO: Finished glTF 2.0 export in 0.6114687919616699 s
+
+EXPORTED gm-head-011.glb 5640604
+NATIVE_PRESET_ASSET GM head 011 {'before': 5640604, 'after': 1482376, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_015
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_015\GM_Head_015.uemodel took 0.5676710605621338 seconds
+18:54:32 | INFO: Starting glTF 2.0 export
+18:54:32 | INFO: Extracting primitive: GM_Head_015_LOD0
+18:54:33 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:33 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:33 | INFO: Primitives created: 5
+18:54:33 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:33 | INFO: Finished glTF 2.0 export in 0.5844154357910156 s
+
+EXPORTED gm-head-015.glb 5455364
+NATIVE_PRESET_ASSET GM head 015 {'before': 5455364, 'after': 1448632, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_016
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_016\GM_Head_016.uemodel took 0.490389347076416 seconds
+18:54:34 | INFO: Starting glTF 2.0 export
+18:54:34 | INFO: Extracting primitive: GM_Head_016_LOD0
+18:54:34 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:34 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:35 | INFO: Primitives created: 5
+18:54:35 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:35 | INFO: Finished glTF 2.0 export in 0.6646654605865479 s
+
+EXPORTED gm-head-016.glb 5606044
+NATIVE_PRESET_ASSET GM head 016 {'before': 5606044, 'after': 1453256, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_018
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_018\GM_Head_018.uemodel took 0.5097897052764893 seconds
+18:54:36 | INFO: Starting glTF 2.0 export
+18:54:36 | INFO: Extracting primitive: GM_Head_018_LOD0
+18:54:36 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:36 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:37 | INFO: Primitives created: 5
+18:54:37 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:37 | INFO: Finished glTF 2.0 export in 0.5791809558868408 s
+
+EXPORTED gm-head-018.glb 5756444
+NATIVE_PRESET_ASSET GM head 018 {'before': 5756444, 'after': 1474356, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_020
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_020\GM_Head_020.uemodel took 0.5717067718505859 seconds
+18:54:38 | INFO: Starting glTF 2.0 export
+18:54:38 | INFO: Extracting primitive: GM_Head_020_LOD0
+18:54:38 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:39 | INFO: Primitives created: 5
+18:54:39 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:39 | INFO: Finished glTF 2.0 export in 0.592092752456665 s
+
+EXPORTED gm-head-020.glb 5326828
+NATIVE_PRESET_ASSET GM head 020 {'before': 5326828, 'after': 1465140, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_024
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_024\GM_Head_024.uemodel took 0.51149582862854 seconds
+18:54:40 | INFO: Starting glTF 2.0 export
+18:54:40 | INFO: Extracting primitive: GM_Head_024_LOD0
+18:54:40 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:40 | INFO: Primitives created: 5
+18:54:40 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:41 | INFO: Finished glTF 2.0 export in 0.6419119834899902 s
+
+EXPORTED gm-head-024.glb 5340352
+NATIVE_PRESET_ASSET GM head 024 {'before': 5340352, 'after': 1488876, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_026
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_026\GM_Head_026.uemodel took 0.5104241371154785 seconds
+18:54:42 | INFO: Starting glTF 2.0 export
+18:54:42 | INFO: Extracting primitive: GM_Head_026_LOD0
+18:54:42 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:42 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:43 | INFO: Primitives created: 5
+18:54:43 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:43 | INFO: Finished glTF 2.0 export in 0.6195085048675537 s
+
+EXPORTED gm-head-026.glb 5484300
+NATIVE_PRESET_ASSET GM head 026 {'before': 5484300, 'after': 1485724, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_027
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_027\GM_Head_027.uemodel took 0.5044679641723633 seconds
+18:54:44 | INFO: Starting glTF 2.0 export
+18:54:44 | INFO: Extracting primitive: GM_Head_027_LOD0
+18:54:44 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:44 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:45 | INFO: Primitives created: 5
+18:54:45 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:45 | INFO: Finished glTF 2.0 export in 0.6585524082183838 s
+
+EXPORTED gm-head-027.glb 5411940
+NATIVE_PRESET_ASSET GM head 027 {'before': 5411940, 'after': 1445316, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_029
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_029\GM_Head_029.uemodel took 0.5007514953613281 seconds
+18:54:46 | INFO: Starting glTF 2.0 export
+18:54:46 | INFO: Extracting primitive: GM_Head_029_LOD0
+18:54:46 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:46 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:47 | INFO: Primitives created: 5
+18:54:47 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:47 | INFO: Finished glTF 2.0 export in 0.6742408275604248 s
+
+EXPORTED gm-head-029.glb 5434308
+NATIVE_PRESET_ASSET GM head 029 {'before': 5434308, 'after': 1448564, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_030
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_030\GM_Head_030.uemodel took 0.48901891708374023 seconds
+18:54:48 | INFO: Starting glTF 2.0 export
+18:54:48 | INFO: Extracting primitive: GM_Head_030_LOD0
+18:54:48 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:48 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:49 | INFO: Primitives created: 5
+18:54:49 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:49 | INFO: Finished glTF 2.0 export in 0.6195974349975586 s
+
+EXPORTED gm-head-030.glb 5434100
+NATIVE_PRESET_ASSET GM head 030 {'before': 5434100, 'after': 1443400, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_031
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_031\GM_Head_031.uemodel took 0.6696820259094238 seconds
+18:54:51 | INFO: Starting glTF 2.0 export
+18:54:51 | INFO: Extracting primitive: GM_Head_031_LOD0
+18:54:51 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:51 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:51 | INFO: Primitives created: 5
+18:54:51 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:51 | INFO: Finished glTF 2.0 export in 0.7504596710205078 s
+
+EXPORTED gm-head-031.glb 5404784
+NATIVE_PRESET_ASSET GM head 031 {'before': 5404784, 'after': 1444116, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_037
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_037\GM_Head_037.uemodel took 0.5844950675964355 seconds
+18:54:53 | INFO: Starting glTF 2.0 export
+18:54:53 | INFO: Extracting primitive: GM_Head_037_LOD0
+18:54:53 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:53 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:53 | INFO: Primitives created: 5
+18:54:53 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:54 | INFO: Finished glTF 2.0 export in 0.6687641143798828 s
+
+EXPORTED gm-head-037.glb 5390536
+NATIVE_PRESET_ASSET GM head 037 {'before': 5390536, 'after': 1445408, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_038
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_038\GM_Head_038.uemodel took 0.5313851833343506 seconds
+18:54:55 | INFO: Starting glTF 2.0 export
+18:54:55 | INFO: Extracting primitive: GM_Head_038_LOD0
+18:54:55 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:55 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:56 | INFO: Primitives created: 5
+18:54:56 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:56 | INFO: Finished glTF 2.0 export in 0.6517078876495361 s
+
+EXPORTED gm-head-038.glb 5422212
+NATIVE_PRESET_ASSET GM head 038 {'before': 5422212, 'after': 1468020, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_039
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_039\GM_Head_039.uemodel took 0.5142550468444824 seconds
+18:54:57 | INFO: Starting glTF 2.0 export
+18:54:57 | INFO: Extracting primitive: GM_Head_039_LOD0
+18:54:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:54:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:54:58 | INFO: Primitives created: 5
+18:54:58 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:54:58 | INFO: Finished glTF 2.0 export in 0.6744349002838135 s
+
+EXPORTED gm-head-039.glb 5387320
+NATIVE_PRESET_ASSET GM head 039 {'before': 5387320, 'after': 1450356, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_040
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_040\GM_Head_040.uemodel took 0.6618595123291016 seconds
+18:54:59 | INFO: Starting glTF 2.0 export
+18:54:59 | INFO: Extracting primitive: GM_Head_040_LOD0
+18:55:00 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:55:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:55:00 | INFO: Primitives created: 5
+18:55:00 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:55:00 | INFO: Finished glTF 2.0 export in 0.6743931770324707 s
+
+EXPORTED gm-head-040.glb 5405184
+NATIVE_PRESET_ASSET GM head 040 {'before': 5405184, 'after': 1450988, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_041
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_041\GM_Head_041.uemodel took 0.500896692276001 seconds
+18:55:01 | INFO: Starting glTF 2.0 export
+18:55:01 | INFO: Extracting primitive: GM_Head_041_LOD0
+18:55:02 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:55:02 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:55:02 | INFO: Primitives created: 5
+18:55:02 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:55:02 | INFO: Finished glTF 2.0 export in 0.601578950881958 s
+
+EXPORTED gm-head-041.glb 5420860
+NATIVE_PRESET_ASSET GM head 041 {'before': 5420860, 'after': 1441964, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_042
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_042\GM_Head_042.uemodel took 0.5201239585876465 seconds
+18:55:03 | INFO: Starting glTF 2.0 export
+18:55:03 | INFO: Extracting primitive: GM_Head_042_LOD0
+18:55:04 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:55:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:55:04 | INFO: Primitives created: 5
+18:55:04 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:55:04 | INFO: Finished glTF 2.0 export in 0.597235918045044 s
+
+EXPORTED gm-head-042.glb 5274220
+NATIVE_PRESET_ASSET GM head 042 {'before': 5274220, 'after': 1310052, 'images': 4}
+[36m[UEFORMAT] [0mImporting GM_Head_043
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_043\GM_Head_043.uemodel took 0.5076956748962402 seconds
+18:55:05 | INFO: Starting glTF 2.0 export
+18:55:05 | INFO: Extracting primitive: GM_Head_043_LOD0
+18:55:06 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:55:06 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:55:06 | INFO: Primitives created: 5
+18:55:06 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:55:06 | INFO: Finished glTF 2.0 export in 0.507758617401123 s
+
+EXPORTED gm-head-043.glb 5263240
+NATIVE_PRESET_ASSET GM head 043 {'before': 5263240, 'after': 1311948, 'images': 4}
+NATIVE_PRESET_CONVERSION_COMPLETE 54
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

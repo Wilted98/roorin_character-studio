@@ -1,0 +1,207 @@
+NATIVE_PRESET_ASSET GF hair 001 {'before': 2628000, 'after': 2628000, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 002 {'before': 2274100, 'after': 2274100, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 003 {'before': 936572, 'after': 936572, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 004 {'before': 1830092, 'after': 1830092, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 010 {'before': 2145584, 'after': 2145584, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 012 {'before': 2369900, 'after': 2369900, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 013 {'before': 1954740, 'after': 1954740, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 101 {'before': 2220316, 'after': 2220316, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 107 {'before': 2346808, 'after': 2346808, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 110 {'before': 1525764, 'after': 1525764, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 114 {'before': 1897956, 'after': 1897956, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 120 {'before': 3009172, 'after': 3009172, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 121 {'before': 2458924, 'after': 2458924, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 122 {'before': 1456660, 'after': 1456660, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 127 {'before': 2359588, 'after': 2359588, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 130 {'before': 2305520, 'after': 2305520, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 201 {'before': 1650480, 'after': 1650480, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 205 {'before': 1428336, 'after': 1428336, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 207 {'before': 2017380, 'after': 2017380, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 209 {'before': 2397220, 'after': 2397220, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 213 {'before': 1994540, 'after': 1994540, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 214 {'before': 1349788, 'after': 1349788, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 301 {'before': 2504184, 'after': 2504184, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 305 {'before': 1146660, 'after': 1146660, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 306 {'before': 3298620, 'after': 3298620, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 307 {'before': 1918276, 'after': 1918276, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 308 {'before': 3104952, 'after': 3104952, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 310 {'before': 2541444, 'after': 2541444, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 311 {'before': 2121136, 'after': 2121136, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 313 {'before': 3361180, 'after': 3361180, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 314 {'before': 2350912, 'after': 2350912, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 316 {'before': 2060332, 'after': 2060332, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 317 {'before': 2548296, 'after': 2548296, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 318 {'before': 2398624, 'after': 2398624, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 401 {'before': 1578820, 'after': 1578820, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 404 {'before': 3637152, 'after': 3637152, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 406 {'before': 3589872, 'after': 3589872, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 407 {'before': 2018588, 'after': 2018588, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 408 {'before': 2093288, 'after': 2093288, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 412 {'before': 1758576, 'after': 1758576, 'images': 0}
+NATIVE_PRESET_ASSET GF hair 413 {'before': 2253676, 'after': 2253676, 'images': 0}
+<string>:105: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+[36m[UEFORMAT] [0mImporting GM_Hair_000
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_000\GM_Hair_000.uemodel took 0.010851383209228516 seconds
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:58:59 | INFO: Starting glTF 2.0 export
+18:58:59 | INFO: Extracting primitive: GM_Hair_000_LOD0
+18:58:59 | INFO: Primitives created: 1
+18:58:59 | INFO: Finished glTF 2.0 export in 0.07393407821655273 s
+
+EXPORTED gm-hair-000.glb 7524
+NATIVE_PRESET_ASSET GM hair 000 {'before': 7524, 'after': 7524, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 001 {'before': 2618724, 'after': 2618724, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 002 {'before': 2265168, 'after': 2265168, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 003 {'before': 719808, 'after': 719808, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 004 {'before': 1905068, 'after': 1905068, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 006 {'before': 1360932, 'after': 1360932, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 007 {'before': 1691664, 'after': 1691664, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 011 {'before': 2083980, 'after': 2083980, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 014 {'before': 1247168, 'after': 1247168, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 015 {'before': 1602628, 'after': 1602628, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 016 {'before': 1234136, 'after': 1234136, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 017 {'before': 1134996, 'after': 1134996, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 018 {'before': 1347172, 'after': 1347172, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 101 {'before': 2215572, 'after': 2215572, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 103 {'before': 2252996, 'after': 2252996, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 113 {'before': 2782792, 'after': 2782792, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 115 {'before': 2264932, 'after': 2264932, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 123 {'before': 2022812, 'after': 2022812, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 124 {'before': 1497780, 'after': 1497780, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 125 {'before': 1432376, 'after': 1432376, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 126 {'before': 1881992, 'after': 1881992, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 128 {'before': 1939836, 'after': 1939836, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 129 {'before': 2465508, 'after': 2465508, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 201 {'before': 1406244, 'after': 1406244, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 202 {'before': 957092, 'after': 957092, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 203 {'before': 2644612, 'after': 2644612, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 205 {'before': 1420780, 'after': 1420780, 'images': 0}
+NATIVE_PRESET_ASSET GM hair 209 {'before': 2429864, 'after': 2429864, 'images': 0}
+[36m[UEFORMAT] [0mImporting GM_Hair_214
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_214\GM_Hair_214.uemodel took 0.41481637954711914 seconds
+18:59:00 | INFO: Starting glTF 2.0 export
+18:59:00 | INFO: Extracting primitive: GM_Hair_214_LOD0
+18:59:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:00 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:00 | INFO: Primitives created: 1
+18:59:00 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:00 | INFO: Finished glTF 2.0 export in 0.22149372100830078 s
+
+EXPORTED gm-hair-214.glb 5006404
+NATIVE_PRESET_ASSET GM hair 214 {'before': 5006404, 'after': 1347820, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_215
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_215\GM_Hair_215.uemodel took 0.9136343002319336 seconds
+18:59:01 | INFO: Starting glTF 2.0 export
+18:59:01 | INFO: Extracting primitive: GM_Hair_215_LOD0
+18:59:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:01 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:01 | INFO: Primitives created: 1
+18:59:02 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:02 | INFO: Finished glTF 2.0 export in 0.2833678722381592 s
+
+EXPORTED gm-hair-215.glb 5784636
+NATIVE_PRESET_ASSET GM hair 215 {'before': 5784636, 'after': 2126052, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_301
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_301\GM_Hair_301.uemodel took 0.9393951892852783 seconds
+18:59:03 | INFO: Starting glTF 2.0 export
+18:59:03 | INFO: Extracting primitive: GM_Hair_301_LOD0
+18:59:03 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:03 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:03 | INFO: Primitives created: 1
+18:59:03 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:03 | INFO: Finished glTF 2.0 export in 0.25124597549438477 s
+
+EXPORTED gm-hair-301.glb 5884532
+NATIVE_PRESET_ASSET GM hair 301 {'before': 5884532, 'after': 2447628, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_305
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_305\GM_Hair_305.uemodel took 0.31122565269470215 seconds
+18:59:04 | INFO: Starting glTF 2.0 export
+18:59:04 | WARNING: Mesh GM_Hair_305_LOD0 is not valid, and may be exported wrongly
+18:59:04 | INFO: Extracting primitive: GM_Hair_305_LOD0
+18:59:04 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:04 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:04 | INFO: Primitives created: 1
+18:59:04 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:04 | INFO: Finished glTF 2.0 export in 0.20020365715026855 s
+
+EXPORTED gm-hair-305.glb 4952080
+NATIVE_PRESET_ASSET GM hair 305 {'before': 4952080, 'after': 1202008, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_311
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_311\GM_Hair_311.uemodel took 0.4941842555999756 seconds
+18:59:04 | INFO: Starting glTF 2.0 export
+18:59:04 | WARNING: Mesh GM_Hair_311_LOD0 is not valid, and may be exported wrongly
+18:59:04 | INFO: Extracting primitive: GM_Hair_311_LOD0
+18:59:05 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:05 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:05 | INFO: Primitives created: 1
+18:59:05 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:05 | INFO: Finished glTF 2.0 export in 0.1738417148590088 s
+
+EXPORTED gm-hair-311.glb 5592380
+NATIVE_PRESET_ASSET GM hair 311 {'before': 5592380, 'after': 1842308, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_313
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_313\GM_Hair_313.uemodel took 0.9573261737823486 seconds
+18:59:06 | INFO: Starting glTF 2.0 export
+18:59:06 | INFO: Extracting primitive: GM_Hair_313_LOD0
+18:59:06 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:06 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:06 | INFO: Primitives created: 1
+18:59:06 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:06 | INFO: Finished glTF 2.0 export in 0.3138859272003174 s
+
+EXPORTED gm-hair-313.glb 6981212
+NATIVE_PRESET_ASSET GM hair 313 {'before': 6981212, 'after': 3322628, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_401
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_401\GM_Hair_401.uemodel took 0.3428473472595215 seconds
+18:59:07 | INFO: Starting glTF 2.0 export
+18:59:07 | INFO: Extracting primitive: GM_Hair_401_LOD0
+18:59:07 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:07 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:07 | INFO: Primitives created: 1
+18:59:07 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:07 | INFO: Finished glTF 2.0 export in 0.23584437370300293 s
+
+EXPORTED gm-hair-401.glb 5126576
+NATIVE_PRESET_ASSET GM hair 401 {'before': 5126576, 'after': 1467992, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_406
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_406\GM_Hair_406.uemodel took 0.9131371974945068 seconds
+18:59:08 | INFO: Starting glTF 2.0 export
+18:59:08 | INFO: Extracting primitive: GM_Hair_406_LOD0
+18:59:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:08 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:09 | INFO: Primitives created: 1
+18:59:09 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:09 | INFO: Finished glTF 2.0 export in 0.42055392265319824 s
+
+EXPORTED gm-hair-406.glb 7810056
+NATIVE_PRESET_ASSET GM hair 406 {'before': 7810056, 'after': 3597200, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_412
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_412\GM_Hair_412.uemodel took 0.6556026935577393 seconds
+18:59:10 | INFO: Starting glTF 2.0 export
+18:59:10 | INFO: Extracting primitive: GM_Hair_412_LOD0
+18:59:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:10 | INFO: Primitives created: 1
+18:59:10 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:10 | INFO: Finished glTF 2.0 export in 0.1959397792816162 s
+
+EXPORTED gm-hair-412.glb 5416484
+NATIVE_PRESET_ASSET GM hair 412 {'before': 5416484, 'after': 1757900, 'images': 1}
+[36m[UEFORMAT] [0mImporting GM_Hair_413
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Hair\GM_Hair_413\GM_Hair_413.uemodel took 0.9246163368225098 seconds
+18:59:11 | INFO: Starting glTF 2.0 export
+18:59:11 | WARNING: Mesh GM_Hair_413_LOD0 is not valid, and may be exported wrongly
+18:59:11 | INFO: Extracting primitive: GM_Hair_413_LOD0
+18:59:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:59:11 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:59:11 | INFO: Primitives created: 1
+18:59:11 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+18:59:11 | INFO: Finished glTF 2.0 export in 0.23979663848876953 s
+
+EXPORTED gm-hair-413.glb 5653156
+NATIVE_PRESET_ASSET GM hair 413 {'before': 5653156, 'after': 2252124, 'images': 1}
+NATIVE_PRESET_CONVERSION_COMPLETE 79
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

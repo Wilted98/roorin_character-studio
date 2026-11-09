@@ -1,0 +1,138 @@
+{
+  "GF-creator": {
+    "source": "Character/Player/GF/Ani/Normal/GF_Customize_Idle.ueanim",
+    "sourceTracks": 164,
+    "matchedTracks": 104,
+    "exportedTracks": 83,
+    "dynamicChannels": 78,
+    "frames": 421,
+    "fps": 30.071428298950195,
+    "duration": 13.966745969783629,
+    "bytes": 513927,
+    "maxMatrixReconstructionError": 8.940696716308594e-07,
+    "maxSharedBodyHeadRestError": 0.0011148732155561447,
+    "maxExistingGLBRestMatrixError": 1.862645149230957e-07,
+    "dynamicChannelExamples": [
+      "Bip001:t",
+      "Bip001:q",
+      "Bip001-Spine:q",
+      "Bip001-Spine1:q",
+      "Bip001-Spine2:q",
+      "Bip001-Neck:q",
+      "Bip001-Head:q",
+      "Bip001-L-Clavicle:q",
+      "Bip001-L-UpperArm:q",
+      "Bip001-L-Forearm:q",
+      "Bip001-L-Hand:q",
+      "Bip001-L-Finger0:q"
+    ],
+    "rootAnimated": false,
+    "reductionTolerances": {
+      "tMetres": 1e-05,
+      "qComponent": 2e-05,
+      "scale": 1e-05
+    }
+  },
+  "GF-normal": {
+    "source": "Character/Player/GF/Ani/Normal/GF_Normal_Idle.ueanim",
+    "sourceTracks": 164,
+    "matchedTracks": 104,
+    "exportedTracks": 80,
+    "dynamicChannels": 82,
+    "frames": 641,
+    "fps": 30.046875,
+    "duration": 21.300052002080083,
+    "bytes": 1459783,
+    "maxMatrixReconstructionError": 1.0132789611816406e-06,
+    "maxSharedBodyHeadRestError": 0.0011148732155561447,
+    "maxExistingGLBRestMatrixError": 1.862645149230957e-07,
+    "dynamicChannelExamples": [
+      "Bip001:t",
+      "Bip001:q",
+      "Bip001-Pelvis:q",
+      "Bip001-Spine:t",
+      "Bip001-Spine:q",
+      "Bip001-Spine1:q",
+      "Bip001-Spine2:q",
+      "Bip001-Neck:q",
+      "Bip001-Head:q",
+      "Bip001-L-Clavicle:q",
+      "Bip001-L-UpperArm:q",
+      "Bip001-L-Forearm:q"
+    ],
+    "rootAnimated": false,
+    "reductionTolerances": {
+      "tMetres": 1e-05,
+      "qComponent": 2e-05,
+      "scale": 1e-05
+    }
+  },
+  "GM-creator": {
+    "source": "Character/Player/GM/Ani/Normal/GM_Customize_Idle.ueanim",
+    "sourceTracks": 159,
+    "matchedTracks": 95,
+    "exportedTracks": 72,
+    "dynamicChannels": 53,
+    "frames": 421,
+    "fps": 30.071428298950195,
+    "duration": 13.966745969783629,
+    "bytes": 422256,
+    "maxMatrixReconstructionError": 8.344650268554688e-07,
+    "maxSharedBodyHeadRestError": 0.0016388888470828533,
+    "maxExistingGLBRestMatrixError": 2.980232238769531e-07,
+    "dynamicChannelExamples": [
+      "Bip001:t",
+      "Bip001:q",
+      "Bip001-Spine:q",
+      "Bip001-Spine1:q",
+      "Bip001-Spine2:q",
+      "Bip001-Head:q",
+      "Bip001-L-Clavicle:q",
+      "Bip001-L-UpperArm:q",
+      "Bip001-L-Forearm:q",
+      "Bip001-L-Hand:q",
+      "L_Wrist_Inner:t",
+      "L_Wrist_Inner:q"
+    ],
+    "rootAnimated": false,
+    "reductionTolerances": {
+      "tMetres": 1e-05,
+      "qComponent": 2e-05,
+      "scale": 1e-05
+    }
+  },
+  "GM-normal": {
+    "source": "Character/Player/GM/Ani/Normal/GM_Normal_Idle.ueanim",
+    "sourceTracks": 159,
+    "matchedTracks": 95,
+    "exportedTracks": 75,
+    "dynamicChannels": 77,
+    "frames": 601,
+    "fps": 30.049999237060547,
+    "duration": 19.966722636718817,
+    "bytes": 1150936,
+    "maxMatrixReconstructionError": 8.344650268554688e-07,
+    "maxSharedBodyHeadRestError": 0.0016388888470828533,
+    "maxExistingGLBRestMatrixError": 2.980232238769531e-07,
+    "dynamicChannelExamples": [
+      "Bip001:t",
+      "Bip001:q",
+      "Bip001-Spine:q",
+      "Bip001-Spine1:q",
+      "Bip001-Spine2:q",
+      "Bip001-Neck:q",
+      "Bip001-Head:q",
+      "Bip001-L-Clavicle:q",
+      "Bip001-L-UpperArm:q",
+      "Bip001-L-Forearm:q",
+      "Bip001-L-Hand:q",
+      "Bip001-L-Finger1:q"
+    ],
+    "rootAnimated": false,
+    "reductionTolerances": {
+      "tMetres": 1e-05,
+      "qComponent": 2e-05,
+      "scale": 1e-05
+    }
+  }
+}

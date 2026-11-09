@@ -46,6 +46,7 @@ for sex in ('GF','GM'):
     sc.render.resolution_x=256;sc.render.resolution_y=320;sc.cycles.samples=16
     for preset in config['presets']:
         if preset['id'] not in requested:continue
+        if any(p['id']==preset['id'] and p.get('thumbnailOrigin')=='game' for p in appearance['genders'][sex]['presets']):continue
         apply_values(arm,config,preset['values'])
         name=f'{sex.lower()}-preset-{preset["id"]}.png';sc.render.filepath=str(ASSETS/'thumbnails'/name);bpy.ops.render.render(write_still=True)
         # Re-read to preserve any simultaneous appearance metadata additions.

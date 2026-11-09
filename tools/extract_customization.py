@@ -42,6 +42,7 @@ body=[
 bindings=read('UnrealData/FaceCustomizeParamToWeightCurveData.json')[0]['Properties']
 ranges=read('UnrealData/PcCustomizeFeatureTable_Bone.json')[0]['Rows']
 source_presets=read('UnrealData/PcCustomizeFeatureTable_PresetFace.json')[0]['Rows']
+source_bodies=read('UnrealData/PcCustomizeFeatureTable_PresetBody.json')[0]['Rows']
 ui=read('UnrealData/CustomizingUIListTable.json')[0]['Rows']
 result={'version':1,'coordinateSpace':'Unreal local additive transforms; translation centimetres, quaternion xyzw, scale offsets around zero','sources':{'faceBindings':'UnrealData/FaceCustomizeParamToWeightCurveData','ranges':'UnrealData/PcCustomizeFeatureTable_Bone','poses':'Character/Player/{GF,GM}/Head/Common/*_Head_Cstm_{PA,Pose}','body':'Native rig names and original ranges; browser approximation, not native RigVM execution'},'genders':{}}
 summary={}
@@ -76,14 +77,17 @@ for sex,gender,posefile in [('GF','Female','GF_Head_Cstm_PA'),('GM','Male','GM_H
         rng=rr['Body'][key]
         controls.append({'id':key,'label':title,'group':'body','kind':'body','min':rng['Min'],'max':rng['Max'],'mid':rng['Mid'],'reversed':rng['SliderUIRangeType'].endswith('::MaxMin'),'operation':op,'bones':bones,'approximate':True})
     ids={c['id'] for c in controls if c['kind']=='face'}
+    body_ids={c['id'] for c in controls if c['kind']=='body'}
     presets=[]
     for key,p in source_presets.items():
         if p['CustomizeDataKey']!=gender:continue
         values={k:round(float(v),6) for k,v in p['FaceCustomizeData'].items() if k in ids and isinstance(v,(int,float))}
-        if sum(abs(v)>.001 for v in values.values())<5:continue
-        presets.append({'id':key,'label':f'Source face {key}','values':values,'sourceHead':p.get('HeadCustomizeData'), 'note':'Face parameter values only; source preset may use a different head mesh and makeup.'})
-    result['genders'][sex]={'controls':controls,'poses':poses,'presets':presets[:12],'unsupported':unsupported}
-    summary[sex]={'face_controls':sum(c['kind']=='face' for c in controls),'body_controls':sum(c['kind']=='body' for c in controls),'poses':len(poses),'bone_deltas':sum(map(len,poses.values())),'source_presets':len(presets[:12]),'sparse_entries_validated':len(assigned)}
+        native_body=source_bodies.get(str(p.get('BodyPresetKey','')),{}).get('BodyCustomizeData',{})
+        values.update({k:round(float(v),6) for k,v in native_body.items() if k in body_ids})
+        presets.append({'id':key,'label':f'Game preset {key}','values':values,'sourceHead':p.get('HeadCustomizeData'),'sourceBodyKey':p.get('BodyPresetKey'),'note':'Original face and supported body values; appearance catalog resolves original mesh and material selections.'})
+    presets.sort(key=lambda p:int(p['id']))
+    result['genders'][sex]={'controls':controls,'poses':poses,'presets':presets,'unsupported':unsupported}
+    summary[sex]={'face_controls':sum(c['kind']=='face' for c in controls),'body_controls':sum(c['kind']=='body' for c in controls),'poses':len(poses),'bone_deltas':sum(map(len,poses.values())),'source_presets':len(presets),'sparse_entries_validated':len(assigned)}
 args.output.parent.mkdir(parents=True,exist_ok=True)
 args.output.write_text(json.dumps(result,separators=(',',':'),ensure_ascii=False),encoding='utf-8')
 print(json.dumps({'bytes':args.output.stat().st_size,'summary':summary},indent=2))

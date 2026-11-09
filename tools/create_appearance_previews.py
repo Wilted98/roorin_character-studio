@@ -8,6 +8,7 @@ out=root/'assets/appearance/previews';out.mkdir(parents=True,exist_ok=True)
 for gender,group in data['genders'].items():
  for kind in ['iris','pupils','brows','lashes']:
   for item in group[kind]:
+   if item.get('thumbnailOrigin')=='game' and item.get('thumbnail'):continue
    src=Image.open(root/item['texture'].lstrip('/')).convert('RGBA')
    if kind=='iris':
     import math
