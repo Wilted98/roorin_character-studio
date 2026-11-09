@@ -4,7 +4,7 @@ Generated from the user's local exported AION2 assets using the installed UEForm
 
 ## Runtime contract
 
-- `public/assets/characters.json` lists the two body types and four heads/four hairstyles per body type.
+- `public/assets/characters.json` lists two body types, four heads, twelve hairstyles, and two outfit options per body type.
 - Each model is an independent self-contained GLB with embedded textures and a skinned skeleton. Load body + selected head + selected hair at the same origin. Body contains BaseFull plus boots, rebound to the same body armature.
 - Metres, glTF Y-up, face toward **+Z**. `CharacterOrientation` has identity transform; no additional rotation required.
 - Native bone names are retained. Synchronize relevant transforms across independent skeletons by name. Sockets were omitted. Max four normalized skin weights per vertex are exported for browser compatibility.
@@ -30,3 +30,17 @@ The base outfit is the actual BaseFull clothing geometry and decoded source diff
 `asset-bone-rest.json` records Blender local rest matrices and exported glTF node transforms to verify native customization pose coordinate conversion. `material-conversion.json` records per-material source chains and images. `glb-validation.json` records GLB sizes, hashes and structural checks. Full-body QA renders are `gf-full-preview.png` and `gm-full-preview.png`.
 
 All 18 exported GLBs were reloaded for thumbnail rendering. They pass GLB header/declared-size checks, include skins and meshes, contain embedded images, and remain below 25 MiB each.
+
+## Expanded library (November 2026)
+
+`expand_characters.py` preserves the original GLBs and extends the manifest with eight additional native hairstyles per body type: 101, 201, 205, 301, 305, 311, 401, 412. Selection spans short, shoulder-length, updo and long silhouettes. It also builds `gf-outfit-0103.glb` and `gm-outfit-0103.glb` from the original Body, Pants, Boots, Glove, Shoulder and Cape meshes. Native exposed skin is retained from the armor Body/Pants sections, with no duplicate base-body surface. Helmet is intentionally omitted so head/hair customization stays visible. The resulting eighteen additional GLBs occupy 58.17 MiB combined; each is under 9 MiB.
+
+Only armor0103 has corresponding texture exports. Its exported material properties are missing. Direct diffuse/normal maps are used where present; GF gloves/cape and GM shoulders provisionally share the Body atlas. Native dye/shader behavior is not reconstructed. The armor is visibly different from the tailored base through shoulder plates, gloves, boots and cape; both share the0103 tunic/pants foundation. This is not a second independent armor family.
+
+`render_expansion.py` reloads the new GLBs and renders real hairstyle/outfit thumbnails. It also writes `public/assets/relaxed-pose.json`: an authored static presentation pose, not a game animation. For each gender and named UpperArm bone, premultiply the stored quaternion onto the native local rest quaternion **after** the customization helper resets/applies its values. The pose is verified with relaxed, torso-clearing arms in both body types. Preserve matching transformations on all modules.
+
+`verify_ear_shape.py` confirms the actual `EarShapeChange` morph changes rounded ears (0) to elongated pointed ears (1). Evidence images and vertex-change report live in tools. This does not establish the game's faction mapping; expose anatomy independently unless source faction mapping is confirmed.
+
+`render_face_presets.py` renders 24 distinct face-shape previews from the real preset values and native PoseAsset deltas on head001. It uses the same clamping, positive/negative pose selection, reflected translation/quaternion and additive scale arithmetic as the browser helper. Images link through appearance.json. These previews show face-shape values only, not the source preset's unconverted head, hair or makeup. The native head is imported directly with bone reorientation disabled to retain the confirmed local coordinate contract.
+
+The expanded GLBs were all reloaded successfully by Blender and rendered; structural checks are recorded in `expansion-validation.json`. The open interactive Blender scene remains untouched.

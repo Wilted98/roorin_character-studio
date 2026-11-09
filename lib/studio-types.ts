@@ -1,5 +1,9 @@
-export type Gender = "GF" | "GM";
-export type AssetOption = {id: string; name: string; url: string; thumbnail?: string};
-export type CharacterCatalog = {genders: Record<Gender, {body: {url: string}; heads: AssetOption[]; hair: AssetOption[]}>};
-export type StudioState = {version: 1; name: string; gender: Gender; head: string; hair: string; skin: string; hairColor: string; eyeColor: string; values: Record<string, number>};
-export const INITIAL: StudioState = {version:1, name:"My character", gender:"GF", head:"001", hair:"004", skin:"#ffffff", hairColor:"#52372b", eyeColor:"#92aeb6", values:{}};
+export type Gender = 'GF' | 'GM';
+export type AssetOption = {id:string;name:string;url:string;thumbnail?:string};
+export type CharacterCatalog = {genders:Record<Gender,{body:{url:string};heads:AssetOption[];hair:AssetOption[];outfits?:AssetOption[]}>};
+export type StudioState = {
+ version:2; name:string; gender:Gender; faction:'elyos'|'asmodians'; head:string; hair:string; outfit:string;
+ skin:string; hairColor:string; eyeColor:string; dyeColor:string; values:Record<string,number>;
+ appearance:Record<string,unknown>; pointedEars:boolean; pose:'neutral'|'relaxed';
+};
+export const INITIAL:StudioState={version:2,name:'My character',gender:'GF',faction:'elyos',head:'001',hair:'004',outfit:'base',skin:'#ffffff',hairColor:'#52372b',eyeColor:'#92aeb6',dyeColor:'#ffffff',values:{},appearance:{},pointedEars:false,pose:'relaxed'};

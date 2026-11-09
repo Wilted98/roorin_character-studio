@@ -45,3 +45,19 @@ Local saved looks belong to the current browser/origin; use JSON download to tra
 2. Match the remaining body rig constraints and face preset semantics to game references.
 3. Expand the appearance library and optimize delivery with shared textures/model caching.
 4. Add creator idle animation when a usable animation export is available.
+
+
+## Reference-driven editor update (2026-11-09)
+
+The interface now follows the supplied screenshots: large left preview, top category tabs, face subsection rail, -100 to100 numeric controls and two-axis position pads. Source-neutral values display0 even when native bounds are asymmetric; reversed sliders preserve their source direction.
+
+New working features:
+- 12 hairstyles per gender,12 source face-proportion presets per gender with real pose thumbnails.
+- Native standard/pointed ear morph and an authored relaxed standing pose.
+- Five iris shapes,20 pupil shapes,11 female/12 male brow choices,10 lash choices,100 source skin colors; separate iris center/border/sclera colors and size controls.
+- Two complete outfit options per gender (base and adapted0103 armor), with whole-outfit dye.
+- Undo/redo, local saved looks, validated legacy preset migration, version2 JSON import/export and URL-fragment look sharing. Share links retain the site's existing private access.
+
+Rendering limitations remain: no native physics or idle animation; faction is stored as a preference but no verified race mapping has been applied; body proportions and layered eye/brow materials are approximated. Armor0103 uses available source textures, with provisional atlas mapping for missing material properties. Most other exported armor lacks textures and is not offered. Makeup and individual accessory/equipment slots are unfinished. Face preset thumbnails show proportions on head001 without original source makeup; applying presets uses available heads and supported source appearance fields.
+
+Additional checks: `node tools/test_editor.mjs` verifies range conversion, paired controls, migration, clamping, round-trip preservation and all appearance/model/thumbnail links. `tools/create_appearance_previews.py` (Pillow) produces readable previews from the packed texture channels. See `docs/APPEARANCE.md` for material reconstruction details.

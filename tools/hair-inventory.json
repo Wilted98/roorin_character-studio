@@ -1,0 +1,3491 @@
+{
+  "GF": [
+    {
+      "id": "000",
+      "min": [
+        -0.23,
+        1.05,
+        166.28
+      ],
+      "max": [
+        0.32,
+        1.64,
+        166.28
+      ],
+      "vertices": 3,
+      "materials": [
+        "/Game/Material/HQ/Character/M_Hide.M_Hide"
+      ]
+    },
+    {
+      "id": "001",
+      "min": [
+        -7.22,
+        -8.68,
+        164.0
+      ],
+      "max": [
+        7.22,
+        9.13,
+        183.44
+      ],
+      "vertices": 29913,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_001/Materials/MI_GF_Hair_001.MI_GF_Hair_001"
+      ]
+    },
+    {
+      "id": "002",
+      "min": [
+        -7.64,
+        -9.01,
+        163.93
+      ],
+      "max": [
+        7.38,
+        11.02,
+        184.27
+      ],
+      "vertices": 25701,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_002/Materials/MI_GF_Hair_002.MI_GF_Hair_002"
+      ]
+    },
+    {
+      "id": "003",
+      "min": [
+        -7.81,
+        -9.18,
+        163.8
+      ],
+      "max": [
+        8.08,
+        9.79,
+        183.86
+      ],
+      "vertices": 10928,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_003/Materials/MI_GF_Hair_003.MI_GF_Hair_003"
+      ]
+    },
+    {
+      "id": "004",
+      "min": [
+        -7.33,
+        -10.31,
+        165.29
+      ],
+      "max": [
+        7.33,
+        9.05,
+        183.12
+      ],
+      "vertices": 22474,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004.MI_GF_Hair_004"
+      ]
+    },
+    {
+      "id": "005",
+      "min": [
+        -6.95,
+        -13.52,
+        164.15
+      ],
+      "max": [
+        6.95,
+        10.85,
+        185.22
+      ],
+      "vertices": 15763,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_005/Materials/MI_GF_Hair_005.MI_GF_Hair_005"
+      ]
+    },
+    {
+      "id": "006",
+      "min": [
+        -8.22,
+        -9.5,
+        165.2
+      ],
+      "max": [
+        8.28,
+        11.28,
+        184.74
+      ],
+      "vertices": 16911,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_006/Materials/MI_GF_Hair_006.MI_GF_Hair_006"
+      ]
+    },
+    {
+      "id": "007",
+      "min": [
+        -7.64,
+        -9.72,
+        164.75
+      ],
+      "max": [
+        7.65,
+        10.63,
+        183.96
+      ],
+      "vertices": 20862,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_007/Materials/MI_GF_Hair_007.MI_GF_Hair_007"
+      ]
+    },
+    {
+      "id": "008",
+      "min": [
+        -6.83,
+        -19.23,
+        164.81
+      ],
+      "max": [
+        6.83,
+        17.4,
+        197.47
+      ],
+      "vertices": 15255,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_008/Materials/MI_GF_Hair_008.MI_GF_Hair_008"
+      ]
+    },
+    {
+      "id": "009",
+      "min": [
+        -6.92,
+        -8.07,
+        165.29
+      ],
+      "max": [
+        6.92,
+        8.94,
+        182.54
+      ],
+      "vertices": 15139,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004.MI_GF_Hair_004"
+      ]
+    },
+    {
+      "id": "010",
+      "min": [
+        -12.84,
+        -9.72,
+        160.86
+      ],
+      "max": [
+        11.36,
+        11.83,
+        185.19
+      ],
+      "vertices": 26579,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_010/Materials/MI_GF_Hair_010.MI_GF_Hair_010"
+      ]
+    },
+    {
+      "id": "011",
+      "min": [
+        -8.29,
+        -10.1,
+        163.91
+      ],
+      "max": [
+        7.7,
+        11.43,
+        185.03
+      ],
+      "vertices": 23625,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_011/Materials/MI_GF_Hair_011.MI_GF_Hair_011"
+      ]
+    },
+    {
+      "id": "012",
+      "min": [
+        -8.47,
+        -12.01,
+        161.6
+      ],
+      "max": [
+        8.45,
+        10.16,
+        187.06
+      ],
+      "vertices": 26196,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_012/Materials/MI_GF_Hair_012.MI_GF_Hair_012"
+      ]
+    },
+    {
+      "id": "013",
+      "min": [
+        -8.55,
+        -13.58,
+        160.91
+      ],
+      "max": [
+        10.19,
+        11.6,
+        187.03
+      ],
+      "vertices": 24206,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_013/Materials/MI_GF_Hair_013.MI_GF_Hair_013"
+      ]
+    },
+    {
+      "id": "014",
+      "min": [
+        -7.66,
+        -9.76,
+        164.41
+      ],
+      "max": [
+        7.67,
+        11.26,
+        183.86
+      ],
+      "vertices": 15426,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_014/Materials/MI_GF_Hair_014.MI_GF_Hair_014"
+      ]
+    },
+    {
+      "id": "015",
+      "min": [
+        -7.7,
+        -9.39,
+        164.96
+      ],
+      "max": [
+        7.79,
+        9.33,
+        184.13
+      ],
+      "vertices": 19631,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_015/Materials/MI_GF_Hair_015.MI_GF_Hair_015"
+      ]
+    },
+    {
+      "id": "016",
+      "min": [
+        -8.24,
+        -9.8,
+        164.19
+      ],
+      "max": [
+        8.58,
+        10.47,
+        184.35
+      ],
+      "vertices": 15064,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_016/Materials/MI_GF_Hair_016.MI_GF_Hair_016"
+      ]
+    },
+    {
+      "id": "017",
+      "min": [
+        -7.37,
+        -8.7,
+        166.23
+      ],
+      "max": [
+        7.39,
+        9.78,
+        183.23
+      ],
+      "vertices": 14158,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_017/Materials/MI_GF_Hair_017.MI_GF_Hair_017"
+      ]
+    },
+    {
+      "id": "018",
+      "min": [
+        -7.65,
+        -9.64,
+        164.55
+      ],
+      "max": [
+        7.75,
+        9.75,
+        184.13
+      ],
+      "vertices": 16631,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_018/Materials/MI_GF_Hair_018.MI_GF_Hair_018"
+      ]
+    },
+    {
+      "id": "101",
+      "min": [
+        -9.56,
+        -9.97,
+        163.95
+      ],
+      "max": [
+        8.8,
+        12.31,
+        184.72
+      ],
+      "vertices": 27488,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_101/Materials/MI_GF_Hair_101.MI_GF_Hair_101"
+      ]
+    },
+    {
+      "id": "102",
+      "min": [
+        -10.41,
+        -10.94,
+        164.91
+      ],
+      "max": [
+        11.75,
+        10.66,
+        184.66
+      ],
+      "vertices": 22307,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_102/Materials/MI_GF_Hair_102.MI_GF_Hair_102"
+      ]
+    },
+    {
+      "id": "103",
+      "min": [
+        -10.09,
+        -12.31,
+        161.82
+      ],
+      "max": [
+        9.96,
+        9.57,
+        187.18
+      ],
+      "vertices": 27051,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_103/Materials/MI_GF_Hair_103.MI_GF_Hair_103"
+      ]
+    },
+    {
+      "id": "104",
+      "min": [
+        -8.91,
+        -10.11,
+        163.69
+      ],
+      "max": [
+        8.36,
+        10.4,
+        184.17
+      ],
+      "vertices": 15863,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_104/Materials/MI_GF_Hair_104.MI_GF_Hair_104"
+      ]
+    },
+    {
+      "id": "105",
+      "min": [
+        -10.14,
+        -12.25,
+        164.73
+      ],
+      "max": [
+        10.88,
+        10.84,
+        184.87
+      ],
+      "vertices": 17568,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_105/Materials/MI_GF_Hair_105.MI_GF_Hair_105"
+      ]
+    },
+    {
+      "id": "106",
+      "min": [
+        -10.94,
+        -11.47,
+        163.43
+      ],
+      "max": [
+        11.43,
+        10.74,
+        184.26
+      ],
+      "vertices": 14035,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_106/Materials/MI_GF_Hair_106.MI_GF_Hair_106"
+      ]
+    },
+    {
+      "id": "107",
+      "min": [
+        -9.47,
+        -13.92,
+        158.82
+      ],
+      "max": [
+        10.28,
+        9.78,
+        183.99
+      ],
+      "vertices": 28748,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_107/Materials/MI_GF_Hair_107.MI_GF_Hair_107"
+      ]
+    },
+    {
+      "id": "108",
+      "min": [
+        -20.09,
+        -13.63,
+        163.34
+      ],
+      "max": [
+        19.9,
+        12.75,
+        183.68
+      ],
+      "vertices": 42621,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_108/Materials/MI_GF_Hair_108.MI_GF_Hair_108"
+      ]
+    },
+    {
+      "id": "109",
+      "min": [
+        -12.78,
+        -13.74,
+        161.07
+      ],
+      "max": [
+        13.07,
+        11.58,
+        184.56
+      ],
+      "vertices": 30255,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_109/Materials/MI_GF_Hair_109.MI_GF_Hair_109"
+      ]
+    },
+    {
+      "id": "110",
+      "min": [
+        -9.44,
+        -9.36,
+        159.32
+      ],
+      "max": [
+        8.87,
+        11.02,
+        184.09
+      ],
+      "vertices": 20556,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_110/Materials/MI_GF_Hair_110.MI_GF_Hair_110"
+      ]
+    },
+    {
+      "id": "111",
+      "min": [
+        -9.76,
+        -10.61,
+        162.11
+      ],
+      "max": [
+        9.37,
+        12.9,
+        185.53
+      ],
+      "vertices": 47459,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_111/Materials/MI_GF_Hair_111.MI_GF_Hair_111"
+      ]
+    },
+    {
+      "id": "112",
+      "min": [
+        -11.57,
+        -16.65,
+        166.01
+      ],
+      "max": [
+        11.54,
+        9.12,
+        190.85
+      ],
+      "vertices": 29091,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_112/Materials/MI_GF_Hair_112.MI_GF_Hair_112"
+      ]
+    },
+    {
+      "id": "113",
+      "min": [
+        -11.91,
+        -13.56,
+        164.51
+      ],
+      "max": [
+        11.9,
+        9.59,
+        191.18
+      ],
+      "vertices": 34977,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_113/Materials/MI_GF_Hair_113.MI_GF_Hair_113"
+      ]
+    },
+    {
+      "id": "114",
+      "min": [
+        -9.82,
+        -11.15,
+        161.52
+      ],
+      "max": [
+        9.82,
+        11.02,
+        183.79
+      ],
+      "vertices": 22751,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_114/Materials/MI_GF_Hair_114.MI_GF_Hair_114"
+      ]
+    },
+    {
+      "id": "115",
+      "min": [
+        -8.95,
+        -9.89,
+        164.43
+      ],
+      "max": [
+        8.52,
+        11.29,
+        185.45
+      ],
+      "vertices": 25204,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_115/Materials/MI_GF_Hair_115.MI_GF_Hair_115"
+      ]
+    },
+    {
+      "id": "116",
+      "min": [
+        -8.43,
+        -10.12,
+        163.94
+      ],
+      "max": [
+        9.11,
+        12.4,
+        185.9
+      ],
+      "vertices": 19202,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_116/Materials/MI_GF_Hair_116.MI_GF_Hair_116"
+      ]
+    },
+    {
+      "id": "117",
+      "min": [
+        -11.51,
+        -13.45,
+        161.99
+      ],
+      "max": [
+        11.41,
+        9.64,
+        183.74
+      ],
+      "vertices": 23050,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_117/Materials/MI_GF_Hair_117.MI_GF_Hair_117"
+      ]
+    },
+    {
+      "id": "118",
+      "min": [
+        -13.88,
+        -13.67,
+        164.64
+      ],
+      "max": [
+        12.61,
+        10.23,
+        184.25
+      ],
+      "vertices": 27056,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_118/Materials/MI_GF_Hair_118.MI_GF_Hair_118"
+      ]
+    },
+    {
+      "id": "119",
+      "min": [
+        -10.46,
+        -11.24,
+        162.84
+      ],
+      "max": [
+        11.46,
+        12.82,
+        184.37
+      ],
+      "vertices": 27965,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_119/Materials/MI_GF_Hair_119.MI_GF_Hair_119"
+      ]
+    },
+    {
+      "id": "120",
+      "min": [
+        -12.23,
+        -13.53,
+        163.27
+      ],
+      "max": [
+        12.24,
+        12.02,
+        186.61
+      ],
+      "vertices": 35542,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_120/Materials/MI_GF_Hair_120.MI_GF_Hair_120"
+      ]
+    },
+    {
+      "id": "121",
+      "min": [
+        -9.72,
+        -14.07,
+        161.23
+      ],
+      "max": [
+        9.24,
+        9.78,
+        184.46
+      ],
+      "vertices": 30514,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_121/Materials/MI_GF_Hair_121.MI_GF_Hair_121"
+      ]
+    },
+    {
+      "id": "122",
+      "min": [
+        -10.73,
+        -11.35,
+        162.76
+      ],
+      "max": [
+        11.44,
+        11.52,
+        184.14
+      ],
+      "vertices": 17664,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_122/Materials/MI_GF_Hair_122.MI_GF_Hair_122"
+      ]
+    },
+    {
+      "id": "123",
+      "min": [
+        -9.59,
+        -11.02,
+        164.16
+      ],
+      "max": [
+        9.84,
+        12.47,
+        185.1
+      ],
+      "vertices": 29332,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_123/Materials/MI_GF_Hair_123.MI_GF_Hair_123"
+      ]
+    },
+    {
+      "id": "124",
+      "min": [
+        -8.6,
+        -9.78,
+        163.35
+      ],
+      "max": [
+        8.68,
+        10.93,
+        183.8
+      ],
+      "vertices": 18550,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_124/Materials/MI_GF_Hair_124.MI_GF_Hair_124"
+      ]
+    },
+    {
+      "id": "125",
+      "min": [
+        -9.24,
+        -9.4,
+        164.98
+      ],
+      "max": [
+        9.21,
+        11.08,
+        184.44
+      ],
+      "vertices": 17660,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_125/Materials/MI_GF_Hair_125.MI_GF_Hair_125"
+      ]
+    },
+    {
+      "id": "126",
+      "min": [
+        -10.41,
+        -10.24,
+        163.24
+      ],
+      "max": [
+        10.21,
+        11.39,
+        185.22
+      ],
+      "vertices": 23657,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_126/Materials/MI_GF_Hair_126.MI_GF_Hair_126"
+      ]
+    },
+    {
+      "id": "127",
+      "min": [
+        -9.22,
+        -13.4,
+        161.47
+      ],
+      "max": [
+        8.66,
+        11.15,
+        184.72
+      ],
+      "vertices": 29134,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_127/Materials/MI_GF_Hair_127.MI_GF_Hair_127"
+      ]
+    },
+    {
+      "id": "128",
+      "min": [
+        -11.54,
+        -12.6,
+        155.93
+      ],
+      "max": [
+        11.42,
+        10.58,
+        184.15
+      ],
+      "vertices": 23675,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_128/Materials/MI_GF_Hair_128.MI_GF_Hair_128"
+      ]
+    },
+    {
+      "id": "129",
+      "min": [
+        -9.77,
+        -10.71,
+        164.58
+      ],
+      "max": [
+        10.33,
+        11.52,
+        185.23
+      ],
+      "vertices": 30509,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_129/Materials/MI_GF_Hair_129.MI_GF_Hair_129"
+      ]
+    },
+    {
+      "id": "130",
+      "min": [
+        -9.81,
+        -12.09,
+        152.86
+      ],
+      "max": [
+        10.81,
+        9.27,
+        190.13
+      ],
+      "vertices": 28328,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_130/Materials/MI_GF_Hair_130.MI_GF_Hair_130"
+      ]
+    },
+    {
+      "id": "201",
+      "min": [
+        -13.92,
+        -14.39,
+        152.83
+      ],
+      "max": [
+        15.12,
+        9.5,
+        183.75
+      ],
+      "vertices": 19948,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_201/Materials/MI_GF_Hair_201.MI_GF_Hair_201"
+      ]
+    },
+    {
+      "id": "202",
+      "min": [
+        -13.87,
+        -14.82,
+        147.09
+      ],
+      "max": [
+        13.16,
+        9.96,
+        184.02
+      ],
+      "vertices": 10814,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_202/Materials/MI_GF_Hair_202.MI_GF_Hair_202"
+      ]
+    },
+    {
+      "id": "203",
+      "min": [
+        -17.11,
+        -17.08,
+        150.07
+      ],
+      "max": [
+        17.17,
+        10.46,
+        184.79
+      ],
+      "vertices": 36373,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_203/Materials/MI_GF_Hair_203.MI_GF_Hair_203"
+      ]
+    },
+    {
+      "id": "204",
+      "min": [
+        -12.79,
+        -14.1,
+        151.51
+      ],
+      "max": [
+        11.9,
+        9.85,
+        184.14
+      ],
+      "vertices": 22642,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_204/Materials/MI_GF_Hair_204.MI_GF_Hair_204"
+      ]
+    },
+    {
+      "id": "205",
+      "min": [
+        -10.86,
+        -12.21,
+        155.75
+      ],
+      "max": [
+        10.85,
+        9.74,
+        183.73
+      ],
+      "vertices": 17182,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_205/Materials/MI_GF_Hair_205.MI_GF_Hair_205"
+      ]
+    },
+    {
+      "id": "206",
+      "min": [
+        -13.05,
+        -15.65,
+        150.55
+      ],
+      "max": [
+        14.54,
+        11.0,
+        184.35
+      ],
+      "vertices": 27719,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_206/Materials/MI_GF_Hair_206.MI_GF_Hair_206"
+      ]
+    },
+    {
+      "id": "207",
+      "min": [
+        -11.3,
+        -15.8,
+        153.52
+      ],
+      "max": [
+        13.09,
+        11.36,
+        184.5
+      ],
+      "vertices": 24573,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_207/Materials/MI_GF_Hair_207.MI_GF_Hair_207"
+      ]
+    },
+    {
+      "id": "208",
+      "min": [
+        -11.16,
+        -12.46,
+        158.26
+      ],
+      "max": [
+        11.54,
+        11.35,
+        184.26
+      ],
+      "vertices": 32077,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_208/Materials/MI_GF_Hair_208.MI_GF_Hair_208"
+      ]
+    },
+    {
+      "id": "209",
+      "min": [
+        -12.13,
+        -11.18,
+        152.99
+      ],
+      "max": [
+        12.02,
+        10.26,
+        184.14
+      ],
+      "vertices": 29282,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_209/Materials/MI_GF_Hair_209.MI_GF_Hair_209"
+      ]
+    },
+    {
+      "id": "210",
+      "min": [
+        -22.21,
+        -12.91,
+        156.15
+      ],
+      "max": [
+        1.66,
+        11.43,
+        183.96
+      ],
+      "vertices": 31252,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_210/Materials/MI_GF_Hair_210.MI_GF_Hair_210"
+      ]
+    },
+    {
+      "id": "211",
+      "min": [
+        -13.73,
+        -14.29,
+        144.72
+      ],
+      "max": [
+        12.85,
+        10.1,
+        185.51
+      ],
+      "vertices": 34987,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_211/Materials/MI_GF_Hair_211.MI_GF_Hair_211"
+      ]
+    },
+    {
+      "id": "212",
+      "min": [
+        -11.28,
+        -13.8,
+        144.71
+      ],
+      "max": [
+        11.97,
+        8.74,
+        183.52
+      ],
+      "vertices": 22030,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_212/Materials/MI_GF_Hair_212.MI_GF_Hair_212"
+      ]
+    },
+    {
+      "id": "213",
+      "min": [
+        -8.05,
+        -11.81,
+        148.23
+      ],
+      "max": [
+        8.18,
+        10.81,
+        183.52
+      ],
+      "vertices": 24595,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_213/Materials/MI_GF_Hair_213.MI_GF_Hair_213"
+      ]
+    },
+    {
+      "id": "214",
+      "min": [
+        -10.15,
+        -14.03,
+        153.26
+      ],
+      "max": [
+        9.16,
+        10.35,
+        184.33
+      ],
+      "vertices": 16401,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_214/Materials/MI_GF_Hair_214.MI_GF_Hair_214"
+      ]
+    },
+    {
+      "id": "215",
+      "min": [
+        -11.06,
+        -13.15,
+        145.53
+      ],
+      "max": [
+        10.44,
+        9.79,
+        183.68
+      ],
+      "vertices": 25899,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_215/Materials/MI_GF_Hair_215.MI_GF_Hair_215"
+      ]
+    },
+    {
+      "id": "301",
+      "min": [
+        -11.61,
+        -15.68,
+        133.74
+      ],
+      "max": [
+        12.55,
+        9.58,
+        185.25
+      ],
+      "vertices": 30955,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_301/Materials/MI_GF_Hair_301.MI_GF_Hair_301"
+      ]
+    },
+    {
+      "id": "302",
+      "min": [
+        -7.75,
+        -20.89,
+        145.08
+      ],
+      "max": [
+        7.74,
+        10.84,
+        187.51
+      ],
+      "vertices": 25498,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_302/Materials/MI_GF_Hair_302.MI_GF_Hair_302"
+      ]
+    },
+    {
+      "id": "303",
+      "min": [
+        -14.51,
+        -16.42,
+        144.79
+      ],
+      "max": [
+        14.84,
+        9.63,
+        183.76
+      ],
+      "vertices": 18724,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_303/Materials/MI_GF_Hair_303.MI_GF_Hair_303"
+      ]
+    },
+    {
+      "id": "304",
+      "min": [
+        -14.28,
+        -13.99,
+        140.63
+      ],
+      "max": [
+        14.46,
+        11.22,
+        183.66
+      ],
+      "vertices": 16955,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_304/Materials/MI_GF_Hair_304.MI_GF_Hair_304"
+      ]
+    },
+    {
+      "id": "305",
+      "min": [
+        -12.43,
+        -13.35,
+        138.94
+      ],
+      "max": [
+        12.5,
+        11.01,
+        184.32
+      ],
+      "vertices": 13385,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_305/Materials/MI_GF_Hair_305.MI_GF_Hair_305"
+      ]
+    },
+    {
+      "id": "306",
+      "min": [
+        -23.62,
+        -28.19,
+        128.13
+      ],
+      "max": [
+        23.66,
+        18.1,
+        184.12
+      ],
+      "vertices": 40964,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_306/Materials/MI_GF_Hair_306.MI_GF_Hair_306"
+      ]
+    },
+    {
+      "id": "307",
+      "min": [
+        -17.75,
+        -14.55,
+        132.04
+      ],
+      "max": [
+        15.82,
+        14.77,
+        183.76
+      ],
+      "vertices": 22723,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_307/Materials/MI_GF_Hair_307.MI_GF_Hair_307"
+      ]
+    },
+    {
+      "id": "308",
+      "min": [
+        -12.76,
+        -14.93,
+        141.84
+      ],
+      "max": [
+        13.37,
+        10.13,
+        183.85
+      ],
+      "vertices": 37182,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_308/Materials/MI_GF_Hair_308.MI_GF_Hair_308"
+      ]
+    },
+    {
+      "id": "309",
+      "min": [
+        -14.51,
+        -15.67,
+        129.44
+      ],
+      "max": [
+        15.04,
+        10.91,
+        185.09
+      ],
+      "vertices": 38790,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_309/Materials/MI_GF_Hair_309.MI_GF_Hair_309"
+      ]
+    },
+    {
+      "id": "310",
+      "min": [
+        -8.99,
+        -19.58,
+        129.28
+      ],
+      "max": [
+        9.73,
+        11.8,
+        186.68
+      ],
+      "vertices": 30757,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_310/Materials/MI_GF_Hair_310.MI_GF_Hair_310"
+      ]
+    },
+    {
+      "id": "311",
+      "min": [
+        -7.8,
+        -16.2,
+        119.8
+      ],
+      "max": [
+        8.28,
+        8.97,
+        191.02
+      ],
+      "vertices": 25436,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_311/Materials/MI_GF_Hair_311.MI_GF_Hair_311"
+      ]
+    },
+    {
+      "id": "312",
+      "min": [
+        -15.95,
+        -16.45,
+        131.53
+      ],
+      "max": [
+        15.67,
+        10.58,
+        183.65
+      ],
+      "vertices": 27128,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_312/Materials/MI_GF_Hair_312.MI_GF_Hair_312"
+      ]
+    },
+    {
+      "id": "313",
+      "min": [
+        -19.63,
+        -14.14,
+        141.29
+      ],
+      "max": [
+        11.69,
+        13.6,
+        184.95
+      ],
+      "vertices": 40819,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_313/Materials/MI_GF_Hair_313.MI_GF_Hair_313"
+      ]
+    },
+    {
+      "id": "314",
+      "min": [
+        -17.55,
+        -17.02,
+        129.67
+      ],
+      "max": [
+        15.39,
+        16.87,
+        184.26
+      ],
+      "vertices": 28482,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_314/Materials/MI_GF_Hair_314.MI_GF_Hair_314"
+      ]
+    },
+    {
+      "id": "316",
+      "min": [
+        -17.4,
+        -8.68,
+        139.06
+      ],
+      "max": [
+        17.4,
+        11.79,
+        183.66
+      ],
+      "vertices": 25592,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_316/Materials/MI_GF_Hair_316.MI_GF_Hair_316"
+      ]
+    },
+    {
+      "id": "317",
+      "min": [
+        -16.74,
+        -9.1,
+        134.61
+      ],
+      "max": [
+        16.74,
+        18.14,
+        183.4
+      ],
+      "vertices": 28713,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_317/Materials/MI_GF_Hair_317.MI_GF_Hair_317"
+      ]
+    },
+    {
+      "id": "318",
+      "min": [
+        -15.97,
+        -9.78,
+        127.91
+      ],
+      "max": [
+        16.18,
+        19.26,
+        184.74
+      ],
+      "vertices": 29227,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_318/Materials/MI_GF_Hair_318.MI_GF_Hair_318"
+      ]
+    },
+    {
+      "id": "401",
+      "min": [
+        -9.26,
+        -29.85,
+        103.16
+      ],
+      "max": [
+        10.01,
+        11.26,
+        183.79
+      ],
+      "vertices": 19210,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_401/Materials/MI_GF_Hair_401.MI_GF_Hair_401"
+      ]
+    },
+    {
+      "id": "402",
+      "min": [
+        -30.26,
+        -38.41,
+        50.43
+      ],
+      "max": [
+        23.99,
+        9.49,
+        183.18
+      ],
+      "vertices": 31290,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_402/Materials/MI_GF_Hair_402.MI_GF_Hair_402"
+      ]
+    },
+    {
+      "id": "403",
+      "min": [
+        -15.67,
+        -17.25,
+        106.16
+      ],
+      "max": [
+        15.83,
+        15.42,
+        183.38
+      ],
+      "vertices": 41958,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_403/Materials/MI_GF_Hair_403.MI_GF_Hair_403"
+      ]
+    },
+    {
+      "id": "404",
+      "min": [
+        -36.51,
+        -43.46,
+        110.53
+      ],
+      "max": [
+        34.9,
+        11.29,
+        184.45
+      ],
+      "vertices": 45356,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_404/Materials/MI_GF_Hair_404.MI_GF_Hair_404"
+      ]
+    },
+    {
+      "id": "405",
+      "min": [
+        -11.72,
+        -9.86,
+        128.87
+      ],
+      "max": [
+        10.86,
+        17.26,
+        183.36
+      ],
+      "vertices": 21547,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_405/Materials/MI_GF_Hair_405.MI_GF_Hair_405"
+      ]
+    },
+    {
+      "id": "406",
+      "min": [
+        -12.62,
+        -16.29,
+        134.06
+      ],
+      "max": [
+        12.82,
+        16.2,
+        187.33
+      ],
+      "vertices": 44715,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_406/Materials/MI_GF_Hair_406.MI_GF_Hair_406"
+      ]
+    },
+    {
+      "id": "407",
+      "min": [
+        -11.71,
+        -15.37,
+        130.19
+      ],
+      "max": [
+        11.5,
+        16.66,
+        183.83
+      ],
+      "vertices": 24522,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_407/Materials/MI_GF_Hair_407.MI_GF_Hair_407"
+      ]
+    },
+    {
+      "id": "408",
+      "min": [
+        -15.9,
+        -17.16,
+        123.19
+      ],
+      "max": [
+        11.75,
+        15.79,
+        184.08
+      ],
+      "vertices": 25598,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_408/Materials/MI_GF_Hair_408.MI_GF_Hair_408"
+      ]
+    },
+    {
+      "id": "412",
+      "min": [
+        -12.47,
+        -14.59,
+        119.04
+      ],
+      "max": [
+        10.37,
+        16.09,
+        183.74
+      ],
+      "vertices": 21395,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_412/Materials/MI_GF_Hair_412.MI_GF_Hair_412"
+      ]
+    },
+    {
+      "id": "413",
+      "min": [
+        -10.47,
+        -13.16,
+        124.52
+      ],
+      "max": [
+        12.66,
+        16.2,
+        183.96
+      ],
+      "vertices": 27911,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_413/Materials/MI_GF_Hair_413.MI_GF_Hair_413"
+      ]
+    },
+    {
+      "id": "414",
+      "min": [
+        -14.38,
+        -15.42,
+        124.7
+      ],
+      "max": [
+        13.04,
+        16.07,
+        184.17
+      ],
+      "vertices": 22953,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_414/Materials/MI_GF_Hair_414.MI_GF_Hair_414"
+      ]
+    },
+    {
+      "id": "415",
+      "min": [
+        -13.18,
+        -9.78,
+        137.09
+      ],
+      "max": [
+        8.82,
+        17.01,
+        183.6
+      ],
+      "vertices": 22320,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_415/Materials/MI_GF_Hair_415.MI_GF_Hair_415"
+      ]
+    },
+    {
+      "id": "416",
+      "min": [
+        -15.61,
+        -16.16,
+        124.33
+      ],
+      "max": [
+        12.88,
+        14.66,
+        183.97
+      ],
+      "vertices": 26527,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_416/Materials/MI_GF_Hair_416.MI_GF_Hair_416"
+      ]
+    },
+    {
+      "id": "417",
+      "min": [
+        -12.8,
+        -16.17,
+        124.33
+      ],
+      "max": [
+        12.32,
+        16.55,
+        183.83
+      ],
+      "vertices": 24889,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_417/Materials/MI_GF_Hair_417.MI_GF_Hair_417"
+      ]
+    },
+    {
+      "id": "418",
+      "min": [
+        -13.14,
+        -14.46,
+        128.73
+      ],
+      "max": [
+        14.78,
+        13.75,
+        183.96
+      ],
+      "vertices": 23986,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_418/Materials/MI_GF_Hair_418.MI_GF_Hair_418"
+      ]
+    },
+    {
+      "id": "801",
+      "min": [
+        -91.42,
+        -104.44,
+        145.58
+      ],
+      "max": [
+        95.83,
+        10.19,
+        193.06
+      ],
+      "vertices": 26633,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_801/Materials/MI_GF_Hair_801.MI_GF_Hair_801"
+      ]
+    },
+    {
+      "id": "803",
+      "min": [
+        -12.61,
+        -13.89,
+        161.74
+      ],
+      "max": [
+        12.54,
+        8.64,
+        176.59
+      ],
+      "vertices": 22238,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_803/materials/MI_GF_Hair_803.MI_GF_Hair_803"
+      ]
+    },
+    {
+      "id": "805",
+      "min": [
+        -7.24,
+        -8.68,
+        163.96
+      ],
+      "max": [
+        7.24,
+        8.77,
+        187.83
+      ],
+      "vertices": 20597,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_805/Materials/MI_GF_Hair_805.MI_GF_Hair_805"
+      ]
+    },
+    {
+      "id": "806",
+      "min": [
+        -10.79,
+        -11.57,
+        160.67
+      ],
+      "max": [
+        14.79,
+        10.74,
+        186.41
+      ],
+      "vertices": 30349,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_806/Materials/MI_GF_Hair_806.MI_GF_Hair_806"
+      ]
+    },
+    {
+      "id": "807",
+      "min": [
+        -48.77,
+        -40.26,
+        57.35
+      ],
+      "max": [
+        48.77,
+        -4.26,
+        172.49
+      ],
+      "vertices": 20550,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_807/Materials/MI_GF_Hair_807.MI_GF_Hair_807"
+      ]
+    },
+    {
+      "id": "808",
+      "min": [
+        -7.94,
+        -9.69,
+        164.26
+      ],
+      "max": [
+        8.15,
+        11.36,
+        182.82
+      ],
+      "vertices": 17152,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_213/Materials/MI_GF_Hair_213.MI_GF_Hair_213"
+      ]
+    },
+    {
+      "id": "809",
+      "min": [
+        -7.24,
+        -8.68,
+        163.96
+      ],
+      "max": [
+        7.24,
+        8.77,
+        188.32
+      ],
+      "vertices": 20779,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_809/Materials/MI_GF_Hair_809.MI_GF_Hair_809"
+      ]
+    }
+  ],
+  "GM": [
+    {
+      "id": "000",
+      "min": [
+        -0.23,
+        1.05,
+        166.28
+      ],
+      "max": [
+        0.32,
+        1.64,
+        166.28
+      ],
+      "vertices": 3,
+      "materials": [
+        "/Game/Material/HQ/Character/M_Hide.M_Hide"
+      ]
+    },
+    {
+      "id": "001",
+      "min": [
+        -7.98,
+        -9.97,
+        168.65
+      ],
+      "max": [
+        7.98,
+        9.8,
+        190.19
+      ],
+      "vertices": 29908,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_001/Materials/MI_GF_Hair_001.MI_GF_Hair_001"
+      ]
+    },
+    {
+      "id": "002",
+      "min": [
+        -8.61,
+        -10.8,
+        168.65
+      ],
+      "max": [
+        8.31,
+        12.01,
+        191.28
+      ],
+      "vertices": 25603,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_002/Materials/MI_GF_Hair_002.MI_GF_Hair_002"
+      ]
+    },
+    {
+      "id": "003",
+      "min": [
+        -8.79,
+        -10.5,
+        167.43
+      ],
+      "max": [
+        9.05,
+        10.57,
+        190.21
+      ],
+      "vertices": 8649,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_003/Materials/MI_GF_Hair_003.MI_GF_Hair_003"
+      ]
+    },
+    {
+      "id": "004",
+      "min": [
+        -7.93,
+        -11.42,
+        170.24
+      ],
+      "max": [
+        7.93,
+        9.62,
+        189.46
+      ],
+      "vertices": 23247,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004.MI_GF_Hair_004"
+      ]
+    },
+    {
+      "id": "005",
+      "min": [
+        -7.94,
+        -14.97,
+        168.65
+      ],
+      "max": [
+        7.94,
+        11.78,
+        192.28
+      ],
+      "vertices": 15763,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_005/Materials/MI_GF_Hair_005.MI_GF_Hair_005"
+      ]
+    },
+    {
+      "id": "006",
+      "min": [
+        -9.29,
+        -11.5,
+        170.12
+      ],
+      "max": [
+        9.42,
+        12.26,
+        191.73
+      ],
+      "vertices": 16888,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_006/Materials/MI_GF_Hair_006.MI_GF_Hair_006"
+      ]
+    },
+    {
+      "id": "007",
+      "min": [
+        -8.36,
+        -11.52,
+        169.5
+      ],
+      "max": [
+        8.36,
+        11.59,
+        190.37
+      ],
+      "vertices": 20862,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_007/Materials/MI_GF_Hair_007.MI_GF_Hair_007"
+      ]
+    },
+    {
+      "id": "008",
+      "min": [
+        -7.65,
+        -22.78,
+        168.65
+      ],
+      "max": [
+        7.65,
+        19.36,
+        206.36
+      ],
+      "vertices": 13966,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_008/Materials/MI_GF_Hair_008.MI_GF_Hair_008"
+      ]
+    },
+    {
+      "id": "009",
+      "min": [
+        -7.77,
+        -9.44,
+        170.08
+      ],
+      "max": [
+        7.77,
+        9.61,
+        189.0
+      ],
+      "vertices": 15148,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_004/Materials/MI_GF_Hair_004.MI_GF_Hair_004"
+      ]
+    },
+    {
+      "id": "010",
+      "min": [
+        -14.37,
+        -11.36,
+        164.93
+      ],
+      "max": [
+        12.78,
+        12.81,
+        192.21
+      ],
+      "vertices": 26579,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_010/Materials/MI_GF_Hair_010.MI_GF_Hair_010"
+      ]
+    },
+    {
+      "id": "011",
+      "min": [
+        -9.57,
+        -12.03,
+        168.66
+      ],
+      "max": [
+        8.95,
+        12.75,
+        192.98
+      ],
+      "vertices": 23625,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_011/Materials/MI_GF_Hair_011.MI_GF_Hair_011"
+      ]
+    },
+    {
+      "id": "012",
+      "min": [
+        -9.65,
+        -14.15,
+        165.16
+      ],
+      "max": [
+        9.65,
+        10.97,
+        194.34
+      ],
+      "vertices": 26193,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_012/Materials/MI_GF_Hair_012.MI_GF_Hair_012"
+      ]
+    },
+    {
+      "id": "013",
+      "min": [
+        -9.7,
+        -15.33,
+        165.52
+      ],
+      "max": [
+        11.53,
+        12.13,
+        194.44
+      ],
+      "vertices": 28177,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_013/Materials/MI_GF_Hair_013.MI_GF_Hair_013"
+      ]
+    },
+    {
+      "id": "014",
+      "min": [
+        -8.85,
+        -11.35,
+        169.12
+      ],
+      "max": [
+        8.96,
+        12.3,
+        190.53
+      ],
+      "vertices": 15426,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_014/Materials/MI_GF_Hair_014.MI_GF_Hair_014"
+      ]
+    },
+    {
+      "id": "015",
+      "min": [
+        -8.78,
+        -10.99,
+        169.59
+      ],
+      "max": [
+        8.92,
+        10.36,
+        190.83
+      ],
+      "vertices": 19610,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_015/Materials/MI_GF_Hair_015.MI_GF_Hair_015"
+      ]
+    },
+    {
+      "id": "016",
+      "min": [
+        -9.48,
+        -11.82,
+        168.34
+      ],
+      "max": [
+        9.8,
+        11.18,
+        191.27
+      ],
+      "vertices": 15064,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_016/Materials/MI_GF_Hair_016.MI_GF_Hair_016"
+      ]
+    },
+    {
+      "id": "017",
+      "min": [
+        -8.14,
+        -10.64,
+        169.5
+      ],
+      "max": [
+        8.16,
+        10.33,
+        189.8
+      ],
+      "vertices": 14158,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_017/Materials/MI_GF_Hair_017.MI_GF_Hair_017"
+      ]
+    },
+    {
+      "id": "018",
+      "min": [
+        -8.49,
+        -11.07,
+        169.25
+      ],
+      "max": [
+        8.51,
+        10.12,
+        191.34
+      ],
+      "vertices": 16631,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_018/Materials/MI_GF_Hair_018.MI_GF_Hair_018"
+      ]
+    },
+    {
+      "id": "101",
+      "min": [
+        -10.61,
+        -11.49,
+        168.63
+      ],
+      "max": [
+        9.84,
+        13.65,
+        191.52
+      ],
+      "vertices": 27488,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_101/Materials/MI_GF_Hair_101.MI_GF_Hair_101"
+      ]
+    },
+    {
+      "id": "102",
+      "min": [
+        -10.78,
+        -13.2,
+        170.29
+      ],
+      "max": [
+        11.34,
+        11.17,
+        191.2
+      ],
+      "vertices": 25908,
+      "materials": [
+        "/Game/Character/Player/GM/Hair/GM_Hair_102/Materials/MI_GM_Hair_102.MI_GM_Hair_102"
+      ]
+    },
+    {
+      "id": "103",
+      "min": [
+        -11.13,
+        -14.14,
+        166.56
+      ],
+      "max": [
+        11.12,
+        10.36,
+        194.47
+      ],
+      "vertices": 27849,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_103/Materials/MI_GF_Hair_103.MI_GF_Hair_103"
+      ]
+    },
+    {
+      "id": "104",
+      "min": [
+        -10.35,
+        -11.46,
+        168.28
+      ],
+      "max": [
+        10.03,
+        11.51,
+        191.49
+      ],
+      "vertices": 15824,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_104/Materials/MI_GF_Hair_104.MI_GF_Hair_104"
+      ]
+    },
+    {
+      "id": "105",
+      "min": [
+        -13.16,
+        -15.0,
+        169.55
+      ],
+      "max": [
+        13.03,
+        11.18,
+        192.12
+      ],
+      "vertices": 17543,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_105/Materials/MI_GF_Hair_105.MI_GF_Hair_105"
+      ]
+    },
+    {
+      "id": "106",
+      "min": [
+        -11.72,
+        -12.56,
+        168.17
+      ],
+      "max": [
+        12.28,
+        11.15,
+        191.14
+      ],
+      "vertices": 13864,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_106/Materials/MI_GF_Hair_106.MI_GF_Hair_106"
+      ]
+    },
+    {
+      "id": "107",
+      "min": [
+        -10.52,
+        -16.3,
+        165.69
+      ],
+      "max": [
+        10.98,
+        10.34,
+        190.55
+      ],
+      "vertices": 28727,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_107/Materials/MI_GF_Hair_107.MI_GF_Hair_107"
+      ]
+    },
+    {
+      "id": "108",
+      "min": [
+        -22.87,
+        -16.89,
+        167.82
+      ],
+      "max": [
+        22.47,
+        13.9,
+        190.45
+      ],
+      "vertices": 42621,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_108/Materials/MI_GF_Hair_108.MI_GF_Hair_108"
+      ]
+    },
+    {
+      "id": "109",
+      "min": [
+        -13.73,
+        -14.82,
+        166.53
+      ],
+      "max": [
+        14.34,
+        12.33,
+        191.29
+      ],
+      "vertices": 30255,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_109/Materials/MI_GF_Hair_109.MI_GF_Hair_109"
+      ]
+    },
+    {
+      "id": "110",
+      "min": [
+        -10.42,
+        -10.88,
+        164.23
+      ],
+      "max": [
+        10.38,
+        11.68,
+        191.09
+      ],
+      "vertices": 20556,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_110/Materials/MI_GF_Hair_110.MI_GF_Hair_110"
+      ]
+    },
+    {
+      "id": "111",
+      "min": [
+        -10.79,
+        -12.68,
+        166.37
+      ],
+      "max": [
+        11.0,
+        13.91,
+        192.41
+      ],
+      "vertices": 44191,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_111/Materials/MI_GF_Hair_111.MI_GF_Hair_111"
+      ]
+    },
+    {
+      "id": "112",
+      "min": [
+        -12.48,
+        -18.69,
+        170.79
+      ],
+      "max": [
+        12.46,
+        9.27,
+        198.84
+      ],
+      "vertices": 29092,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_112/Materials/MI_GF_Hair_112.MI_GF_Hair_112"
+      ]
+    },
+    {
+      "id": "113",
+      "min": [
+        -13.49,
+        -16.9,
+        169.1
+      ],
+      "max": [
+        13.47,
+        10.44,
+        199.26
+      ],
+      "vertices": 34207,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_113/Materials/MI_GF_Hair_113.MI_GF_Hair_113"
+      ]
+    },
+    {
+      "id": "114",
+      "min": [
+        -10.75,
+        -12.58,
+        166.58
+      ],
+      "max": [
+        10.77,
+        11.69,
+        190.23
+      ],
+      "vertices": 22599,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_114/Materials/MI_GF_Hair_114.MI_GF_Hair_114"
+      ]
+    },
+    {
+      "id": "115",
+      "min": [
+        -10.08,
+        -12.14,
+        169.09
+      ],
+      "max": [
+        9.65,
+        12.43,
+        191.82
+      ],
+      "vertices": 25209,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_115/Materials/MI_GF_Hair_115.MI_GF_Hair_115"
+      ]
+    },
+    {
+      "id": "116",
+      "min": [
+        -9.63,
+        -11.81,
+        168.65
+      ],
+      "max": [
+        10.17,
+        13.01,
+        192.38
+      ],
+      "vertices": 19202,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_116/Materials/MI_GF_Hair_116.MI_GF_Hair_116"
+      ]
+    },
+    {
+      "id": "117",
+      "min": [
+        -13.89,
+        -16.55,
+        167.21
+      ],
+      "max": [
+        13.92,
+        10.81,
+        190.67
+      ],
+      "vertices": 20946,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_117/Materials/MI_GF_Hair_117.MI_GF_Hair_117"
+      ]
+    },
+    {
+      "id": "118",
+      "min": [
+        -16.03,
+        -16.92,
+        168.65
+      ],
+      "max": [
+        14.76,
+        10.85,
+        191.32
+      ],
+      "vertices": 25550,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_118/Materials/MI_GF_Hair_118.MI_GF_Hair_118"
+      ]
+    },
+    {
+      "id": "119",
+      "min": [
+        -11.48,
+        -13.75,
+        167.75
+      ],
+      "max": [
+        11.75,
+        13.44,
+        191.91
+      ],
+      "vertices": 30320,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_119/Materials/MI_GF_Hair_119.MI_GF_Hair_119"
+      ]
+    },
+    {
+      "id": "120",
+      "min": [
+        -13.6,
+        -15.52,
+        167.07
+      ],
+      "max": [
+        13.6,
+        13.34,
+        193.81
+      ],
+      "vertices": 35376,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_120/Materials/MI_GF_Hair_120.MI_GF_Hair_120"
+      ]
+    },
+    {
+      "id": "121",
+      "min": [
+        -11.14,
+        -16.23,
+        166.56
+      ],
+      "max": [
+        11.11,
+        10.17,
+        190.86
+      ],
+      "vertices": 30516,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_121/Materials/MI_GF_Hair_121.MI_GF_Hair_121"
+      ]
+    },
+    {
+      "id": "122",
+      "min": [
+        -11.96,
+        -12.91,
+        167.29
+      ],
+      "max": [
+        12.67,
+        12.56,
+        191.03
+      ],
+      "vertices": 17664,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_122/Materials/MI_GF_Hair_122.MI_GF_Hair_122"
+      ]
+    },
+    {
+      "id": "123",
+      "min": [
+        -10.68,
+        -13.36,
+        168.73
+      ],
+      "max": [
+        11.32,
+        13.97,
+        192.76
+      ],
+      "vertices": 29330,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_123/Materials/MI_GF_Hair_123.MI_GF_Hair_123"
+      ]
+    },
+    {
+      "id": "124",
+      "min": [
+        -9.38,
+        -11.52,
+        167.88
+      ],
+      "max": [
+        9.74,
+        12.37,
+        190.5
+      ],
+      "vertices": 18550,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_124/Materials/MI_GF_Hair_124.MI_GF_Hair_124"
+      ]
+    },
+    {
+      "id": "125",
+      "min": [
+        -10.17,
+        -10.89,
+        169.75
+      ],
+      "max": [
+        10.13,
+        12.12,
+        191.31
+      ],
+      "vertices": 17660,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_125/Materials/MI_GF_Hair_125.MI_GF_Hair_125"
+      ]
+    },
+    {
+      "id": "126",
+      "min": [
+        -11.73,
+        -11.94,
+        168.09
+      ],
+      "max": [
+        11.7,
+        12.37,
+        191.65
+      ],
+      "vertices": 23656,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_126/Materials/MI_GF_Hair_126.MI_GF_Hair_126"
+      ]
+    },
+    {
+      "id": "127",
+      "min": [
+        -10.23,
+        -14.83,
+        165.21
+      ],
+      "max": [
+        9.78,
+        11.69,
+        191.84
+      ],
+      "vertices": 29130,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_127/Materials/MI_GF_Hair_127.MI_GF_Hair_127"
+      ]
+    },
+    {
+      "id": "128",
+      "min": [
+        -12.54,
+        -15.59,
+        160.08
+      ],
+      "max": [
+        12.33,
+        11.4,
+        190.87
+      ],
+      "vertices": 23675,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_128/Materials/MI_GF_Hair_128.MI_GF_Hair_128"
+      ]
+    },
+    {
+      "id": "129",
+      "min": [
+        -11.25,
+        -12.36,
+        169.56
+      ],
+      "max": [
+        11.83,
+        12.72,
+        192.19
+      ],
+      "vertices": 30509,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_129/Materials/MI_GF_Hair_129.MI_GF_Hair_129"
+      ]
+    },
+    {
+      "id": "130",
+      "min": [
+        -10.66,
+        -12.95,
+        156.67
+      ],
+      "max": [
+        11.54,
+        10.22,
+        197.32
+      ],
+      "vertices": 28328,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_130/Materials/MI_GF_Hair_130.MI_GF_Hair_130"
+      ]
+    },
+    {
+      "id": "201",
+      "min": [
+        -16.69,
+        -18.03,
+        156.62
+      ],
+      "max": [
+        19.6,
+        10.86,
+        190.46
+      ],
+      "vertices": 16715,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_201/Materials/MI_GF_Hair_201.MI_GF_Hair_201"
+      ]
+    },
+    {
+      "id": "202",
+      "min": [
+        -16.62,
+        -24.63,
+        151.68
+      ],
+      "max": [
+        16.65,
+        10.17,
+        189.78
+      ],
+      "vertices": 11083,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_202/Materials/MI_GF_Hair_202.MI_GF_Hair_202"
+      ]
+    },
+    {
+      "id": "203",
+      "min": [
+        -18.3,
+        -20.49,
+        151.88
+      ],
+      "max": [
+        18.3,
+        11.11,
+        192.06
+      ],
+      "vertices": 36351,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_203/Materials/MI_GF_Hair_203.MI_GF_Hair_203"
+      ]
+    },
+    {
+      "id": "204",
+      "min": [
+        -14.08,
+        -16.95,
+        157.46
+      ],
+      "max": [
+        13.2,
+        10.65,
+        191.1
+      ],
+      "vertices": 22587,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_204/Materials/MI_GF_Hair_204.MI_GF_Hair_204"
+      ]
+    },
+    {
+      "id": "205",
+      "min": [
+        -12.06,
+        -13.65,
+        159.12
+      ],
+      "max": [
+        12.06,
+        9.66,
+        190.89
+      ],
+      "vertices": 17182,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_205/Materials/MI_GF_Hair_205.MI_GF_Hair_205"
+      ]
+    },
+    {
+      "id": "206",
+      "min": [
+        -14.29,
+        -20.47,
+        155.6
+      ],
+      "max": [
+        16.05,
+        11.11,
+        191.22
+      ],
+      "vertices": 24114,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_206/Materials/MI_GF_Hair_206.MI_GF_Hair_206"
+      ]
+    },
+    {
+      "id": "207",
+      "min": [
+        -12.62,
+        -19.66,
+        157.44
+      ],
+      "max": [
+        15.35,
+        12.69,
+        191.37
+      ],
+      "vertices": 24409,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_207/Materials/MI_GF_Hair_207.MI_GF_Hair_207"
+      ]
+    },
+    {
+      "id": "208",
+      "min": [
+        -12.88,
+        -14.65,
+        162.38
+      ],
+      "max": [
+        13.23,
+        12.28,
+        191.07
+      ],
+      "vertices": 31755,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_208/Materials/MI_GF_Hair_208.MI_GF_Hair_208"
+      ]
+    },
+    {
+      "id": "209",
+      "min": [
+        -14.2,
+        -14.6,
+        157.12
+      ],
+      "max": [
+        13.86,
+        11.45,
+        190.64
+      ],
+      "vertices": 29485,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_209/Materials/MI_GF_Hair_209.MI_GF_Hair_209"
+      ]
+    },
+    {
+      "id": "210",
+      "min": [
+        -14.28,
+        -17.12,
+        159.58
+      ],
+      "max": [
+        14.5,
+        12.5,
+        190.64
+      ],
+      "vertices": 31278,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_210/Materials/MI_GF_Hair_210.MI_GF_Hair_210"
+      ]
+    },
+    {
+      "id": "211",
+      "min": [
+        -16.19,
+        -16.69,
+        146.48
+      ],
+      "max": [
+        14.98,
+        10.76,
+        192.71
+      ],
+      "vertices": 34977,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_211/Materials/MI_GF_Hair_211.MI_GF_Hair_211"
+      ]
+    },
+    {
+      "id": "212",
+      "min": [
+        -12.69,
+        -19.08,
+        147.86
+      ],
+      "max": [
+        13.43,
+        9.73,
+        190.24
+      ],
+      "vertices": 22031,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_212/Materials/MI_GF_Hair_212.MI_GF_Hair_212"
+      ]
+    },
+    {
+      "id": "213",
+      "min": [
+        -9.17,
+        -18.5,
+        152.42
+      ],
+      "max": [
+        9.32,
+        12.07,
+        190.22
+      ],
+      "vertices": 24616,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_213/Materials/MI_GF_Hair_213.MI_GF_Hair_213"
+      ]
+    },
+    {
+      "id": "214",
+      "min": [
+        -11.28,
+        -16.79,
+        157.51
+      ],
+      "max": [
+        10.09,
+        11.21,
+        191.22
+      ],
+      "vertices": 16401,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_214/Materials/MI_GF_Hair_214.MI_GF_Hair_214"
+      ]
+    },
+    {
+      "id": "215",
+      "min": [
+        -12.49,
+        -18.49,
+        148.92
+      ],
+      "max": [
+        11.51,
+        10.44,
+        190.87
+      ],
+      "vertices": 25899,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_215/Materials/MI_GF_Hair_215.MI_GF_Hair_215"
+      ]
+    },
+    {
+      "id": "301",
+      "min": [
+        -13.18,
+        -22.83,
+        136.72
+      ],
+      "max": [
+        14.43,
+        10.31,
+        191.56
+      ],
+      "vertices": 30442,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_301/Materials/MI_GF_Hair_301.MI_GF_Hair_301"
+      ]
+    },
+    {
+      "id": "302",
+      "min": [
+        -8.77,
+        -25.19,
+        146.75
+      ],
+      "max": [
+        8.76,
+        11.5,
+        194.08
+      ],
+      "vertices": 24901,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_302/Materials/MI_GF_Hair_302.MI_GF_Hair_302"
+      ]
+    },
+    {
+      "id": "303",
+      "min": [
+        -15.05,
+        -20.49,
+        147.47
+      ],
+      "max": [
+        15.68,
+        11.88,
+        189.98
+      ],
+      "vertices": 19102,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_303/Materials/MI_GF_Hair_303.MI_GF_Hair_303"
+      ]
+    },
+    {
+      "id": "304",
+      "min": [
+        -15.66,
+        -19.45,
+        144.27
+      ],
+      "max": [
+        15.29,
+        12.05,
+        190.42
+      ],
+      "vertices": 18012,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_304/Materials/MI_GF_Hair_304.MI_GF_Hair_304"
+      ]
+    },
+    {
+      "id": "305",
+      "min": [
+        -13.34,
+        -19.18,
+        143.0
+      ],
+      "max": [
+        13.84,
+        11.73,
+        190.82
+      ],
+      "vertices": 14074,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_305/Materials/MI_GF_Hair_305.MI_GF_Hair_305"
+      ]
+    },
+    {
+      "id": "306",
+      "min": [
+        -25.73,
+        -30.89,
+        130.13
+      ],
+      "max": [
+        25.77,
+        18.4,
+        190.88
+      ],
+      "vertices": 40870,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_306/Materials/MI_GF_Hair_306.MI_GF_Hair_306"
+      ]
+    },
+    {
+      "id": "307",
+      "min": [
+        -20.65,
+        -20.55,
+        133.69
+      ],
+      "max": [
+        19.03,
+        12.62,
+        190.78
+      ],
+      "vertices": 22505,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_307/Materials/MI_GF_Hair_307.MI_GF_Hair_307"
+      ]
+    },
+    {
+      "id": "308",
+      "min": [
+        -15.72,
+        -21.2,
+        144.63
+      ],
+      "max": [
+        17.16,
+        10.73,
+        190.38
+      ],
+      "vertices": 36647,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_308/Materials/MI_GF_Hair_308.MI_GF_Hair_308"
+      ]
+    },
+    {
+      "id": "309",
+      "min": [
+        -15.8,
+        -19.28,
+        132.28
+      ],
+      "max": [
+        16.32,
+        11.43,
+        191.96
+      ],
+      "vertices": 42392,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_309/Materials/MI_GF_Hair_309.MI_GF_Hair_309"
+      ]
+    },
+    {
+      "id": "310",
+      "min": [
+        -10.13,
+        -26.96,
+        129.86
+      ],
+      "max": [
+        10.86,
+        11.63,
+        194.22
+      ],
+      "vertices": 30693,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_310/Materials/MI_GF_Hair_310.MI_GF_Hair_310"
+      ]
+    },
+    {
+      "id": "311",
+      "min": [
+        -9.35,
+        -22.06,
+        114.63
+      ],
+      "max": [
+        9.83,
+        9.36,
+        199.4
+      ],
+      "vertices": 22591,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_311/Materials/MI_GF_Hair_311.MI_GF_Hair_311"
+      ]
+    },
+    {
+      "id": "312",
+      "min": [
+        -18.51,
+        -22.65,
+        131.23
+      ],
+      "max": [
+        18.27,
+        12.06,
+        189.99
+      ],
+      "vertices": 28442,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_312/Materials/MI_GF_Hair_312.MI_GF_Hair_312"
+      ]
+    },
+    {
+      "id": "313",
+      "min": [
+        -21.37,
+        -16.32,
+        143.89
+      ],
+      "max": [
+        12.76,
+        14.95,
+        192.2
+      ],
+      "vertices": 40299,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_313/Materials/MI_GF_Hair_313.MI_GF_Hair_313"
+      ]
+    },
+    {
+      "id": "314",
+      "min": [
+        -19.45,
+        -22.54,
+        130.31
+      ],
+      "max": [
+        18.93,
+        16.68,
+        190.74
+      ],
+      "vertices": 28482,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_314/Materials/MI_GF_Hair_314.MI_GF_Hair_314"
+      ]
+    },
+    {
+      "id": "316",
+      "min": [
+        -19.91,
+        -11.02,
+        139.89
+      ],
+      "max": [
+        19.91,
+        13.18,
+        190.88
+      ],
+      "vertices": 27080,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_316/Materials/MI_GF_Hair_316.MI_GF_Hair_316"
+      ]
+    },
+    {
+      "id": "317",
+      "min": [
+        -18.33,
+        -10.67,
+        136.9
+      ],
+      "max": [
+        18.33,
+        19.4,
+        189.93
+      ],
+      "vertices": 28596,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_317/Materials/MI_GF_Hair_317.MI_GF_Hair_317"
+      ]
+    },
+    {
+      "id": "318",
+      "min": [
+        -18.2,
+        -11.65,
+        130.25
+      ],
+      "max": [
+        18.41,
+        20.23,
+        192.02
+      ],
+      "vertices": 29227,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_318/Materials/MI_GF_Hair_318.MI_GF_Hair_318"
+      ]
+    },
+    {
+      "id": "401",
+      "min": [
+        -9.46,
+        -37.01,
+        99.95
+      ],
+      "max": [
+        10.98,
+        11.53,
+        189.97
+      ],
+      "vertices": 17838,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_401/Materials/MI_GF_Hair_401.MI_GF_Hair_401"
+      ]
+    },
+    {
+      "id": "402",
+      "min": [
+        -31.2,
+        -41.59,
+        42.34
+      ],
+      "max": [
+        27.29,
+        9.7,
+        189.94
+      ],
+      "vertices": 30466,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_402/Materials/MI_GF_Hair_402.MI_GF_Hair_402"
+      ]
+    },
+    {
+      "id": "403",
+      "min": [
+        -17.3,
+        -21.98,
+        105.41
+      ],
+      "max": [
+        17.53,
+        15.19,
+        190.11
+      ],
+      "vertices": 41602,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_403/Materials/MI_GF_Hair_403.MI_GF_Hair_403"
+      ]
+    },
+    {
+      "id": "404",
+      "min": [
+        -39.73,
+        -47.8,
+        110.41
+      ],
+      "max": [
+        38.01,
+        11.89,
+        191.58
+      ],
+      "vertices": 45356,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_404/Materials/MI_GF_Hair_404.MI_GF_Hair_404"
+      ]
+    },
+    {
+      "id": "405",
+      "min": [
+        -13.29,
+        -11.62,
+        129.2
+      ],
+      "max": [
+        12.37,
+        19.84,
+        190.24
+      ],
+      "vertices": 21547,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_405/Materials/MI_GF_Hair_405.MI_GF_Hair_405"
+      ]
+    },
+    {
+      "id": "406",
+      "min": [
+        -14.76,
+        -24.07,
+        135.91
+      ],
+      "max": [
+        14.46,
+        17.68,
+        194.44
+      ],
+      "vertices": 44711,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_406/Materials/MI_GF_Hair_406.MI_GF_Hair_406"
+      ]
+    },
+    {
+      "id": "407",
+      "min": [
+        -13.97,
+        -21.19,
+        131.85
+      ],
+      "max": [
+        13.75,
+        17.57,
+        190.56
+      ],
+      "vertices": 26003,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_407/Materials/MI_GF_Hair_407.MI_GF_Hair_407"
+      ]
+    },
+    {
+      "id": "408",
+      "min": [
+        -18.08,
+        -23.78,
+        120.53
+      ],
+      "max": [
+        14.57,
+        17.49,
+        191.73
+      ],
+      "vertices": 25598,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_408/Materials/MI_GF_Hair_408.MI_GF_Hair_408"
+      ]
+    },
+    {
+      "id": "412",
+      "min": [
+        -15.89,
+        -21.2,
+        114.41
+      ],
+      "max": [
+        11.64,
+        16.73,
+        190.47
+      ],
+      "vertices": 21395,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_412/Materials/MI_GF_Hair_412.MI_GF_Hair_412"
+      ]
+    },
+    {
+      "id": "413",
+      "min": [
+        -11.12,
+        -20.45,
+        127.13
+      ],
+      "max": [
+        14.11,
+        15.46,
+        190.21
+      ],
+      "vertices": 27911,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_413/Materials/MI_GF_Hair_413.MI_GF_Hair_413"
+      ]
+    },
+    {
+      "id": "414",
+      "min": [
+        -16.38,
+        -22.27,
+        128.42
+      ],
+      "max": [
+        14.61,
+        16.31,
+        191.13
+      ],
+      "vertices": 22954,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_414/Materials/MI_GF_Hair_414.MI_GF_Hair_414"
+      ]
+    },
+    {
+      "id": "415",
+      "min": [
+        -14.46,
+        -11.42,
+        140.26
+      ],
+      "max": [
+        9.92,
+        18.12,
+        190.34
+      ],
+      "vertices": 22320,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_415/Materials/MI_GF_Hair_415.MI_GF_Hair_415"
+      ]
+    },
+    {
+      "id": "416",
+      "min": [
+        -15.9,
+        -20.6,
+        125.86
+      ],
+      "max": [
+        14.11,
+        17.03,
+        191.23
+      ],
+      "vertices": 26530,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_416/Materials/MI_GF_Hair_416.MI_GF_Hair_416"
+      ]
+    },
+    {
+      "id": "417",
+      "min": [
+        -14.26,
+        -20.96,
+        126.25
+      ],
+      "max": [
+        13.8,
+        17.5,
+        190.67
+      ],
+      "vertices": 24887,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_417/Materials/MI_GF_Hair_417.MI_GF_Hair_417"
+      ]
+    },
+    {
+      "id": "418",
+      "min": [
+        -14.93,
+        -19.99,
+        132.1
+      ],
+      "max": [
+        15.82,
+        14.78,
+        191.02
+      ],
+      "vertices": 23984,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_418/Materials/MI_GF_Hair_418.MI_GF_Hair_418"
+      ]
+    },
+    {
+      "id": "802",
+      "min": [
+        -14.64,
+        -7.38,
+        158.74
+      ],
+      "max": [
+        14.54,
+        9.46,
+        189.92
+      ],
+      "vertices": 12703,
+      "materials": [
+        "/Game/Character/NPC/Humanform/Pernos/Pernos_01/Materials/MI_NPC_Pernos_01_Hair.MI_NPC_Pernos_01_Hair"
+      ]
+    },
+    {
+      "id": "804",
+      "min": [
+        -14.2,
+        -16.52,
+        158.55
+      ],
+      "max": [
+        13.86,
+        11.25,
+        188.0
+      ],
+      "vertices": 18179,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_209/Materials/MI_GF_Hair_209.MI_GF_Hair_209"
+      ]
+    },
+    {
+      "id": "805",
+      "min": [
+        -7.91,
+        -9.39,
+        169.14
+      ],
+      "max": [
+        7.9,
+        8.85,
+        194.5
+      ],
+      "vertices": 21170,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_805/Materials/MI_GF_Hair_805.MI_GF_Hair_805"
+      ]
+    },
+    {
+      "id": "806",
+      "min": [
+        -12.42,
+        -15.62,
+        165.37
+      ],
+      "max": [
+        17.26,
+        11.37,
+        194.99
+      ],
+      "vertices": 30349,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_806/Materials/MI_GF_Hair_806.MI_GF_Hair_806"
+      ]
+    },
+    {
+      "id": "808",
+      "min": [
+        -9.15,
+        -11.5,
+        167.88
+      ],
+      "max": [
+        9.16,
+        12.37,
+        189.86
+      ],
+      "vertices": 18550,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_124/Materials/MI_GF_Hair_124.MI_GF_Hair_124"
+      ]
+    },
+    {
+      "id": "809",
+      "min": [
+        -7.91,
+        -9.39,
+        169.14
+      ],
+      "max": [
+        7.9,
+        8.85,
+        194.63
+      ],
+      "vertices": 21170,
+      "materials": [
+        "/Game/Character/Player/GF/Hair/GF_Hair_809/Materials/MI_GF_Hair_809.MI_GF_Hair_809"
+      ]
+    }
+  ]
+}

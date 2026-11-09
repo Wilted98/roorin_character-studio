@@ -1,0 +1,77 @@
+<string>:99: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\expand_characters.py:32: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(f'{sex}_0103_{part}');mat.use_nodes=True
+[36m[UEFORMAT] [0mImporting GF_BaseFull
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Basebody\GF_BaseFull.uemodel took 0.3077254295349121 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Body
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Body.uemodel took 0.2716348171234131 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Pants
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Pants.uemodel took 0.12325453758239746 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Boots
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Boots.uemodel took 0.030864953994750977 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Glove
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Glove.uemodel took 0.057676076889038086 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Shoulder
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Shoulder.uemodel took 0.018566608428955078 seconds
+[36m[UEFORMAT] [0mImporting GF_0103_T01_Cape
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Armor\0103\GF_0103_T01\GF_0103_T01_Cape.uemodel took 0.02234673500061035 seconds
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+17:35:11 | INFO: Starting glTF 2.0 export
+17:35:11 | INFO: Extracting primitive: GF_0103_T01_Body_LOD0
+17:35:11 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:12 | INFO: Primitives created: 2
+17:35:12 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+17:35:12 | INFO: Extracting primitive: GF_0103_T01_Boots_LOD0
+17:35:12 | INFO: Primitives created: 1
+17:35:12 | INFO: Extracting primitive: GF_0103_T01_Cape_LOD0
+17:35:12 | INFO: Primitives created: 1
+17:35:12 | INFO: Extracting primitive: GF_0103_T01_Glove_LOD0
+17:35:12 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:12 | INFO: Primitives created: 1
+17:35:12 | INFO: Extracting primitive: GF_0103_T01_Pants_LOD0
+17:35:12 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:12 | INFO: Primitives created: 2
+17:35:12 | INFO: Extracting primitive: GF_0103_T01_Shoulder_LOD0
+17:35:12 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:12 | INFO: Primitives created: 1
+17:35:12 | INFO: Finished glTF 2.0 export in 1.4543330669403076 s
+
+[36m[UEFORMAT] [0mImporting GM_BaseFull
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Basebody\GM_BaseFull.uemodel took 0.33347105979919434 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Body
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Body.uemodel took 0.19714045524597168 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Pants
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Pants.uemodel took 0.08797478675842285 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Boots
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Boots.uemodel took 0.0410006046295166 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Glove
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Glove.uemodel took 0.06648612022399902 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Shoulder
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Shoulder.uemodel took 0.01662278175354004 seconds
+[36m[UEFORMAT] [0mImporting GM_0103_T01_Cape
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Armor\0103\GM_0103_T01\GM_0103_T01_Cape.uemodel took 0.02005290985107422 seconds
+17:35:14 | INFO: Starting glTF 2.0 export
+17:35:14 | INFO: Extracting primitive: GM_0103_T01_Body_LOD0
+17:35:14 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:14 | INFO: Primitives created: 2
+17:35:14 | WARNING: There are more than 4 joint vertex influences.The 4 with highest weight will be used (and normalized).
+17:35:14 | INFO: Extracting primitive: GM_0103_T01_Boots_LOD0
+17:35:14 | INFO: Primitives created: 1
+17:35:14 | INFO: Extracting primitive: GM_0103_T01_Cape_LOD0
+17:35:14 | INFO: Primitives created: 1
+17:35:14 | INFO: Extracting primitive: GM_0103_T01_Glove_LOD0
+17:35:14 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:14 | INFO: Primitives created: 1
+17:35:14 | INFO: Extracting primitive: GM_0103_T01_Pants_LOD0
+17:35:15 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:15 | INFO: Primitives created: 2
+17:35:15 | INFO: Extracting primitive: GM_0103_T01_Shoulder_LOD0
+17:35:15 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:35:15 | INFO: Primitives created: 1
+17:35:15 | INFO: Finished glTF 2.0 export in 1.068734884262085 s
+
+EXPANSION_COMPLETE
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

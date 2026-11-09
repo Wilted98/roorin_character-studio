@@ -1,0 +1,151 @@
+{
+  "models": [
+    {
+      "file": "gf-hair-101.glb",
+      "bytes": 3242560,
+      "sha256": "f9e9639f3b070b77d04adf5892009f3d66a83920a333630ce96bc1869de62ea9",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-201.glb",
+      "bytes": 2680468,
+      "sha256": "47bf27389145ea2f954d782a781f1df859f3e559693d02413dc5c8ba2aa11154",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-205.glb",
+      "bytes": 2534012,
+      "sha256": "8cbd8924d5a75aa752dd487ad437f341ba583148b864c7d623d277de7c7d9129",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-301.glb",
+      "bytes": 3497168,
+      "sha256": "64b4433dd9ad005f2948b5ca16bed720be4091e917dfc3dd790c50082a8db719",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-305.glb",
+      "bytes": 2252336,
+      "sha256": "994772f550bebc2fe80146f3cebdf5aaf61246a352ddcb9d6d18e04d200eecbc",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-311.glb",
+      "bytes": 3226812,
+      "sha256": "38399ce7c6d3b1c9bb9b2c5df3f00dc2d42169bcbe4d265efea2fb6fab2b1273",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-401.glb",
+      "bytes": 2608808,
+      "sha256": "e906be241a81ce8c7cec2ffae274d8a944cb59ef5e142cb31cd7810fc97f20a8",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-hair-412.glb",
+      "bytes": 2788560,
+      "sha256": "21b60598489dee3038ddff9ec30bf248888fa7ee6ed5ee5d5212d6fcfafd21e5",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gf-outfit-0103.glb",
+      "bytes": 8120520,
+      "sha256": "faf0d945a85fcfac82a7dd7113d0cd193227f95de0994369fdb7bb3152a0aed0",
+      "skins": 1,
+      "meshes": 6,
+      "embeddedImages": 10
+    },
+    {
+      "file": "gm-hair-101.glb",
+      "bytes": 3237816,
+      "sha256": "0ef38ae83ee4b97a54bb3017178392e30d07bb8567057b4e24fe1c523fc9814c",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-201.glb",
+      "bytes": 2436228,
+      "sha256": "d1099a9526f8c24beecb47360450d7a8d5f7595e5e4d5fc5ba2849cf01584c56",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-205.glb",
+      "bytes": 2526456,
+      "sha256": "a17f491fd5d5692e0b4bdc31738151dab59c2d234e876c01ecc8650265be7b68",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-301.glb",
+      "bytes": 3440612,
+      "sha256": "48555ec00f4ab057f43fc0a335808a2675b9f71d42fbc5cbf07f2c236b88846e",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-305.glb",
+      "bytes": 2307684,
+      "sha256": "f686506817f808784c305cdc440ce4fd80b0177b49944273e345adf0438d32a2",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-311.glb",
+      "bytes": 2947988,
+      "sha256": "d6477fc6b5c4c99c7bc24bd945e651ea3db35c2e0f66b35c246a63888bd3a5a4",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-401.glb",
+      "bytes": 2497980,
+      "sha256": "3fc4948957279ad1b9c7586375377da1e75cfebe0e00a74a5484a0eeed4f84d3",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-hair-412.glb",
+      "bytes": 2787888,
+      "sha256": "19977c1ed0e46a0d3aeb555ce88d3983d61550ec966937fe0d1278a130c14887",
+      "skins": 1,
+      "meshes": 1,
+      "embeddedImages": 1
+    },
+    {
+      "file": "gm-outfit-0103.glb",
+      "bytes": 7856364,
+      "sha256": "9f9f86603d937e10401ba2ac7365c63a37a34ff20fa892c387fe390927928e1c",
+      "skins": 1,
+      "meshes": 6,
+      "embeddedImages": 12
+    }
+  ],
+  "newModelBytes": 60990260,
+  "distinctFacePresetThumbnails": 24,
+  "checks": "GLB2 header/length; skins/meshes; embedded images; per-file25MiB cap; referenced thumbnail existence; unique24 preset image hashes. All models additionally reloaded/rendered by Blender."
+}

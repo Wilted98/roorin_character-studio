@@ -158,13 +158,115 @@
           "bones": 40,
           "morphTargets": [],
           "thumbnail": "/assets/thumbnails/gf-hair-004.png"
+        },
+        {
+          "id": "101",
+          "name": "Hair 101",
+          "url": "/assets/models/gf-hair-101.glb",
+          "bytes": 3242560,
+          "vertices": 27488,
+          "bones": 33,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-101.png"
+        },
+        {
+          "id": "201",
+          "name": "Hair 201",
+          "url": "/assets/models/gf-hair-201.glb",
+          "bytes": 2680468,
+          "vertices": 19948,
+          "bones": 88,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-201.png"
+        },
+        {
+          "id": "205",
+          "name": "Hair 205",
+          "url": "/assets/models/gf-hair-205.glb",
+          "bytes": 2534012,
+          "vertices": 17182,
+          "bones": 68,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-205.png"
+        },
+        {
+          "id": "301",
+          "name": "Hair 301",
+          "url": "/assets/models/gf-hair-301.glb",
+          "bytes": 3497168,
+          "vertices": 30955,
+          "bones": 103,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-301.png"
+        },
+        {
+          "id": "305",
+          "name": "Hair 305",
+          "url": "/assets/models/gf-hair-305.glb",
+          "bytes": 2252336,
+          "vertices": 13385,
+          "bones": 84,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-305.png"
+        },
+        {
+          "id": "311",
+          "name": "Hair 311",
+          "url": "/assets/models/gf-hair-311.glb",
+          "bytes": 3226812,
+          "vertices": 25436,
+          "bones": 92,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-311.png"
+        },
+        {
+          "id": "401",
+          "name": "Hair 401",
+          "url": "/assets/models/gf-hair-401.glb",
+          "bytes": 2608808,
+          "vertices": 19210,
+          "bones": 48,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-401.png"
+        },
+        {
+          "id": "412",
+          "name": "Hair 412",
+          "url": "/assets/models/gf-hair-412.glb",
+          "bytes": 2788560,
+          "vertices": 21395,
+          "bones": 88,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-hair-412.png"
         }
       ],
       "bounds": {
         "height": 1.8338407339761034,
         "top": 1.8343544006347656,
         "bottom": 0.0005136666586622596
-      }
+      },
+      "outfits": [
+        {
+          "id": "base",
+          "name": "Tailored base",
+          "url": "/assets/models/gf-body.glb",
+          "bytes": 9297704,
+          "vertices": 12641,
+          "bones": 115,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gf-outfit-base.png"
+        },
+        {
+          "id": "0103",
+          "name": "Expedition armor",
+          "url": "/assets/models/gf-outfit-0103.glb",
+          "bytes": 8120520,
+          "vertices": 17184,
+          "bones": 145,
+          "notes": "Original 0103 meshes with exposed base skin. Missing dedicated atlases use Body atlas: GF gloves/cape, GM shoulders. Unreal material property exports unavailable.",
+          "thumbnail": "/assets/thumbnails/gf-outfit-0103.png"
+        }
+      ]
     },
     "GM": {
       "name": "Male",
@@ -315,17 +417,118 @@
           "bones": 50,
           "morphTargets": [],
           "thumbnail": "/assets/thumbnails/gm-hair-004.png"
+        },
+        {
+          "id": "101",
+          "name": "Hair 101",
+          "url": "/assets/models/gm-hair-101.glb",
+          "bytes": 3237816,
+          "vertices": 27488,
+          "bones": 27,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-101.png"
+        },
+        {
+          "id": "201",
+          "name": "Hair 201",
+          "url": "/assets/models/gm-hair-201.glb",
+          "bytes": 2436228,
+          "vertices": 16715,
+          "bones": 82,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-201.png"
+        },
+        {
+          "id": "205",
+          "name": "Hair 205",
+          "url": "/assets/models/gm-hair-205.glb",
+          "bytes": 2526456,
+          "vertices": 17182,
+          "bones": 56,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-205.png"
+        },
+        {
+          "id": "301",
+          "name": "Hair 301",
+          "url": "/assets/models/gm-hair-301.glb",
+          "bytes": 3440612,
+          "vertices": 30442,
+          "bones": 90,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-301.png"
+        },
+        {
+          "id": "305",
+          "name": "Hair 305",
+          "url": "/assets/models/gm-hair-305.glb",
+          "bytes": 2307684,
+          "vertices": 14074,
+          "bones": 84,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-305.png"
+        },
+        {
+          "id": "311",
+          "name": "Hair 311",
+          "url": "/assets/models/gm-hair-311.glb",
+          "bytes": 2947988,
+          "vertices": 22591,
+          "bones": 70,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-311.png"
+        },
+        {
+          "id": "401",
+          "name": "Hair 401",
+          "url": "/assets/models/gm-hair-401.glb",
+          "bytes": 2497980,
+          "vertices": 17838,
+          "bones": 50,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-401.png"
+        },
+        {
+          "id": "412",
+          "name": "Hair 412",
+          "url": "/assets/models/gm-hair-412.glb",
+          "bytes": 2787888,
+          "vertices": 21395,
+          "bones": 86,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-hair-412.png"
         }
       ],
       "bounds": {
         "height": 1.9021173477813136,
         "top": 1.9018745422363281,
         "bottom": -0.00024280554498545825
-      }
+      },
+      "outfits": [
+        {
+          "id": "base",
+          "name": "Tailored base",
+          "url": "/assets/models/gm-body.glb",
+          "bytes": 10092736,
+          "vertices": 12285,
+          "bones": 95,
+          "morphTargets": [],
+          "thumbnail": "/assets/thumbnails/gm-outfit-base.png"
+        },
+        {
+          "id": "0103",
+          "name": "Expedition armor",
+          "url": "/assets/models/gm-outfit-0103.glb",
+          "bytes": 7856364,
+          "vertices": 14844,
+          "bones": 117,
+          "notes": "Original 0103 meshes with exposed base skin. Missing dedicated atlases use Body atlas: GF gloves/cape, GM shoulders. Unreal material property exports unavailable.",
+          "thumbnail": "/assets/thumbnails/gm-outfit-0103.png"
+        }
+      ]
     }
   },
   "limitations": [
-    "Game materials approximated as browser PBR. Skin subsurface, layered makeup, iris shader and anisotropic hair are not exact Unreal shader replicas.",
-    "Four head and four hairstyle variants per body type are included in this first prototype."
+    "Game materials approximated as browser PBR. Skin subsurface, layered makeup, iris shader and anisotropic hair are not exact Unreal shader replicas."
   ]
 }

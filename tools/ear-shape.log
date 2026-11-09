@@ -1,0 +1,30 @@
+17:36:10 | INFO: Data are loaded, start creating Blender stuff
+17:36:10 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+17:36:10 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+17:36:10 | INFO: glTF import finished in 0.11s
+17:36:10 | INFO: Data are loaded, start creating Blender stuff
+17:36:10 | INFO: Blender create Mesh node GF_Head_001_LOD0
+17:36:10 | INFO: glTF import finished in 0.11s
+17:36:10 | INFO: Data are loaded, start creating Blender stuff
+17:36:10 | INFO: Blender create Mesh node GF_Hair_004_LOD0
+17:36:11 | INFO: glTF import finished in 0.14s
+<string>:17: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+BOUNDS GF 1.8311959505081177 0.0005136666586622596
+00:03.953  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gf-ear-0.png'
+00:04.891  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gf-ear-1.png'
+17:36:13 | INFO: Data are loaded, start creating Blender stuff
+17:36:13 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+17:36:13 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+17:36:13 | INFO: glTF import finished in 0.12s
+17:36:13 | INFO: Data are loaded, start creating Blender stuff
+17:36:13 | INFO: Blender create Mesh node GM_Head_001_LOD0
+17:36:13 | INFO: glTF import finished in 0.11s
+17:36:13 | INFO: Data are loaded, start creating Blender stuff
+17:36:13 | INFO: Blender create Mesh node GM_Hair_004_LOD0
+17:36:13 | INFO: glTF import finished in 0.15s
+BOUNDS GM 1.8945505619049072 -0.00024280554498545825
+00:06.422  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gm-ear-0.png'
+00:07.407  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\tools\gm-ear-1.png'
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

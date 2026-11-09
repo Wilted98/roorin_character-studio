@@ -1,0 +1,56 @@
+17:37:30 | INFO: Data are loaded, start creating Blender stuff
+17:37:30 | INFO: Blender create Mesh node GF_BaseBoots_LOD0
+17:37:30 | INFO: Blender create Mesh node GF_BaseFull_LOD0
+17:37:30 | INFO: glTF import finished in 0.11s
+17:37:30 | INFO: Data are loaded, start creating Blender stuff
+17:37:30 | INFO: Blender create Mesh node GF_Head_001_LOD0
+17:37:30 | INFO: glTF import finished in 0.11s
+17:37:30 | INFO: Data are loaded, start creating Blender stuff
+17:37:30 | INFO: Blender create Mesh node GF_Hair_004_LOD0
+17:37:30 | INFO: glTF import finished in 0.15s
+<string>:17: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+BOUNDS GF 1.8311959505081177 0.0005136666586622596
+<string>:99: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:04.625  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2042.png'
+00:05.359  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2003.png'
+00:06.031  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2004.png'
+00:06.750  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2009.png'
+00:07.453  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2014.png'
+00:08.156  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2016.png'
+00:08.828  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2017.png'
+00:09.531  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2018.png'
+00:10.219  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2021.png'
+00:10.937  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2024.png'
+00:11.625  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2025.png'
+00:12.328  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gf-preset-2030.png'
+[36m[UEFORMAT] [0mImporting GF_Head_001
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GF\Head\GF_Head_001\GF_Head_001.uemodel took 0.5812404155731201 seconds
+17:37:40 | INFO: Data are loaded, start creating Blender stuff
+17:37:40 | INFO: Blender create Mesh node GM_BaseBoots_LOD0
+17:37:40 | INFO: Blender create Mesh node GM_BaseFull_LOD0
+17:37:40 | INFO: glTF import finished in 0.11s
+17:37:40 | INFO: Data are loaded, start creating Blender stuff
+17:37:40 | INFO: Blender create Mesh node GM_Head_001_LOD0
+17:37:40 | INFO: glTF import finished in 0.10s
+17:37:40 | INFO: Data are loaded, start creating Blender stuff
+17:37:40 | INFO: Blender create Mesh node GM_Hair_004_LOD0
+17:37:40 | INFO: glTF import finished in 0.14s
+BOUNDS GM 1.8945505619049072 -0.00024280554498545825
+00:14.219  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1041.png'
+00:14.969  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1001.png'
+00:15.797  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1006.png'
+00:16.578  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1014.png'
+00:17.328  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1016.png'
+00:18.094  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1017.png'
+00:18.812  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1018.png'
+00:19.578  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1019.png'
+00:20.328  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1021.png'
+00:21.094  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1022.png'
+00:21.844  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1023.png'
+00:22.594  render           | Saved: 'C:\Users\MyPc\Documents\ChatGPT\BlenderAion\aion-character-studio\public\assets\thumbnails\gm-preset-1024.png'
+[36m[UEFORMAT] [0mImporting GM_Head_001
+[36m[UEFORMAT] [0mImport C:\Users\MyPc\Desktop\AionModels\Aion2\Content\Character\Player\GM\Head\GM_Head_001\GM_Head_001.uemodel took 0.46225810050964355 seconds
+FACE_PRESETS_RENDERED
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "description": "Authored static relaxed presentation pose derived from native skeleton; not a game animation. Apply rotation delta before each native bone local rest quaternion.",
+  "application": "q_local = deltaQuaternion * restQuaternion; synchronize matching bone names across modules.",
+  "genders": {
+    "GF": {
+      "Bip001-L-UpperArm": {
+        "rotation": [
+          -0.013810824602842331,
+          0.21547822654247284,
+          -0.02226373553276062,
+          0.9761571884155273
+        ]
+      },
+      "Bip001-R-UpperArm": {
+        "rotation": [
+          0.013837376609444618,
+          -0.21548396348953247,
+          -0.02224113792181015,
+          0.9761560559272766
+        ]
+      }
+    },
+    "GM": {
+      "Bip001-L-UpperArm": {
+        "rotation": [
+          -0.02552013099193573,
+          0.24151599407196045,
+          -0.015877453610301018,
+          0.9699311852455139
+        ]
+      },
+      "Bip001-R-UpperArm": {
+        "rotation": [
+          0.02551984414458275,
+          -0.24151235818862915,
+          -0.015877308323979378,
+          0.9699321389198303
+        ]
+      }
+    }
+  }
+}
