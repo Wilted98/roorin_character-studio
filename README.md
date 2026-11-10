@@ -1,65 +1,35 @@
-# AION Character Studio
+# roorin
 
-A working browser prototype using the supplied AION2 exports. Built with React, TypeScript, Three.js and Vinext. Original exports and the interactive Blender scene remain unchanged; asset conversion runs in a separate background process.
+Local browser character studio using the supplied character exports. React, TypeScript and Three.js. Original exports and the open Blender scene are untouched.
 
-## Run locally
+## Open locally
 
-Requires Node 22.13+ and Git. From this directory:
+Double-click **Start Studio.cmd**, then open **http://127.0.0.1:5173/**. Alternatively run `npm run dev -- --hostname 127.0.0.1` here. Nothing is uploaded or deployed by this workflow.
 
-```sh
-npm ci
-npm run dev
-```
+## Current editor
 
-Open the printed localhost URL. Check TypeScript with `npx tsc --noEmit` and pose behavior with `node tools/test_customization.mjs`. Build with `npm run build` (Sites publishing uses the installed Sites build helper).
+- Original face, style and body preset thumbnails; 90 full character presets.
+- 55 heads, 79 hairstyles, 24 beard meshes and two complete outfit choices per gender.
+- Face, ears, eyes, eyebrows, lashes, iris/pupil/sclera, nose and mouth controls.
+- Collapsible 100-color skin palette and separate face/body gloss.
+- Layered contour, highlight, blush, eye makeup, lips, freckles, moles, tattoos, scars and stubble, using exported masks.
+- Body/head, arms, torso and lower-body sections; native body presets, vein and muscle detail textures.
+- Hair two-tone dye, area, contrast and gloss; separate outfit dye.
+- Full/Upper/Face cameras fit the posed meshes and viewport aspect ratio.
+- Indoor/natural/colored lighting, two-axis light position and backgrounds.
+- Native creator/normal idle clips, pause and browser hair spring simulation.
+- Undo/redo, local drafts, saved looks, JSON import/export and local look links.
 
-## Included
+## Accuracy limits
 
-- GF/GM complete fitted base outfits, four starting heads and four hairstyles each, plus no-hair option.
-- 56 face controls per body type using decoded source pose deltas; 13 explicitly approximate body controls.
-- Skin, hair and eye colors; orbit, zoom, portrait/full-body cameras, turntable and PNG capture.
-- Undo, randomize, per-slider reset and complete reset.
-- Browser-local draft and saved looks, validated JSON preset import/export.
-- Responsive desktop and mobile layout.
+This remains a browser reconstruction. Shader placement, skin shading, hair scattering, body constraints and hair springs are approximations of the original engine. Cloth physics is not implemented. The missing backward lip-corner pose is approximated by inverting the exported forward pose. No additional hair texture export is currently required; remaining hair differences require renderer work.
 
-The initial assets total about 82 MiB, but the viewer loads only the selected body, head and hair. Switching variants reloads those modules. A WebGL-capable browser is required.
+Presets restore available native mesh, bone, color, makeup, eye, hair and beard settings together. Face Shape selects an original head and resets previous face-bone offsets. Makeup presets change style layers, preserving face shape and eyes.
 
-## Current limits
+## Validation and pipeline
 
-This is an independent prototype, not a complete recreation of the official editor. Original Unreal shaders, facial shading, eyebrows, makeup, wardrobe and animation have not been fully reconstructed. Eye/hair materials and body scaling are approximations. 12 decoded source face presets per gender are retained in the data for later integration. One missing lip-corner source pose is deliberately excluded. Exported JSON is specific to this web app and cannot be imported into AION2.
+`npx tsc --noEmit`, `node tools/test_editor.mjs`, `node tools/test_customization.mjs`, `node tools/test_native_presets.mjs`, `node tools/test_motion.mjs`, and `npm run build` run locally.
 
-Local saved looks belong to the current browser/origin; use JSON download to transfer them. No account sync or server storage is used.
+Extraction tools discover existing Desktop export folders by their contents. Override with `ROORIN_ASSETS` or `ROORIN_PROPERTIES` when needed. `tools/expand_editor_data.py` rebuilds native appearance choices; `tools/convert_beards.py` runs in isolated background Blender.
 
-## Asset pipeline and evidence
-
-- `tools/CHARACTER_ASSETS.md`: modular model conversion and material decisions.
-- `docs/CUSTOMIZATION.md`: source mapping, pose math and unsupported controls.
-- `tools/convert_characters.py`, `tools/render_character_previews.py`: offline Blender conversion; local paths are configuration in these scripts.
-- `tools/extract_customization.py`: offline extraction from decoded Properties JSON.
-- `tools/glb-validation.json`, `tools/material-conversion.json`, `tools/asset-bone-rest.json`: verification artifacts.
-- `tools/test_customization.mjs`: checks actual GF/GM GLB bones, all supported controls at endpoints, repeated application, neutral reset and preset values.
-
-## Next milestones
-
-1. Reconstruct eyebrow and layered makeup masks and original material parameter behavior.
-2. Match the remaining body rig constraints and face preset semantics to game references.
-3. Expand the appearance library and optimize delivery with shared textures/model caching.
-4. Add creator idle animation when a usable animation export is available.
-
-
-## Reference-driven editor update (2026-11-09)
-
-The interface now follows the supplied screenshots: large left preview, top category tabs, face subsection rail, -100 to100 numeric controls and two-axis position pads. Source-neutral values display0 even when native bounds are asymmetric; reversed sliders preserve their source direction.
-
-New working features:
-- 12 hairstyles per gender,12 source face-proportion presets per gender with real pose thumbnails.
-- Native standard/pointed ear morph and an authored relaxed standing pose.
-- Five iris shapes,20 pupil shapes,11 female/12 male brow choices,10 lash choices,100 source skin colors; separate iris center/border/sclera colors and size controls.
-- Two complete outfit options per gender (base and adapted0103 armor), with whole-outfit dye.
-- Undo/redo, local saved looks, validated legacy preset migration, version2 JSON import/export and URL-fragment look sharing. Share links retain the site's existing private access.
-
-Rendering limitations remain: no native physics or idle animation; faction is stored as a preference but no verified race mapping has been applied; body proportions and layered eye/brow materials are approximated. Armor0103 uses available source textures, with provisional atlas mapping for missing material properties. Most other exported armor lacks textures and is not offered. Makeup and individual accessory/equipment slots are unfinished. Face preset thumbnails show proportions on head001 without original source makeup; applying presets uses available heads and supported source appearance fields.
-
-Additional checks: `node tools/test_editor.mjs` verifies range conversion, paired controls, migration, clamping, round-trip preservation and all appearance/model/thumbnail links. `tools/create_appearance_previews.py` (Pillow) produces readable previews from the packed texture channels. See `docs/APPEARANCE.md` for material reconstruction details.
-
-Conversion-only PNG caches are retained under `tools/conversion-textures` and excluded from deployment. Runtime textures are embedded in GLBs or referenced explicitly by appearance.json.
+See `docs/LOCAL_PROGRESS.md` for the latest work and remaining accuracy gaps. Saved looks are browser/origin specific; download JSON for a portable copy.

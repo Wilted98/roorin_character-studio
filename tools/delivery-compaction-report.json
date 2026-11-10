@@ -1,0 +1,1554 @@
+{
+  "beforeBytes": 516347123,
+  "afterBytes": 493303230,
+  "removedImages": [
+    {
+      "file": "57439e23f909b4ad51cddac9.png",
+      "bytes": 4212819
+    },
+    {
+      "file": "618e6320dd9fc3bca3312c49.png",
+      "bytes": 3436867
+    },
+    {
+      "file": "863d3bbd1540b0cbfa8e5b7c.png",
+      "bytes": 1420965
+    },
+    {
+      "file": "e8fe78a9faf6bf1af2df6e38.png",
+      "bytes": 3750036
+    },
+    {
+      "file": "ed146b2f5fd84d74a1ccaebd.png",
+      "bytes": 3658547
+    },
+    {
+      "file": "f5b458126f9bbfd4f3ad38db.png",
+      "bytes": 3400995
+    },
+    {
+      "file": "hair-v5-608dbd22f5bb2191f980.png",
+      "bytes": 3152008
+    }
+  ],
+  "models": [
+    {
+      "file": "gf-body.glb",
+      "before": 9297704,
+      "after": 9297704,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-001.glb",
+      "before": 2871436,
+      "after": 2871288,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-002.glb",
+      "before": 2485928,
+      "after": 2485780,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-003.glb",
+      "before": 1029828,
+      "after": 1029680,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-004.glb",
+      "before": 2016056,
+      "after": 2015908,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-010.glb",
+      "before": 2358804,
+      "after": 2358656,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-012.glb",
+      "before": 2586572,
+      "after": 2586424,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-013.glb",
+      "before": 2148896,
+      "after": 2148748,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-101.glb",
+      "before": 2446160,
+      "after": 2446012,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-107.glb",
+      "before": 2580996,
+      "after": 2580848,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-110.glb",
+      "before": 1690732,
+      "after": 1690584,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-114.glb",
+      "before": 2274820,
+      "after": 2274520,
+      "removed": {
+        "textures": 2,
+        "images": 2,
+        "samplers": 2,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-120.glb",
+      "before": 3314920,
+      "after": 3314772,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-121.glb",
+      "before": 2703544,
+      "after": 2703396,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-122.glb",
+      "before": 1598480,
+      "after": 1598332,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-127.glb",
+      "before": 2594188,
+      "after": 2594040,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-130.glb",
+      "before": 2532652,
+      "after": 2532504,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-201.glb",
+      "before": 1810648,
+      "after": 1810500,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-205.glb",
+      "before": 1569532,
+      "after": 1569384,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-207.glb",
+      "before": 2214804,
+      "after": 2214656,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-209.glb",
+      "before": 2635732,
+      "after": 2635584,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-213.glb",
+      "before": 2191872,
+      "after": 2191724,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-214.glb",
+      "before": 1481508,
+      "after": 1481360,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-301.glb",
+      "before": 2753748,
+      "after": 2753600,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-305.glb",
+      "before": 1257424,
+      "after": 1257276,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-306.glb",
+      "before": 3629320,
+      "after": 3629172,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-307.glb",
+      "before": 2104596,
+      "after": 2104448,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-308.glb",
+      "before": 3415676,
+      "after": 3415528,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-310.glb",
+      "before": 2795872,
+      "after": 2795724,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-311.glb",
+      "before": 2332644,
+      "after": 2332496,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-313.glb",
+      "before": 3694640,
+      "after": 3694492,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-314.glb",
+      "before": 2582856,
+      "after": 2582708,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-316.glb",
+      "before": 2265580,
+      "after": 2265432,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-317.glb",
+      "before": 2779244,
+      "after": 2779096,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-318.glb",
+      "before": 2632948,
+      "after": 2632800,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-401.glb",
+      "before": 1736396,
+      "after": 1736248,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-404.glb",
+      "before": 4007196,
+      "after": 4007048,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-406.glb",
+      "before": 3951304,
+      "after": 3951156,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-407.glb",
+      "before": 2215272,
+      "after": 2215124,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-408.glb",
+      "before": 2298580,
+      "after": 2298432,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-412.glb",
+      "before": 1930408,
+      "after": 1930260,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-hair-413.glb",
+      "before": 2477476,
+      "after": 2477328,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-001.glb",
+      "before": 1622812,
+      "after": 1622812,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-002.glb",
+      "before": 1623364,
+      "after": 1623364,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-003.glb",
+      "before": 1613304,
+      "after": 1613304,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-004.glb",
+      "before": 1614484,
+      "after": 1614484,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-005.glb",
+      "before": 1592272,
+      "after": 1592272,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-006.glb",
+      "before": 1620560,
+      "after": 1620560,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-011.glb",
+      "before": 1613272,
+      "after": 1613272,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-012.glb",
+      "before": 1614852,
+      "after": 1614852,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-014.glb",
+      "before": 1588664,
+      "after": 1588664,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-015.glb",
+      "before": 1619412,
+      "after": 1619412,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-016.glb",
+      "before": 1583160,
+      "after": 1583160,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-020.glb",
+      "before": 1619220,
+      "after": 1619220,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-021.glb",
+      "before": 1615000,
+      "after": 1615000,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-023.glb",
+      "before": 1589632,
+      "after": 1589632,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-026.glb",
+      "before": 1582460,
+      "after": 1582460,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-027.glb",
+      "before": 1617460,
+      "after": 1617460,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-028.glb",
+      "before": 1615768,
+      "after": 1615768,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-029.glb",
+      "before": 1613756,
+      "after": 1613756,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-030.glb",
+      "before": 1605568,
+      "after": 1605568,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-031.glb",
+      "before": 1619452,
+      "after": 1619452,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-032.glb",
+      "before": 1622632,
+      "after": 1622632,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-033.glb",
+      "before": 1621224,
+      "after": 1621224,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-034.glb",
+      "before": 1622644,
+      "after": 1622644,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-039.glb",
+      "before": 1449956,
+      "after": 1449956,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-040.glb",
+      "before": 1612704,
+      "after": 1612704,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-041.glb",
+      "before": 1616660,
+      "after": 1616660,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-042.glb",
+      "before": 1581840,
+      "after": 1581840,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-head-043.glb",
+      "before": 1477888,
+      "after": 1477888,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gf-outfit-0103.glb",
+      "before": 8120520,
+      "after": 8120520,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-body.glb",
+      "before": 10092736,
+      "after": 10092736,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-000.glb",
+      "before": 7504,
+      "after": 7544,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-001.glb",
+      "before": 2861852,
+      "after": 2861704,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-002.glb",
+      "before": 2476108,
+      "after": 2475960,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-003.glb",
+      "before": 789508,
+      "after": 789360,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-004.glb",
+      "before": 2098800,
+      "after": 2098652,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-006.glb",
+      "before": 1496548,
+      "after": 1496400,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-007.glb",
+      "before": 1862752,
+      "after": 1862604,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-011.glb",
+      "before": 2273492,
+      "after": 2273344,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-014.glb",
+      "before": 1371088,
+      "after": 1370940,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-015.glb",
+      "before": 1762392,
+      "after": 1762244,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-016.glb",
+      "before": 1356688,
+      "after": 1356540,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-017.glb",
+      "before": 1248772,
+      "after": 1248624,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-018.glb",
+      "before": 1480728,
+      "after": 1480580,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-101.glb",
+      "before": 2441308,
+      "after": 2441160,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-103.glb",
+      "before": 2480940,
+      "after": 2480792,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-113.glb",
+      "before": 3063708,
+      "after": 3063560,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-115.glb",
+      "before": 2467112,
+      "after": 2466964,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-123.glb",
+      "before": 2257960,
+      "after": 2257812,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-124.glb",
+      "before": 1646688,
+      "after": 1646540,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-125.glb",
+      "before": 1574164,
+      "after": 1574016,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-126.glb",
+      "before": 2071748,
+      "after": 2071600,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-128.glb",
+      "before": 2129744,
+      "after": 2129596,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-129.glb",
+      "before": 2710092,
+      "after": 2709944,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-201.glb",
+      "before": 1542680,
+      "after": 1542532,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-202.glb",
+      "before": 1049828,
+      "after": 1049680,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-203.glb",
+      "before": 2935940,
+      "after": 2935792,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-205.glb",
+      "before": 1561972,
+      "after": 1561824,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-209.glb",
+      "before": 2671344,
+      "after": 2671196,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-214.glb",
+      "before": 1479536,
+      "after": 1479388,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-215.glb",
+      "before": 2333752,
+      "after": 2333604,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-301.glb",
+      "before": 2691672,
+      "after": 2691524,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-305.glb",
+      "before": 1318488,
+      "after": 1318340,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-311.glb",
+      "before": 2025212,
+      "after": 2025064,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-313.glb",
+      "before": 3651292,
+      "after": 3651144,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-401.glb",
+      "before": 1614392,
+      "after": 1614244,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-406.glb",
+      "before": 3958692,
+      "after": 3958544,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-412.glb",
+      "before": 1929820,
+      "after": 1929672,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-hair-413.glb",
+      "before": 2475924,
+      "after": 2475776,
+      "removed": {
+        "textures": 1,
+        "images": 1,
+        "samplers": 1,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-001.glb",
+      "before": 1453624,
+      "after": 1453624,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-002.glb",
+      "before": 1460616,
+      "after": 1460616,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-003.glb",
+      "before": 1451472,
+      "after": 1451472,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-004.glb",
+      "before": 1448580,
+      "after": 1448580,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-005.glb",
+      "before": 1454792,
+      "after": 1454792,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-006.glb",
+      "before": 1458232,
+      "after": 1458232,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-007.glb",
+      "before": 1490516,
+      "after": 1490516,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-008.glb",
+      "before": 1317552,
+      "after": 1317552,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-009.glb",
+      "before": 1450900,
+      "after": 1450900,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-011.glb",
+      "before": 1482376,
+      "after": 1482376,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-015.glb",
+      "before": 1448632,
+      "after": 1448632,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-016.glb",
+      "before": 1453256,
+      "after": 1453256,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-018.glb",
+      "before": 1474356,
+      "after": 1474356,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-020.glb",
+      "before": 1465140,
+      "after": 1465140,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-024.glb",
+      "before": 1488876,
+      "after": 1488876,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-026.glb",
+      "before": 1485724,
+      "after": 1485724,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-027.glb",
+      "before": 1445316,
+      "after": 1445316,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-029.glb",
+      "before": 1448564,
+      "after": 1448564,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-030.glb",
+      "before": 1443400,
+      "after": 1443400,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-031.glb",
+      "before": 1444116,
+      "after": 1444116,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-037.glb",
+      "before": 1445408,
+      "after": 1445408,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-038.glb",
+      "before": 1468020,
+      "after": 1468020,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-039.glb",
+      "before": 1450356,
+      "after": 1450356,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-040.glb",
+      "before": 1450988,
+      "after": 1450988,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-041.glb",
+      "before": 1441964,
+      "after": 1441964,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-042.glb",
+      "before": 1310052,
+      "after": 1310052,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-head-043.glb",
+      "before": 1311948,
+      "after": 1311948,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    },
+    {
+      "file": "gm-outfit-0103.glb",
+      "before": 7856364,
+      "after": 7856364,
+      "removed": {
+        "textures": 0,
+        "images": 0,
+        "samplers": 0,
+        "bufferViews": 0
+      }
+    }
+  ]
+}

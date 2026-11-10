@@ -1,6 +1,6 @@
 # Browser character assets
 
-Generated from the user's local exported AION2 assets using the installed UEFormat importer in a separate background Blender process. The interactive Blender scene and source files were not modified.
+Generated from the user's local exported roorin assets using the installed UEFormat importer in a separate background Blender process. The interactive Blender scene and source files were not modified.
 
 ## Runtime contract
 

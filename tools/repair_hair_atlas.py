@@ -8,10 +8,11 @@ Preserves UV1; writes the resolved combined-atlas UVs to UV0.
 """
 import argparse,hashlib,json,math,struct
 from pathlib import Path
+from source_paths import discover_source
 from PIL import Image
 PROJECT=Path(__file__).resolve().parents[1]
-SOURCE=Path.home()/'Desktop/AionModels/Aion2/Content'
-PROPS=Path.home()/'Desktop/Output/Exports/AION2/Content'
+SOURCE=discover_source('textures')
+PROPS=discover_source('properties')
 ASSETS=PROJECT/'public/assets'
 
 def parameters(ref):

@@ -5,12 +5,13 @@ Original source assets and the interactive Blender instance are never edited.
 """
 import os,sys,json,math,hashlib,struct
 from pathlib import Path
+from source_paths import discover_source
 import bpy,numpy as np
 from mathutils import Vector,Matrix
 
 PROJECT=Path(__file__).resolve().parents[1]
-SOURCE=Path(os.environ.get('AION_ASSETS',str(Path.home()/'Desktop/AionModels/Aion2/Content')))
-PROPS=Path(os.environ.get('AION_PROPERTIES',str(Path.home()/'Desktop/Output/Exports/AION2/Content')))
+SOURCE=Path(os.environ.get('ROORIN_ASSETS',str(discover_source('textures'))))
+PROPS=Path(os.environ.get('ROORIN_PROPERTIES',str(discover_source('properties'))))
 ASSETS=PROJECT/'public/assets'
 sys.path.insert(0,str(Path.home()/'AppData/Roaming/Blender Foundation/Blender/5.2/extensions/user_default'))
 from io_scene_ueformat.importer.import_context import UEFormatImport

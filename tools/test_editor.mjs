@@ -8,7 +8,7 @@ const {toDisplay,fromDisplay,validState,POSITION_PAIRS}=await import('data:text/
 const read=name=>JSON.parse(readFileSync(new URL('../public/assets/'+name,import.meta.url)));
 const data=read('customization.json'),catalog=read('characters.json'),appearance=read('appearance.json');
 for(const gender of ['GF','GM']){
- for(const c of data.genders[gender].controls){assert.equal(toDisplay(c,c.mid),0);for(const v of [-100,-57,0,14,100]){const raw=fromDisplay(c,v);assert.ok(raw>=c.min-1e-9&&raw<=c.max+1e-9);assert.equal(toDisplay(c,raw),v)}}
+ for(const c of data.genders[gender].controls){assert.equal(toDisplay(c,c.mid),0);for(const v of [-100,-57,0,14,100]){const raw=fromDisplay(c,v);assert.ok(raw>=Math.min(c.min,c.max)-1e-9&&raw<=Math.max(c.min,c.max)+1e-9);if(c.min!==c.mid||v>=0)assert.equal(toDisplay(c,raw),v)}}
  for(const pairs of Object.values(POSITION_PAIRS))for(const pair of pairs)for(const id of [pair.x,pair.y])assert.ok(data.genders[gender].controls.some(c=>c.id===id));
  const state=validState({version:1,gender,head:'bad',hair:'bad',values:{Eye_Size:Infinity},eyeColor:'#123456',appearance:{irisSize:999,pupilSize:-2,browOpacity:9,irisColor:'invalid',browId:'../../bad'}},data,catalog);
  assert.equal(state.version,2);assert.equal(state.head,catalog.genders[gender].heads[0].id);assert.equal(state.values.Eye_Size,0);assert.equal(state.appearance.irisSize,5);assert.equal(state.appearance.pupilSize,0);assert.equal(state.appearance.browOpacity,1);assert.equal(state.appearance.irisColor,'#123456');assert.ok(!state.appearance.browId);

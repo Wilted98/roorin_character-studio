@@ -10,12 +10,13 @@ import os
 import struct
 import sys
 from pathlib import Path
+from source_paths import discover_source
 
 import bpy
 from mathutils import Matrix, Quaternion, Vector
 
 PROJECT = Path(__file__).resolve().parents[1]
-SOURCE = Path(os.environ.get('AION_ASSETS', str(Path.home() / 'Desktop/AionModels/Aion2/Content')))
+SOURCE = Path(os.environ.get('ROORIN_ASSETS', str(discover_source('textures'))))
 OUTPUT = PROJECT / 'public/assets/animations'
 sys.path.insert(0, str(Path.home() / 'AppData/Roaming/Blender Foundation/Blender/5.2/extensions/user_default'))
 from io_scene_ueformat.importer.import_context import UEFormatImport

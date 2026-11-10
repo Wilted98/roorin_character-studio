@@ -30,7 +30,7 @@ for(const gender of ['GF','GM']){
   const defaults=getDefaultValues(data,gender);applyCustomization(roots,data,gender,defaults);
   const neutral=state(roots);assert(neutral.every(Number.isFinite));
   let verified=0;
-  for(const control of getControls(data,gender)){
+  for(const control of getControls(data,gender)){if(control.operation==='material')continue;
     let changed=false;
     for(const value of [control.min,control.max]){
       const values={...defaults,[control.id]:value};

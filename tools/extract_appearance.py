@@ -3,9 +3,10 @@ Reads original exports only; copies required raw packed textures to browser asse
 """
 import argparse,json,shutil
 from pathlib import Path
+from source_paths import discover_source
 p=argparse.ArgumentParser()
-p.add_argument('--source',type=Path,default=Path.home()/'Desktop/Output/Exports/AION2/Content')
-p.add_argument('--textures',type=Path,default=Path.home()/'Desktop/AionModels/Aion2/Content')
+p.add_argument('--source',type=Path,default=discover_source('properties'))
+p.add_argument('--textures',type=Path,default=discover_source('textures'))
 p.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'public/assets')
 a=p.parse_args(); out=a.output/'appearance';out.mkdir(parents=True,exist_ok=True)
 def read(path):return json.loads(path.read_text(encoding='utf-8-sig'))

@@ -4,10 +4,11 @@ import math
 import re
 import shutil
 from pathlib import Path
+from source_paths import discover_source
 
 PROJECT = Path(__file__).resolve().parents[1]
-PROPS = Path.home()/'Desktop/Output/Exports/AION2/Content'
-TEXTURES = Path.home()/'Desktop/AionModels/Aion2/Content'
+PROPS = discover_source('properties')
+TEXTURES = discover_source('textures')
 OUT = PROJECT/'public/assets/environment'
 OUT.mkdir(parents=True, exist_ok=True)
 

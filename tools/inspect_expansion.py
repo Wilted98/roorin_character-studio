@@ -1,10 +1,11 @@
 import sys,json
 from pathlib import Path
+from source_paths import discover_source
 import numpy as np
 sys.path.insert(0,str(Path.home()/'AppData/Roaming/Blender Foundation/Blender/5.2/extensions/user_default'))
 from io_scene_ueformat.importer.import_context import parse_header,parse_body
 from io_scene_ueformat.importer.archive.reader import FArchiveReader
-source=Path.home()/'Desktop/AionModels/Aion2/Content/Character/Player'
+source=discover_source('textures')/'Character/Player'
 result={}
 for sex in ('GF','GM'):
  rows=[]

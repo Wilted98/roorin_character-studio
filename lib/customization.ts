@@ -12,7 +12,7 @@ export interface CustomizationControl {
   mid: number;
   reversed: boolean;
   bindings?: { pose: string; side: 'positive' | 'negative' }[];
-  operation?: 'uniform' | 'length' | 'thickness';
+  operation?: 'uniform' | 'length' | 'thickness' | 'vertical' | 'spread' | 'volume' | 'material';
   bones?: string[];
   approximate?: boolean;
 }
@@ -99,7 +99,7 @@ export function applyCustomization(
   for (const control of config.controls) {
     if (control.kind !== 'face') continue;
     const supplied = values[control.id];
-    const value = THREE.MathUtils.clamp(Number.isFinite(supplied) ? supplied : control.mid, control.min, control.max);
+    const value = THREE.MathUtils.clamp(Number.isFinite(supplied) ? supplied : control.mid, Math.min(control.min,control.max), Math.max(control.min,control.max));
     // Source ranges and presets are already expressed in curve-weight units.
     // Negative half selects the negative pose with a positive magnitude.
     for (const binding of control.bindings ?? []) {
@@ -130,12 +130,18 @@ export function applyCustomization(
   for (const control of config.controls) {
     if (control.kind !== 'body') continue;
     const supplied = values[control.id];
-    const value = THREE.MathUtils.clamp(Number.isFinite(supplied) ? supplied : control.mid, control.min, control.max);
-    const ratio = control.mid !== 0 ? value / control.mid : 1 + value;
+    const value = THREE.MathUtils.clamp(Number.isFinite(supplied) ? supplied : control.mid, Math.min(control.min,control.max), Math.max(control.min,control.max));
+    const ratio = THREE.MathUtils.clamp(control.mid !== 0 ? value / control.mid : 1 + value*(control.id==='BMI'?.18:1),.2,2.5);
     for (const name of control.bones ?? []) {
       for (const node of bones.get(name) ?? []) {
         const rest = restFor(node);
-        if (control.operation === 'uniform') node.scale.multiplyScalar(ratio);
+        if(control.operation==='vertical'||control.operation==='spread'){
+          const direction=new THREE.Vector3(control.operation==='spread'?(name.includes('_L_')||name.startsWith('L_')?1:-1):0,control.operation==='vertical'?1:0,0);
+          const rotation=node.parent?.getWorldQuaternion(new THREE.Quaternion()).invert();if(rotation)direction.applyQuaternion(rotation);
+          node.position.addScaledVector(direction,(value-control.mid)*.01);
+        }
+        else if(control.operation==='volume')node.scale.multiplyScalar(1+(value-control.mid)*.004);
+        else if (control.operation === 'uniform') node.scale.multiplyScalar(['Arm_Intensity','Leg_Intensity','Velly_Intensity'].includes(control.id)?1+(ratio-1)*.2:ratio);
         else for (let axis=0; axis<3; axis++) {
           const affect = control.operation === 'length' ? axis === rest.lengthAxis : axis !== rest.lengthAxis;
           if (affect) node.scale.setComponent(axis, node.scale.getComponent(axis) * ratio);

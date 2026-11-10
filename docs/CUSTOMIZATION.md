@@ -1,6 +1,6 @@
 # Character customization data
 
-The browser uses actual exported AION2 face pose deltas, original face/body slider limits and source face preset values. This is a reconstruction of a supported subset, not a claim of complete native-game parity.
+The browser uses actual exported roorin face pose deltas, original face/body slider limits and source face preset values. This is a reconstruction of a supported subset, not a claim of complete native-game parity.
 
 ## Generated artifacts
 
@@ -43,7 +43,7 @@ The initial web implementation scales actual skeletal bones relative to their ne
 - Neck/arm/leg length scales a bone along the dominant local child-offset axis.
 - Neck/arm/foot width scales the transverse axes.
 
-These produce visible, reversible deformations using the real skin weights. Native compensating scales, pelvis/foot grounding, collision, clothing correction, nonlinear BMI behavior and some downstream scaling compensation are not reconstructed. They should be described as prototype proportion controls, not exact replicas of all AION2 body sliders.
+These produce visible, reversible deformations using the real skin weights. Native compensating scales, pelvis/foot grounding, collision, clothing correction, nonlinear BMI behavior and some downstream scaling compensation are not reconstructed. They should be described as prototype proportion controls, not exact replicas of all roorin body sliders.
 
 ## Usage
 
